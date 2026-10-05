@@ -1476,5 +1476,297 @@
       "source_page": "https://www.felipeparreiras.com/variansee",
       "description": "Contrast and saturation controls"
     }
-  ]
+  ],
+  "locally_used_assets": [
+    {
+      "path": "assets/reference/projects/meurh360-01.webp",
+      "project": "MeuRH360",
+      "source_page": "https://www.felipeparreiras.com/meurh360",
+      "alt": "MeuRH360 human-resources platform shown on a laptop",
+      "method": "clean local browser screenshot/crop"
+    },
+    {
+      "path": "assets/reference/images/meurh360-10.png",
+      "project": "MeuRH360",
+      "source_page": "https://www.felipeparreiras.com/meurh360",
+      "alt": "MeuRH360 time-tracking interface",
+      "method": "direct public download"
+    },
+    {
+      "path": "assets/reference/projects/xipptech-01.webp",
+      "project": "XippTech",
+      "source_page": "https://www.felipeparreiras.com/xipptech",
+      "alt": "XippTech desktop and mobile product interfaces",
+      "method": "clean local browser screenshot/crop"
+    },
+    {
+      "path": "assets/reference/projects/ux-analyzer-01.webp",
+      "project": "UX Analyzer",
+      "source_page": "https://www.felipeparreiras.com/ux-analyzer",
+      "alt": "UX Analyzer landing page and analysis dashboard",
+      "method": "clean local browser screenshot/crop"
+    },
+    {
+      "path": "assets/reference/projects/ux-analyzer-02.webp",
+      "project": "UX Analyzer",
+      "source_page": "https://www.felipeparreiras.com/ux-analyzer",
+      "alt": "UX Analyzer screen-upload step",
+      "method": "clean local browser screenshot/crop"
+    },
+    {
+      "path": "assets/reference/projects/ux-analyzer-03.webp",
+      "project": "UX Analyzer",
+      "source_page": "https://www.felipeparreiras.com/ux-analyzer",
+      "alt": "UX Analyzer uploaded-screen review",
+      "method": "clean local browser screenshot/crop"
+    },
+    {
+      "path": "assets/reference/projects/ux-analyzer-04.webp",
+      "project": "UX Analyzer",
+      "source_page": "https://www.felipeparreiras.com/ux-analyzer",
+      "alt": "UX Analyzer category scoring and analysis results",
+      "method": "clean local browser screenshot/crop"
+    },
+    {
+      "path": "assets/reference/projects/ux-analyzer-05.webp",
+      "project": "UX Analyzer",
+      "source_page": "https://www.felipeparreiras.com/ux-analyzer",
+      "alt": "UX Analyzer simulated visual-attention heatmap",
+      "method": "clean local browser screenshot/crop"
+    },
+    {
+      "path": "assets/reference/projects/flory-wordmark.webp",
+      "project": "Flory",
+      "source_page": "https://www.felipeparreiras.com/flory-page",
+      "alt": "Flory project wordmark",
+      "method": "clean local browser screenshot/crop"
+    },
+    {
+      "path": "assets/reference/projects/design-system-01.webp",
+      "project": "FrontCore Design System",
+      "source_page": "https://www.felipeparreiras.com/ai-workflows",
+      "alt": "FrontCore Design System interface, cropped to the product screen",
+      "method": "clean local browser screenshot/crop"
+    },
+    {
+      "path": "assets/reference/projects/pathway-01.webp",
+      "project": "Pathway",
+      "source_page": "https://soyfelps.github.io/pathway2/",
+      "alt": "Pathway prototype workspace with two application flows",
+      "method": "clean local browser screenshot/crop"
+    },
+    {
+      "path": "assets/reference/projects/variansee-01.webp",
+      "project": "Variansee",
+      "source_page": "https://www.felipeparreiras.com/variansee",
+      "alt": "Variansee contrast and saturation settings",
+      "method": "clean local browser screenshot/crop"
+    },
+    {
+      "path": "assets/reference/projects/marcaflow-01.webp",
+      "project": "MarcaFlow",
+      "source_page": "https://soyfelps.github.io/marcaflow/index.html",
+      "alt": "MarcaFlow trademark workflow pipeline dashboard",
+      "method": "clean local browser screenshot/crop"
+    },
+    {
+      "path": "assets/reference/projects/organogram-overview.webp",
+      "project": "Organogram",
+      "source_page": "https://www.felipeparreiras.com/organograma",
+      "alt": "Expandable organizational chart and team structure",
+      "method": "clean local browser screenshot/crop"
+    },
+    {
+      "path": "assets/reference/projects/organogram-01.webp",
+      "project": "Organogram",
+      "source_page": "https://www.felipeparreiras.com/organograma",
+      "alt": "Organogram team chart view",
+      "method": "clean local browser screenshot/crop"
+    },
+    {
+      "path": "assets/reference/projects/organogram-02.webp",
+      "project": "Organogram",
+      "source_page": "https://www.felipeparreiras.com/organograma",
+      "alt": "Organogram employee details and team overview",
+      "method": "clean local browser screenshot/crop"
+    },
+    {
+      "path": "assets/reference/projects/calendar-overview.webp",
+      "project": "Calendar",
+      "source_page": "https://www.felipeparreiras.com/calend%C3%A1rio",
+      "alt": "Calendar project showing three absence calendar states",
+      "method": "clean local browser screenshot/crop"
+    },
+    {
+      "path": "assets/reference/projects/calendar-01.webp",
+      "project": "Calendar",
+      "source_page": "https://www.felipeparreiras.com/calend%C3%A1rio",
+      "alt": "Calendar monthly view with absence details",
+      "method": "clean local browser screenshot/crop"
+    },
+    {
+      "path": "assets/reference/projects/calendar-02.webp",
+      "project": "Calendar",
+      "source_page": "https://www.felipeparreiras.com/calend%C3%A1rio",
+      "alt": "Calendar planning view",
+      "method": "clean local browser screenshot/crop"
+    },
+    {
+      "path": "assets/reference/projects/calendar-03.webp",
+      "project": "Calendar",
+      "source_page": "https://www.felipeparreiras.com/calend%C3%A1rio",
+      "alt": "Calendar view with hover details",
+      "method": "clean local browser screenshot/crop"
+    },
+    {
+      "path": "assets/reference/projects/style-guide-components.webp",
+      "project": "Style Guide",
+      "source_page": "https://www.felipeparreiras.com/style-guide",
+      "alt": "Style Guide button variants and interactive states",
+      "method": "clean local browser screenshot/crop"
+    },
+    {
+      "path": "assets/reference/projects/style-guide-selectors.webp",
+      "project": "Style Guide",
+      "source_page": "https://www.felipeparreiras.com/style-guide",
+      "alt": "Style Guide selector and switch variants",
+      "method": "clean local browser screenshot/crop"
+    },
+    {
+      "path": "assets/reference/projects/style-guide-card-01.webp",
+      "project": "Style Guide",
+      "source_page": "https://www.felipeparreiras.com/style-guide",
+      "alt": "Style Guide social card component without an image",
+      "method": "clean local browser screenshot/crop"
+    },
+    {
+      "path": "assets/reference/projects/style-guide-card-02.webp",
+      "project": "Style Guide",
+      "source_page": "https://www.felipeparreiras.com/style-guide",
+      "alt": "Style Guide card component with an image",
+      "method": "clean local browser screenshot/crop"
+    },
+    {
+      "path": "assets/reference/projects/inclinic-01.webp",
+      "project": "inClinic",
+      "source_page": "https://www.felipeparreiras.com/inclinic-page",
+      "alt": "inClinic project identity",
+      "method": "clean local browser screenshot/crop"
+    },
+    {
+      "path": "assets/reference/projects/file-guard-01.webp",
+      "project": "File Guard",
+      "source_page": "https://www.felipeparreiras.com/file-guard-page",
+      "alt": "File Guard responsive product concept",
+      "method": "clean local browser screenshot/crop"
+    },
+    {
+      "path": "assets/reference/projects/castelo-01.webp",
+      "project": "Castelo",
+      "source_page": "https://www.felipeparreiras.com/castelo",
+      "alt": "Castelo football-club e-commerce concept",
+      "method": "clean local browser screenshot/crop"
+    },
+    {
+      "path": "assets/reference/projects/wallet-guide-01.webp",
+      "project": "Wallet Guide",
+      "source_page": "https://www.felipeparreiras.com/wallet-guide-page",
+      "alt": "Wallet Guide investment-app concept",
+      "method": "clean local browser screenshot/crop"
+    },
+    {
+      "path": "assets/reference/projects/verona-01.webp",
+      "project": "Verona Film Festival",
+      "source_page": "https://www.felipeparreiras.com/verona-page",
+      "alt": "Verona Film Festival responsive web experience",
+      "method": "clean local browser screenshot/crop"
+    },
+    {
+      "path": "assets/reference/projects/mixzer-01.webp",
+      "project": "Mixzer",
+      "source_page": "https://www.felipeparreiras.com/mixzer",
+      "alt": "Mixzer music homepage built with HTML and CSS",
+      "method": "clean local browser screenshot/crop"
+    },
+    {
+      "path": "assets/reference/projects/echoux-01.webp",
+      "project": "Echo UX",
+      "source_page": "https://www.felipeparreiras.com/echoux",
+      "alt": "Echo UX website concept built with HTML and CSS",
+      "method": "clean local browser screenshot/crop"
+    },
+    {
+      "path": "assets/reference/logos/chelsea-fc.png",
+      "project": "Homepage client-proof row",
+      "source_page": "https://www.felipeparreiras.com/",
+      "method": "clean local browser screenshot/crop"
+    },
+    {
+      "path": "assets/reference/logos/csd.png",
+      "project": "Homepage client-proof row",
+      "source_page": "https://www.felipeparreiras.com/",
+      "method": "clean local browser screenshot/crop"
+    },
+    {
+      "path": "assets/reference/logos/grupo-souza-lima.png",
+      "project": "Homepage client-proof row",
+      "source_page": "https://www.felipeparreiras.com/",
+      "method": "clean local browser screenshot/crop"
+    },
+    {
+      "path": "assets/reference/logos/ifood.png",
+      "project": "Homepage client-proof row",
+      "source_page": "https://www.felipeparreiras.com/",
+      "method": "clean local browser screenshot/crop"
+    },
+    {
+      "path": "assets/reference/logos/metlife.png",
+      "project": "Homepage client-proof row",
+      "source_page": "https://www.felipeparreiras.com/",
+      "method": "clean local browser screenshot/crop"
+    },
+    {
+      "path": "assets/reference/logos/outback.png",
+      "project": "Homepage client-proof row",
+      "source_page": "https://www.felipeparreiras.com/",
+      "method": "clean local browser screenshot/crop"
+    },
+    {
+      "path": "assets/reference/logos/samsung.png",
+      "project": "Homepage client-proof row",
+      "source_page": "https://www.felipeparreiras.com/",
+      "method": "clean local browser screenshot/crop"
+    },
+    {
+      "path": "assets/reference/logos/sirio-libanes.png",
+      "project": "Homepage client-proof row",
+      "source_page": "https://www.felipeparreiras.com/",
+      "method": "clean local browser screenshot/crop"
+    },
+    {
+      "path": "assets/reference/logos/unimed.png",
+      "project": "Homepage client-proof row",
+      "source_page": "https://www.felipeparreiras.com/",
+      "method": "clean local browser screenshot/crop"
+    },
+    {
+      "path": "assets/reference/images/home-01.png",
+      "project": "Source-site monogram",
+      "source_page": "https://www.felipeparreiras.com/",
+      "method": "direct public download"
+    },
+    {
+      "path": "assets/reference/crops/felipe-portrait.webp",
+      "project": "Homepage portrait",
+      "source_page": "https://www.felipeparreiras.com/",
+      "method": "clean local browser screenshot/crop"
+    },
+    {
+      "path": "assets/reference/resume/felipe-parreiras-resume.pdf",
+      "project": "Résumé",
+      "source_page": "https://www.felipeparreiras.com/resume",
+      "method": "public PDF download"
+    }
+  ],
+  "local_asset_note": "Most of the original Google Sites image CDN URLs returned HTTP 403 for direct downloads. The manifest preserves the full 161-URL source inventory and separately lists local originals/captures used by the portfolio."
 }

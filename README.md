@@ -1,28 +1,37 @@
 # Felipe Parreiras — Product Designer
 
-A responsive, static portfolio website in English, published from the root of this repository with GitHub Pages.
+A responsive, static portfolio in English for GitHub Pages. The home page follows the original portfolio’s dark visual system and bright green identity, with the client logos and résumé summary near the top.
 
-## Project structure
+## Portfolio structure
 
-- `index.html` — portfolio home, selected work, approach, about, résumé and contact.
-- `styles.css` — responsive editorial visual system, interaction states and reduced-motion support.
-- `script.js` — project case notes, portfolio filters, theme switch, mobile navigation, reading progress and email-copy interaction.
-- `assets/reference/` — résumé PDF and visual assets gathered from the public portfolio source; `asset-manifest.json` records the page and image-source inventory.
-- `frontcore-design-system.html` — copy of the Design System page that was previously at the repository root, retained so that the earlier work is still accessible.
-- `assets/` — original repository assets are kept, alongside the new reference assets.
+The work remains separated into its original sections: **Highlights** (XippTech, MeuRH360, UX Analyzer and Flory), **Solution and Innovations**, **Style Guide**, **Design & Prototypes**, **HTML & CSS**, and **AI Workflows**. Every project is represented by a visual card and opens a full case-study page at `project.html?id=<project-id>`; no project details are hidden in a modal.
 
-## Local preview
+The portfolio includes all 18 projects, locally saved project images, a client-logo strip, a full résumé with experience, education and languages, and the original résumé PDF for download. It also includes an optional accessible light theme, a mobile menu, reading progress, reduced-motion support and email-copy interaction.
 
-Open `index.html` directly or serve this folder with any static HTTP server, for example:
+## Files
+
+- `index.html` — complete portfolio home and static project-card markup.
+- `project.html` — shared full-page case-study template; each project has its own URL query and content.
+- `projects.js` — case-study copy, details, links, metadata and image galleries.
+- `project-page.js` — renders the selected case study and previous/next navigation.
+- `script.js` — theme, menu, reading-progress, reveal and contact interactions.
+- `styles.css` — responsive visual system, dark/light contrast, focus states and reduced-motion styling.
+- `assets/reference/logos/` — locally saved client logos.
+- `assets/reference/projects/` — project previews and screenshots used by cards and case-study pages.
+- `assets/reference/resume/` — résumé PDF.
+- `assets/reference/asset-manifest.json` — source-site inventory and local-asset provenance.
+- `frontcore-design-system.html` — preserved copy of the Design System page that was already in this repository.
+
+## Preview locally
+
+Serve the repository root with any static HTTP server:
 
 ```sh
 python3 -m http.server 4173
 ```
 
-## Deployment
+Then open `http://localhost:4173/`. Relative asset and case-page links also work from the repository path on GitHub Pages.
 
-The existing GitHub Pages site serves the repository root. Relative stylesheet, script and asset paths are used so the portfolio also works under the repository path.
+## Source and asset notes
 
-## Source and content
-
-Portfolio content, résumé details and available prototype links were gathered from [felipeparreiras.com](https://www.felipeparreiras.com/). The CV PDF is linked locally at `assets/reference/resume/felipe-parreiras-resume.pdf`. See `assets/reference/README.md` for asset provenance and download notes.
+Copy and project links were gathered from [felipeparreiras.com](https://www.felipeparreiras.com/) and its linked public project demos. The original résumé PDF is available at `assets/reference/resume/felipe-parreiras-resume.pdf`. The source-site image inventory is preserved in `assets/reference/asset-manifest.json`; see `assets/reference/README.md` for the capture and download notes.
