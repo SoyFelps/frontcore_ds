@@ -1,6 +1,6 @@
 window.PORTFOLIO_PROJECTS = {
   "meurh360": {
-    "number": "02",
+    "number": "03",
     "title": "MeuRH360",
     "subtitle": "A people platform that grew with the teams using it.",
     "meta": [
@@ -37,7 +37,7 @@ window.PORTFOLIO_PROJECTS = {
     ]
   },
   "xipptech": {
-    "number": "01",
+    "number": "04",
     "title": "XippTech",
     "subtitle": "Benefits, health and HR software for people on both sides of the service.",
     "meta": [
@@ -69,7 +69,7 @@ window.PORTFOLIO_PROJECTS = {
     ]
   },
   "ux-analyzer": {
-    "number": "03",
+    "number": "02",
     "title": "UX Analyzer",
     "subtitle": "A second pair of eyes for the details that shape an interface.",
     "meta": [
@@ -121,7 +121,7 @@ window.PORTFOLIO_PROJECTS = {
     "imageAlt": "UX Analyzer landing page and analysis dashboard"
   },
   "flory": {
-    "number": "04",
+    "number": "01",
     "title": "Flory",
     "subtitle": "A little social world for people who grow things.",
     "meta": [
