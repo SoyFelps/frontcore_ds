@@ -1,0 +1,1480 @@
+{
+  "source": "https://www.felipeparreiras.com/",
+  "pages": [
+    {
+      "path": "/",
+      "title": "Felipe Parreiras"
+    },
+    {
+      "path": "/about-me",
+      "title": "Felipe Parreiras - About Me"
+    },
+    {
+      "path": "/ai-workflows",
+      "title": "Felipe Parreiras - AI Workflows"
+    },
+    {
+      "path": "/calendário",
+      "title": "Felipe Parreiras - Calendário"
+    },
+    {
+      "path": "/castelo",
+      "title": "Felipe Parreiras - Castelo"
+    },
+    {
+      "path": "/contact",
+      "title": "Felipe Parreiras - Contact"
+    },
+    {
+      "path": "/echoux",
+      "title": "Felipe Parreiras - EchoUX"
+    },
+    {
+      "path": "/file-guard-page",
+      "title": "Felipe Parreiras - File Guard page"
+    },
+    {
+      "path": "/flory-page",
+      "title": "Felipe Parreiras - Flory page"
+    },
+    {
+      "path": "/inclinic-page",
+      "title": "Felipe Parreiras - inClinic page"
+    },
+    {
+      "path": "/meurh360",
+      "title": "Felipe Parreiras - MeuRH360"
+    },
+    {
+      "path": "/mixzer",
+      "title": "Felipe Parreiras - Mixzer"
+    },
+    {
+      "path": "/organograma",
+      "title": "Felipe Parreiras - Organograma"
+    },
+    {
+      "path": "/portfolio",
+      "title": "Felipe Parreiras"
+    },
+    {
+      "path": "/resume",
+      "title": "Felipe Parreiras - Resume"
+    },
+    {
+      "path": "/style-guide",
+      "title": "Felipe Parreiras - Style Guide"
+    },
+    {
+      "path": "/ux-analyzer",
+      "title": "Felipe Parreiras - UX Analyzer"
+    },
+    {
+      "path": "/variansee",
+      "title": "Felipe Parreiras - Variansee"
+    },
+    {
+      "path": "/verona-page",
+      "title": "Felipe Parreiras - Verona page"
+    },
+    {
+      "path": "/wallet-guide-page",
+      "title": "Felipe Parreiras - Wallet Guide page"
+    },
+    {
+      "path": "/xipptech",
+      "title": "Felipe Parreiras - XippTech"
+    }
+  ],
+  "images": [
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72triEJR8GtYvvAG0ALHqF-qSmP9LMdU5TjoJfoM0nUqDTX6_HabAUohU_ooLs24eQuslyElVTRISQMHaZkr1oM7xJ6_30xcQwuJlV9m-H_-HhENAMRlZ20mcQ5NKBkyET0Rin5ztvRt9iCqmdQACXBClFWED0ItB6q060mEx8GmR15yt_-CeZxAkc4l7y0=w16383",
+      "source_page": "/",
+      "also_on": [
+        "/about-me",
+        "/ai-workflows",
+        "/calendário",
+        "/castelo",
+        "/contact",
+        "/echoux",
+        "/file-guard-page",
+        "/flory-page",
+        "/inclinic-page",
+        "/meurh360",
+        "/mixzer",
+        "/organograma",
+        "/portfolio",
+        "/resume",
+        "/style-guide",
+        "/ux-analyzer",
+        "/variansee",
+        "/verona-page",
+        "/wallet-guide-page",
+        "/xipptech"
+      ],
+      "alt": "",
+      "source_index": 1,
+      "file": "assets/reference/images/home-01.png",
+      "bytes": 7612,
+      "content_type": "image/png",
+      "sha256": "eccb458d37983b4e4989c1ac52faced8ce72a86838b46d8b7582d5936becec8e"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vNvEAvagSF0kqGsivMs36-VW23hDDrqijnIiU_JkIq6RnXb79CY_dw_umMqrrdeDLjuNx25MSj3fdLP6PrsG2PXzqRocbgHF4zXTNc-bJJjBZgskobTpAtL2hLQxU92IVChHbxJPGHbEVlWrJbucnIX2reFLMR_ACCUuBl3an2aJEuxG6-SJAEv53f5tIrP7I9yy9bfzFmBaSz4oVg2bv6a-2guBTlmN4V_qDQ7ec=w1280",
+      "source_page": "/",
+      "also_on": [],
+      "alt": "",
+      "source_index": 2,
+      "download_error": "HTTP 403 text/html 2387 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72v5n5RYRMk1Dlh9CYR3gLlslxGZQYiOQxh3WVcKkau8cam1KOlhAR-wbOdjN6PvCJ3xguWipoQVjbVc-74WaGYzp9H8lGsYE92m9rCVxt_coRfIwGPRl12KF7v6v_m7-2JMT5GrxyylS59nqd2A-v_xQkw7o8KHTJDjw3kZWT39ZFyGGZzObEeW1RR2aOdG5EBKKmh_5qHULrh9dCPegX9zVO4UR1akgGz2rDYd=w1280",
+      "source_page": "/",
+      "also_on": [],
+      "alt": "",
+      "source_index": 3,
+      "download_error": "HTTP 403 text/html 2384 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72t-bN3HzE_myu8UOIwx4TEyrRvlpnsb7IHqomUVgxnAaOXBhMZy_5gXDeGOGLQ6MgJ445fh2GlZcBGPisxDG4q2YNpUV_jWdJGav6E8oQwjerbgEq3OPsQpq8T209uFjYKYVH4wD_5MORSerhCDsEis4KhewocxTBA-KdjCBExXPSXBuPJDcOvLHpUJNhXpJxY75o4mKx6T0X-xAeyBcv0KM85w-ufMr7--jzO6cjE=w1280",
+      "source_page": "/",
+      "also_on": [
+        "/portfolio"
+      ],
+      "alt": "",
+      "source_index": 4,
+      "download_error": "HTTP 403 text/html 2387 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uM0GpuyYx0fg0UPmBrVCepurp0qvTuPkWNi-akplHCXgru2JremxqRHyxQL6PcOc03hhuW2ssE2FBVp7yaVTb_nvLmhQ-eGojqansSHi7iWC7w8rLjN821NLFsvx9VPz1zmV7wDflnMnrzb50pHT96s240qQEb8Mi_L9M9clJLJgBDcVKE4Ud_JJSIf4KNRZYvZO6Uxp0C9xJpm-y_4eHLyNcconxJ6KS1QfJzngo=w1280",
+      "source_page": "/",
+      "also_on": [
+        "/portfolio"
+      ],
+      "alt": "",
+      "source_index": 5,
+      "download_error": "HTTP 403 text/html 2387 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72udZhMH8JXvoU4szAOlTMEjRXzUhyRcMhQ73-pe7jZUdRozipl_ixMSvt83WHENoV8FSmfc4cwGOauu5HNCW-P7YsPl61jNlq3SjGwrvODbGaTom-liNHInW7Nds6sdUL8l1ZY1omni67-0LaQ5_n9jqgwCLn8ZNNtzHt2Me4XAV5zTgP3L2RKCNJjBIIu03f_tfwQQljSyS5RjZz4-hU-QVVVt_gqUdCLmxVgf=w1280",
+      "source_page": "/",
+      "also_on": [],
+      "alt": "",
+      "source_index": 6,
+      "download_error": "HTTP 403 text/html 2386 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72t29M7FU-yH5J7Op0L2Vy9fWElFFZ5RZ1_1qz_qO6Msupt3l0ewJlblQc59M9SPpCIRfxnuIz0ZMPAa7Z6jMYJNxouB_fueRXpSO_dyZShQ_J6Xb7K6q040j5o39nm9BtLhIc-NAdrMh5POxkNQBt_vH8ibSL6Dfj3SDBfuqueAPAPmeZQ89Nc3LoYdlkZ2iP3fndPX0nwujlgEIR-DZJqVrTVlU9f0erjJ-bJkmqA=w1280",
+      "source_page": "/",
+      "also_on": [],
+      "alt": "",
+      "source_index": 7,
+      "download_error": "HTTP 403 text/html 2387 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uHDK2ye480Us8AG50w7_ecPytZKPkDY-Noe1HgA2kzFaFM4X5nbKXtdJrj1_9_ewTOm75O54ZREVRwc3dE2Pu0pnnfyyZqphL8TBtnnjL8NhQca09FnALyRLRRD4pHoHGKkkun17gKPRLcRo7w6pSqdCfQXYSPvI2CPrHkomH58vn80IzUmbpA8A7bGrmTiJTedFsb_l6DV-ljlD4eFO5T8k6LJ7sdLTIzspeG=w1280",
+      "source_page": "/",
+      "also_on": [],
+      "alt": "",
+      "source_index": 8,
+      "download_error": "HTTP 403 text/html 2384 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tdj_YuZNV9SgJIN5MrY9STRpLTGNr8V3gs6WALu-KmIVpHT6KR8839EF3BF6hq5oJYT2p64SKTR8XlUxHC417xfNlT85qWHRyIcCZREPIN4EI8abBWR-gVx_TrWbOIqbDPMsp2D7Xx02_6ekyMvHjBtC3lLqbbAtNc09ukl1uXYNOvrmd_fADr8JDHy1VxpiWSZNzcKl7CcxnvVXWdd6n5G_ffzZrOzjWFwEv6fEE=w1280",
+      "source_page": "/",
+      "also_on": [],
+      "alt": "",
+      "source_index": 9,
+      "download_error": "HTTP 403 text/html 2388 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uH34YaQ_lQI7S1c8pw9nNQtWig2Et5wB97ESp5QFZWjd5CfkOhFuJC8WwEYY_HyV60EimVBdBffvGDpuXV_Y9HXWb1oChucMEeArOLQrRuu9o7O1gogP8kMGy340MDaPzCzBlgkTUCV3D4S7zK3XPbYE2ofUHquFjgA4OO6qYTmTqtADKbWL6WXdYG-7w-U8JVUm0hT9bGhJE5reGwaW479kQdeFflRfK3ffkQMko=w1280",
+      "source_page": "/",
+      "also_on": [],
+      "alt": "",
+      "source_index": 10,
+      "download_error": "HTTP 403 text/html 2387 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uHliyBs_ArOwCVxu1zCDpx1ayADZMsZoZy3ckcy6NrlUZicjjDQh8WG3dM16-9wH73R90i1XQ0GiHatfANlRlrR36U8smBEQptgZBwWFJhok_jhfg6AIYCG1CLy-BZkBxXOF4Adye5Krch1ocairD3MHDwzZ_CY3XfILkcLsR7vuqJAhMLwRczpHayN9k=w1280",
+      "source_page": "/",
+      "also_on": [],
+      "alt": "",
+      "source_index": 11,
+      "download_error": "HTTP 403 text/html 2344 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72ua-cJWpNR4PvKR4t21MBQGMv7dNPuLCpBhL3kaRpC8hzOLnyWfHF5WE2atIwZWYYvHSzGjmpXy2qCcyuLOLgbuF5AT5NLgdvNHifadZV8o4ZZ3vMfcOQMTHBSOoAI13FlHJcR1laHuIrTfPP7MZPJOBR__4J4RPGir1_qc4y4bzEEK-nM2gruMEzGa3qlPuvB1gozDBI7NnsGqXDbX-Bdh01t73hA-K-AVbBbe=w1280",
+      "source_page": "/",
+      "also_on": [
+        "/portfolio"
+      ],
+      "alt": "",
+      "source_index": 12,
+      "download_error": "HTTP 403 text/html 2382 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tFTdC-jXtbLJRY9hUbxhkVNDx5ysGqhvxIPdpleeM09R31JvEv5X8Dg4AjK9x1ygrBP9StLTjceJkdTcMcEwqNKv3B3vGr8MxdttuOxbbzISohGUT8IdUlWfAAvTgDKCNExMxM3Vk4m5cg0tBx1htCPtjOVZbxWD_OH9vHvrAknoEf1vZXmjqxUzJvXqMUAusW5ajctKUB_Nl0DYT3N3Ca4TUHsjNItoUdemOSbWA=w1280",
+      "source_page": "/",
+      "also_on": [
+        "/portfolio"
+      ],
+      "alt": "",
+      "source_index": 13,
+      "download_error": "HTTP 403 text/html 2388 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tqgxvCkV4A7oa7HVEfe_am6gOu8M9e5X4CWUFDL5PFlQTOiiLSCVEHQQb-cNTZr1q5dDMWXEVkKFcH1Fopt2e-VJaGxAjugcCcvXYXH5tGyB-582Gvywf7lzw6gXP8gPA31C8l8AWBOLwWifqjmmCfTygBrLJ05icHYKA5h2PezBarSJjFtczOXx01FtiUMDISrW3dJ-7BbWv5EqJrusVQRMgiXnnO9veYAtHAhlo=w1280",
+      "source_page": "/",
+      "also_on": [
+        "/portfolio"
+      ],
+      "alt": "",
+      "source_index": 14,
+      "download_error": "HTTP 403 text/html 2388 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72s3hTgyM5iOzRAn-GT_6w-Yf-h0XFH3Ul1W932tJT-6cfiBFk3lVLIuvbK1AmpC5ufAa22O5cML7Kwz7fwp6Y-0g7mnjh1FbUXXl3p08bKmE8o8ByoAkH7NF38ITzjo44TIOvQkauY0mDgKahpI9uhg2WMJrBkgGcnrEP0ayoSAAy9L_0msOTPrbetejabWzMqdoFT-z4ozeeN03vameh5NiotpGyBNmHaipk4w5aY=w1280",
+      "source_page": "/",
+      "also_on": [],
+      "alt": "",
+      "source_index": 15,
+      "download_error": "HTTP 403 text/html 2387 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72shokny6fopNhY1cvnV4vnY_MGLeGlSLOEAr8CInTpK4SlOUQMdl8QvlHj5w9PxQEfM_pSbUycqSi_GXu2tgJNobkas-UHGjfPiUFIASmI-zdNraOAWBLv_D9-aGHZpa4C6o7HcdwEg-tr3UOKTgp22zKud4aiXrEavNXTROn4Ld1WRBW6OdkzD4fT1RbFu4OxGmhW3p0k4R7VcHIhH3UgT86a9nu18Dr_P5fmbBXI=w1280",
+      "source_page": "/",
+      "also_on": [
+        "/portfolio"
+      ],
+      "alt": "",
+      "source_index": 16,
+      "download_error": "HTTP 403 text/html 2387 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72soYGsnOWeWEDZgpRFR3wQ3AS4I_cT6-BncFeyawTH-ZQywwPFJlNOMjPcikjCeyEcQA_BBrgwk-rOm8ioNyGTxECRRy4oqqEjGQK7z8jRt-lg6_XNm30_qqdf531Peo6eq9N82nQv29jRoODQE3xifyO9psu8i6aVD8jQ7d_lntacxotU69-T7r3eRunBTPWY6uKp_SGd36kcAnQTvmVjGmLwvMjvZiknb_myUakA=w1280",
+      "source_page": "/",
+      "also_on": [
+        "/portfolio"
+      ],
+      "alt": "",
+      "source_index": 17,
+      "download_error": "HTTP 403 text/html 2389 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vCVdwAuu933CIHKksg-QI2p1KI-0Mm3_9U73cTu-IKRfrbHmpKvYKxxWJy21v21cJc0Lnw3B3hO5366SBMQuNn_aC1lC37GlwQ9YKi1nVg-SvZf9fA7_ccVp40GqDOHHr0Z5apqGnzqxNM9QvcZx7bbE87V06W9dzsfL-BsjwKqf8o2wJmAk_qFSlGZq1pIttkLScznJZp1oU34G2akOaAG1ui8K-RRZslS0_E=w1280",
+      "source_page": "/",
+      "also_on": [
+        "/portfolio"
+      ],
+      "alt": "",
+      "source_index": 18,
+      "download_error": "HTTP 403 text/html 2384 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uOpzGkL4sp5t4TG9OquRTqKY2Hy9VIhFNy0EWtGym3K6jmY5dfEe2ogxETPet2k3f7zZryi-RQfFNP-iZ5rZUKONcAs483mGXdXneEq_GnkoxKVYyTWXai5HSKvBawuBZw7rCLrrx9HJevP6e6GUhikO35SZeT25JiIWs7pEXRnxQs1ByicIDxmykFPCk=w1280",
+      "source_page": "/",
+      "also_on": [
+        "/portfolio"
+      ],
+      "alt": "",
+      "source_index": 19,
+      "download_error": "HTTP 403 text/html 2341 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sGCJzbs9cZzOWErgbpa7Ho-XF4KbTgF6YhwUvLi3aacc0qG_CxwQnV-pJD-GAhAwc0Ub03eebWkF1TSGB22T0yv5ePYTf3cZj4VBP0vWIOxGxMNGFGS9jz49APGhxf06HX6T-MzdkyXRU36HCJsn_6U87C7IinEmkSgVWQZc42dJLhcimuuxP9mtHc8a1BWDuhSYKO1CoFCCcAIGS6ZVSGvs6x8smkIAiYPLQl=w1280",
+      "source_page": "/",
+      "also_on": [
+        "/portfolio"
+      ],
+      "alt": "",
+      "source_index": 20,
+      "download_error": "HTTP 403 text/html 2385 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vy6XRAkyZpWNLW3VtzvjzTjvySL8fWyzIGYn_VJakR5R9y8b_RV4B24y7X51pVvlQa0HWmT5JDvEVqHGHP1RpdppWDCpYqvsj43f0W49-ATznQCxJftjdK1Ki-OQy0s-HDwkbgP66JSNsdDiagF2kFnYYlPwfXtphL7ivS1FihfWz2D-F70_6xT5Mb-UgfGuaRyMd5ItcA4EePPJre-k402G2_wGC2U5MAbbB3bC4=w1280",
+      "source_page": "/",
+      "also_on": [
+        "/portfolio"
+      ],
+      "alt": "",
+      "source_index": 21,
+      "download_error": "HTTP 403 text/html 2388 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72s9uuLtxgh6p4g_NFVVqv1MzTN-lyo0CBxqp-sjBVEKWO5SFMeyMl9MpMkEdG-yYbIK3CeRlB7DyestVS_0I6eRNqcfJlgoH1LSBHa93gk2k33PgDXIuMEZk_VXguQxWomMPUywzXsAQ23UtHR4stisYfn5Tka1Yp_gTFnqBq-E9VzCJodzJaR-AhwmyhYesYEPRsr6NnrcGd1p3HfcYE93mErU0dT1megyOW0815E=w1280",
+      "source_page": "/",
+      "also_on": [
+        "/portfolio"
+      ],
+      "alt": "",
+      "source_index": 22,
+      "download_error": "HTTP 403 text/html 2388 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sjGz4DovHY4WmrH0bu8-8DoGPeV9rOIsIMYf65GNwNAe_JJ0lo-D6Y7vJ7eUc996EAX0Pypl_HTqo042gCfgjmkJhcKncWyyaCWKDHOHMmsoE8EDEVIdCBcDYBw-PptPWDlsSeoVsBjJJY94SKHq5Jep3IcqoV69LVQHWGTdtv46TqGjsliR7v4QW1WezitI0e21DjnENkVOAZWHs4_LHI91otYKlCHFe_8S68gkc=w1280",
+      "source_page": "/",
+      "also_on": [
+        "/portfolio"
+      ],
+      "alt": "",
+      "source_index": 23,
+      "download_error": "HTTP 403 text/html 2385 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72toLktdo67VnMtmQbgfU0S8mT8i5SIqN05QTO7F8kl1WTiOJYwOD1PJnuw3qyB6TfFufn2bZ61nNeKkj3cA1vkLXH-XcahToRtt6siP20XRd-AoRKYqU8oixI7rqrD2nQ0IZ2-rBan8l06yokUmrjBgCm0wehGfQb59TI1bof8KijrK7LAuLtkVKp8pTYLp78E9W6CZ_6ZlCB5pozqNXdN3Mj-CM6mr86skrXLo8mU=w1280",
+      "source_page": "/",
+      "also_on": [
+        "/portfolio"
+      ],
+      "alt": "",
+      "source_index": 24,
+      "download_error": "HTTP 403 text/html 2385 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vMPZ70wJ0IS78UjVoyFyRpukpgRCn1glMMJQ3K2-_OJExQCekzCgBfo6dp_ozMr8g43TDWQt8YLMzt5ZHoEhtRrzxMsBGM4-eLPhKuojCDAUdiWtFU5buKh6VdtL9dpyBF3d6GNr1OUD-PboTAqkNJkQykWCXf8ynWw5HkgjVamHTFspizNHrps0r2Y6SDSiDuhkY9kqsMVdOUrg-33sBK4h1GJBS86wJUdkJtpL0=w1280",
+      "source_page": "/",
+      "also_on": [
+        "/portfolio"
+      ],
+      "alt": "",
+      "source_index": 25,
+      "download_error": "HTTP 403 text/html 2385 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vHpvDGiAiQwU1osldHo57YMirsBOFdsIgllPDU5KKAnqQ1jEhE1S4AZIGyFRPvCJX0qV2sfMPJW-22IGSOdu8iSJYJMaa0K-pEAwLyLxyvPALyCmS0Dvu4QOgFx8p0XH5gLJ0d2VseuKuADfxoAob06shLe1yjlEfSZQNo76XJChO6W8ujNlZvLEwXbp0=w1280",
+      "source_page": "/",
+      "also_on": [
+        "/portfolio"
+      ],
+      "alt": "",
+      "source_index": 26,
+      "download_error": "HTTP 403 text/html 2344 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tv9bestjvLSCPmzsnCPUPF3c3CXfZWId9q-mA5lmD1-4gh-6iHYHN9OdzjPOI_tnduU-mqViUQfNIAbVBTOXtdy0H7Rn4C1kVT4VtzeQK1VzTAvkomOWST_sBrqhug_jTckUiB_rdZRhum7kltZf4pSu_5qEMlcujNSfS0qj0sjyLa1wIrUD4QBq3-X90=w1280",
+      "source_page": "/",
+      "also_on": [],
+      "alt": "",
+      "source_index": 27,
+      "download_error": "HTTP 403 text/html 2344 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tpRG_T6G_0IsWopMmL5ARoKd72LHafvaj6TZCcaYCDPP9lRjA82aiz31E6mpm33u9aG5I2XCvMT9bmT0muhDID6ctuFTY0Lfm0uu5ph2uFuc_DEcpbPtXnnu-IRonMwfjOEOUxbb7o5jf4ETL95sgPRVBRrdUsLuYznIJU6oHmzjswS_aTiO6LgRq_CEVdovF6yhmVmAgn0IqJ0zaJOy5JlQrDrOcYWILaIs7J=w1280",
+      "source_page": "/",
+      "also_on": [
+        "/portfolio"
+      ],
+      "alt": "",
+      "source_index": 28,
+      "download_error": "HTTP 403 text/html 2382 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tFQsHD6EIuyNzrioTUYteDCoaYem6ZAutJBBkx80pxAq8d2SIiKADZUrz_fB0my1pwS3dboiM4fPzo1JNjekzxgdA7UCB_vIqOA1OOPLet5JStihHMWPK60ALmeTMq60ch3TG4y0A1q63yRBSIjw8-YprGITsjnrPfGBZ0EaF0ybdEJcW74CrmZFWRPaQ=w1280",
+      "source_page": "/",
+      "also_on": [],
+      "alt": "",
+      "source_index": 29,
+      "download_error": "HTTP 403 text/html 2345 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sQ0f5tDEVEaa5rtn900ySjyRDO7seY9kNp70zrSAryiVF0m4CYprXc7wVE1mL-qEXuDgPIJHfbqYaBRwZ8I8Y-ezyoXI4EJw741pNeGudPM5XyClVfscF53lg-4GlBQJBq2OQjGP2HKp0av9klvtLsyvwU8Kpiie8b20jnvzSTLu5bQa7KOgVzd6oI=w1280",
+      "source_page": "/",
+      "also_on": [
+        "/portfolio"
+      ],
+      "alt": "",
+      "source_index": 30,
+      "download_error": "HTTP 403 text/html 2341 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vR6bml1GCv6b4JnMhd4k0gRuUypgzKA--w_ur2P5To2tvraRjyKGg-St7QDhCtDEyG6qniC2O_ykrwlqSHQwo6R2VDBfsdJdWTEZmwtlsQNF0BDUvFuvAZ5xd4oKe-AgV9A45r0LJAvmbk3DjRkDQF2TfCYBEttUNCS7kN0rtBNdpMnH8BXCAWUXF6jfE=w1280",
+      "source_page": "/",
+      "also_on": [
+        "/portfolio"
+      ],
+      "alt": "",
+      "source_index": 31,
+      "download_error": "HTTP 403 text/html 2341 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72s1gdBMFIeliqFfoRC6qPSQxEzbsj6Yua7SWbXYODDNjoGMNyadfwLaMib-o0vrOam4XBNrrRErOC9Lw2y_-rMQ01EmY8TW71bdDa-qlJ1Qz1TTgg_tt-dHm4EkbD50KxNDUhZ1AnOL1fpAP9uwE_iKOjoG5IT1SiosVmz8UK3VZgXQVWuHuOsnoBvW-cPdyxC9Xwn0MU3nLcRLifVgiQbmP0xsGzQonmM7Nkp2n9I=w1280",
+      "source_page": "/",
+      "also_on": [
+        "/portfolio"
+      ],
+      "alt": "",
+      "source_index": 32,
+      "download_error": "HTTP 403 text/html 2387 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72v56h_hh6UkhV4VjiA1vrGBkOm_PLsJyQvWXZY6MYmaKFxtmuGeN_7gTM5ZM_bdmf9fp8Aw2GrUdEzi5DZcwmhqZMUhwtVObdXq1mdmGeABcKVoddSY4b-_lZPCJolbv5OAIIbwAAAAijMRwB47g_9E_Xuq8a5K8qMcHn58td4jZGlMpoJtRbpsYM5uEykK_-CgDbctpAUL3V5QpQXu-rA5Vd8QHYwqrxKgNk_IMNw=w1280",
+      "source_page": "/",
+      "also_on": [
+        "/portfolio"
+      ],
+      "alt": "",
+      "source_index": 33,
+      "download_error": "HTTP 403 text/html 2387 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vpsJoInYAyZ6iqWqNa0i86mJRaQR93CCpyWLhcY9TiGJ97YxVoKcHbPT5trLoCs5keKTT7ijPa7I4yelaGiVfiA0yeoPQOlUwnyIrNlSpFeh2t8ftYX4bCjGKqCBSx4APDz4fkXkma_KGWVGxNSS9cn__nwUoZFOT1amCEIGC-GfLrDigu6CbbVPmxelJjmrX9F3mu6FyUA-ainHgemI9G18R7QlIEALrSz7G3ZZE=w1280",
+      "source_page": "/",
+      "also_on": [
+        "/portfolio"
+      ],
+      "alt": "",
+      "source_index": 34,
+      "download_error": "HTTP 403 text/html 2388 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72t5H02FRrk6hWV0hgYyvi0r_GukB4uDHOJEyLUrqtkF7UXpLe2A-YjBdOcWBXS8YSf49K4WCfSSP9qFoPYSe-Q7a5NFaUFaZeyLEkmmj5FCLoamctempd4mepNOV160F2K9f0fRzGn9jeW00zV78VaQgFK7CpfBAqZyWxAFp_Cmuh3xdDPbCWcnwo7ZZFzO4Jo0CkpyM3EOSLO8Gf5wAJMnaoWcJfRiwnITZUpmMH4=w1280",
+      "source_page": "/",
+      "also_on": [
+        "/portfolio"
+      ],
+      "alt": "",
+      "source_index": 35,
+      "download_error": "HTTP 403 text/html 2389 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tl6OBAZSTlwJ6GbwgK6X8nyFm4rHkIWAZxHcr0vzB0Y78GfP9ZbB1bHYuXl70XhsfLq6BXGVlOT1JbpmQZI6XPc9qthMuZGQ6A52M4FtwC4eKq18yrIyp-GZTf8RpuKTFNoYX4NNkZHdAI7nURpuMy8qlfbLC3eY12IgcYX5YUTRnQXK32C-zeUrEj=w1280",
+      "source_page": "/about-me",
+      "also_on": [],
+      "alt": "",
+      "source_index": 1,
+      "download_error": "HTTP 403 text/html 2340 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sg_u1oa68CAMXddCsj_jasdqxxJP_g1lNLIEm5GjOrIP4kc6-RT__70p_iYdGkp_RlAolm5RDcFxaOyEuBye0c0l7shMOzblSm-F_eE-EWvZZxwG119wasTspDva76MuIMJ49vn9Vnbp4mro6mRy2gGBwggksANxuIJGd_60U6IwZPcHfYprHhhOLK=w1280",
+      "source_page": "/ai-workflows",
+      "also_on": [],
+      "alt": "",
+      "source_index": 1,
+      "download_error": "HTTP 403 text/html 2340 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vox7aRCjDRHGwpInX0r-kiyNc8-HCd-pWktHl99oxfQtYK8KujiQiNTR5WKIawH5U_6A3ahqZnrRVSk3fbZmnC4yTnByxnkNzya8BSaQvtrF9Hnzaee2YgkEOALTSL2fm-Z-TDZ27fm8KuVptQdttNyJ4m4EfVtr9vMLHyGq7gelP9YngDME8vO_3fCnzsURlFkpxryn2jNxbDzBLCHL-HDXZa33rr1navLdxY=w1280",
+      "source_page": "/ai-workflows",
+      "also_on": [],
+      "alt": "",
+      "source_index": 2,
+      "download_error": "HTTP 403 text/html 2386 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72s5P4pzw6AcW5v4K8lge5vxW7we5YlLO0PAfN_-ThgaFE4O9jTGi9uj1drKphJa051oSX312I6ve6MxoBCEOihmJAbEMCqp1aC-Co6c7XLP3VwKlq1j3zMfpgTR-eoZPNAVlGr1tkG3ZgYlFm1VZb2VTvyD5ayCe4GoceKYbNGcev-Ly3YImFle4pM6wDn6yhISHwrrK95LLLUoeBxorND9BmUUBTJ9R3DvK8iELs8=w1280",
+      "source_page": "/ai-workflows",
+      "also_on": [],
+      "alt": "",
+      "source_index": 3,
+      "download_error": "HTTP 403 text/html 2388 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tgnUFAl1tDFXK4l_HO3BsbhphaG-aP2iW33nYKIQT1By_8StVj1PFkh3YlYUREXCi-bq77NxYO2EWuIQVGGyxSwvBpI5014p6YYdj4_D_I0qeOq09n99I9cs-DDGbgdGGgT1sz9ZtHt53hokcIxC6a7pwzPELk9KE4lra62EahZJUuSulsUD2XOMxdxEmHQhj9aTaHFR_p1HEzHTobgoZx_cl2PbpdbKYfoc3h=w1280",
+      "source_page": "/ai-workflows",
+      "also_on": [],
+      "alt": "",
+      "source_index": 4,
+      "download_error": "HTTP 403 text/html 2385 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tg9JVl0yxv6R8rzMjdxl4-yfkW5QsNwEFIFSoRFZEp-TV7yhVbiuHtkfbG5NSlQ8cIE5mPDeyguvMgKfnO-tn9Yq5XSdVk1FYbTD9VawSTqF4_9_KwjFAZKAO6u037hQy1qRcTkuO_zc1LCH4BCYl3c3jqYTZYQx2wzIBuw2it79_pA2HHKrshv8o3Q5qUx7KHim0Gtu077CsrFzn7N5Jww4nOT2XXzYrddRycnbE=w1280",
+      "source_page": "/ai-workflows",
+      "also_on": [],
+      "alt": "",
+      "source_index": 5,
+      "download_error": "HTTP 403 text/html 2385 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tLWxk0juQgv2QLEkl_7vE7nnoB6hv05zVAJ1vsEnKO0jHuAKd65PLXj_40JuPFWMB8uEDLqms66ouJaeQcWgYjxfmtPwkz052Z_V28dqSzTousrK_WiV80V6p2QazoZS8HTsCe0uDBfql7vnowmrfGmWdVrzvfsi0IDBTGBYLDbK4ulUUGSR-YQ-VEXOFmP-vnWZXDJe4Z_ddmqfem9OCqiYU5h6ZOycRguvO1Pjo=w1280",
+      "source_page": "/ai-workflows",
+      "also_on": [],
+      "alt": "",
+      "source_index": 6,
+      "download_error": "HTTP 403 text/html 2387 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72u5cnbApNathJW2eewVR-QhX9f1Lij5qi2wneeILAAeH7T7EL-wj3IE_GRJS5C80HOf24FDLhlduWO2tQLx7xlCIghiS7oV8eDtwqW4mF3IWy24wfQiLLLtQ8X1Qt94dZFBP64OwXRUtQ5foX5J3VWDS8HC4G9EtdUdWp_4SHmGic9ysdhTQuqJXE0g0K2ZuJW6ruILpX_BIV5weM4BeYn5XyCX3awJ3Kk3K1RHMnE=w1280",
+      "source_page": "/ai-workflows",
+      "also_on": [],
+      "alt": "",
+      "source_index": 7,
+      "download_error": "HTTP 403 text/html 2388 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vv7imGtnT01i8NeEPlf_n5dkp9QPltXWTvDGCopyetPHONHp5zOMnRO9UPfWHNqXnQUgoFzx5L7FmQV1_8OZ5pez03ogstd5wIHYXG5xkLQNeiBiivE16LMN0_o7-3T5wG3N66uVkgwBthy67Qho3rGzBhgfQ1uXbhBQ5geFE_uBlxC07EslgtzXBDLA73Qcpz2bdErSRnivto26_1xpF-4ql78W_CN4fjq8P253I=w1280",
+      "source_page": "/ai-workflows",
+      "also_on": [],
+      "alt": "",
+      "source_index": 8,
+      "download_error": "HTTP 403 text/html 2389 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tw7VM2s1MGJY0LNXUrC18wt7hC-TAQfIwTKJr8TzoV7bg-Fb05JjDmFa7zm7MKmja1B4F9duCeMAkC0qWqdS0Z02o2rbS2-pvnprdSCQhheu-_u5ZIxb-aUn6wImClGz_bDrbEtTrjoVfEm5N0E4KFCO9X0fdTlrpRv64TFJKsrse7fo4nyI-1CC1lRDZBWcalaibmFXO7gSmuVktTiHVhuK-jQlC-Ku1Jg64NvQE=w1280",
+      "source_page": "/ai-workflows",
+      "also_on": [],
+      "alt": "",
+      "source_index": 9,
+      "download_error": "HTTP 403 text/html 2387 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vbS96__il_3SXmCljj195Qt7yXpqfJe9TD0dPXw9TVqIMlxVQBeH2AxnequuFxs344zocjXADumQsx0p94aNghMuAfjI1ix9E1DG66zq1Qgdnx80Occ7sJ9i9Ei0id7KzNLX8ihM05D-JuYeO8HLJWDrqlw5gLSqdqVGIJCnySgfQQSa9J5MHbMQcWb0g=w1280",
+      "source_page": "/ai-workflows",
+      "also_on": [],
+      "alt": "",
+      "source_index": 10,
+      "download_error": "HTTP 403 text/html 2344 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tVwbUEhecYTPal61OZ3nFlsZEFAG8h6gKAlvG0JUo9ElP1crDI5FMJauNWUPJ9jAQM3QIvfbwsmqXO7TkVzbCZyMwSyYfo79Nl3XUpRAcNrPbwqivQ61-8JqeVRdeOY2Eeuz_OfFgBDE28apdfPfeqfgxstZsGur1HfbHzHwrTtc6xaTkd4rSIdenw491r8budmoZxCPGYzVN6CbFThJBgxpmUkPw7DhSHHiU0GKw=w1280",
+      "source_page": "/ai-workflows",
+      "also_on": [],
+      "alt": "",
+      "source_index": 11,
+      "download_error": "HTTP 403 text/html 2388 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uNxr_oocllrgrOd4UkLVZPWKU9InNZaViuGrJJjcdwZEfHro2mN4h_kb_ABkFsdm_l0BAoLv2nP5d4gZoNlSmgTdmk1wby4dFGaLQriVH2KrLDuqUJZWOCqykqsTD6kyTDEs1lE5vYuJEtfC22HeLm1f-2SEn99VuKR6BN-4258RFcA5pIPTvxQUxCUPp3e43NsHLHzid60IPTVoUU5iydWK2VNedXtPEfKkx208c=w1280",
+      "source_page": "/ai-workflows",
+      "also_on": [],
+      "alt": "",
+      "source_index": 12,
+      "download_error": "HTTP 403 text/html 2388 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sa-ZFq-FxrOEebKT9XhIn6wzXwbKeRFi08KmII1vcCKypM7egi9g3OHisbT8JL0o5EuF_EpSnczZ3IR0x9yEda5LIdNj_aPk1Q9yxxm0ZazyoWUHuvasrIb2iKF11UR4q96NIN8DQBqeNILM340XKwgMnQEu1ezumZ7z_0bRsaws3YsOGwqnPTMWjtumnq4WNEICSPpO2ip-Ca_LPirroWD3LhMPzyOpv9wMBkphM=w1280",
+      "source_page": "/ai-workflows",
+      "also_on": [],
+      "alt": "",
+      "source_index": 13,
+      "download_error": "HTTP 403 text/html 2387 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72ueGXtReuwHRu_usam861XBGP2wcnupF2sdNIz6GJoYLG_dl_uP9AZ63xAGLMDNxiq4x57KtroiBmYj2Ee8R22INLFZmZUPJVNuU1_MN-ABNwda9IES-byqIzW6plDh0ZQefkEPAFzMQLpU4x6is-lrblNh1OZJPspkLPzC6VGuHPnuiWslgRFxlketPCk=w1280",
+      "source_page": "/ai-workflows",
+      "also_on": [],
+      "alt": "",
+      "source_index": 14,
+      "download_error": "HTTP 403 text/html 2345 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sbBrXc5uikBFWXq4IjGvhSOLQZ-FMhWzi83qgfRJN-3RWAJfpS6qP_G_sA-KNmZM_DYQ-z_v1CIPvYDXZ7WCr-usKjJpb-uohVAD4pcilZOpPejQtFuOd4MfAGnQIk8UM7X9rrN1DPAFOUscTAQsYQW6U7mLHjhJH04pgWVce-voe84hixzcMOA3Wbn5WsL6ig38iq-H56pbFxWp7c7SoyZncW86vSlq-lwSG5=w1280",
+      "source_page": "/ai-workflows",
+      "also_on": [],
+      "alt": "",
+      "source_index": 15,
+      "download_error": "HTTP 403 text/html 2385 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vkXrNMf6aNo13-razI7w2oEnBYXHDgU6a9WE8BJx9RFU28s1PI-m3KosMv4XM1CSt0jDkgmSoz-KYqeoG4NuhrP_0CZB_Y1fdX3rvQPqYmG1QjgzVKwnM8NKF4EivCk7CUC3C_MnLw4sL-8y0EETi9_Jovt8Ai2CqUtWp1Q2cCYB60jrWj1Y4wyPXqLO7djVl-wW6N4i3tNKsubZsp7yVqXINPKyUCHuQ2wgKB=w1280",
+      "source_page": "/ai-workflows",
+      "also_on": [],
+      "alt": "",
+      "source_index": 16,
+      "download_error": "HTTP 403 text/html 2384 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tpyT29kriayy1PmapCwbMLIXlaVSCJ6FWbOeF7viJs9plGCdfqXqGP46joLS-85C_57LpDol4-MTR98_3JOaWxMuQr16zFitdqDAA6xl81SDv88mJIbuuHy3UksmMoD7Mxmi3hB0WEXfn8KU2mfwHnkP-PgVsSyf9hP1dhl5mp2fZGgA-lICZxVPQX4KiLvMCKVtRrIdL7LDbbWEHHdmAB68-UUk0Eqn6K4kI-=w1280",
+      "source_page": "/calendário",
+      "also_on": [],
+      "alt": "",
+      "source_index": 1,
+      "download_error": "HTTP 403 text/html 2384 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uTcttQYiM88XjiYplLxaDdc_WxYmRd80FfShe6POaSeARz949s9c3F9D6hoU-d81t3guaHJn51OHkkxeoCgTRzRCcWPZMmV27XDDlXg9OM0qboK8UJbNrDR9gO1OkJRq5QyDxPorS3BkDeV9a8l0MZYFyz0irpdZdbyp1fvKfKmrrQ8G7ZLWX_-qamWaF_kp3CNr2kwDyBhOMQypEL2UZTCmAJcLtaA-SMDkt1Pd4=w1280",
+      "source_page": "/calendário",
+      "also_on": [],
+      "alt": "",
+      "source_index": 2,
+      "download_error": "HTTP 403 text/html 2385 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tzfgbJCxrqhaQf9tDbeW2NwnIqh8qkAtgbpSOAbUlPbdGdSsq41x_RLmFZkzfITiFyYh_iZcjSYDw37ZJCEgu0LWCYudxLOYehcoe1HXpS106lqG2A-OgIwdIjeUSV21nhnAOSIKcpXExwyuG-NnJCAz3QHPClUB4Ei0s_r48yyr0CXEj4Gcp_fPAkUPY0QKKqsCCEKnmKBg7apRMDjmNqYCTzzYLV5ExvZ8BIaWQ=w1280",
+      "source_page": "/calendário",
+      "also_on": [],
+      "alt": "",
+      "source_index": 3,
+      "download_error": "HTTP 403 text/html 2387 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vn_SUKA3bbayvOQzoeF-mDwgoYH5F0q6V9rb5DMbizTVHpgTIp9JB6YlCneryPv7bVgZB-svQ3OwbPR85C6PwtOjBarEzhfrgDvq9yEEUpppWqidFgtDeGqvjJSjaJHmm2ZWIE7Jh8_kCa3iTBogOR-6Gfdm47qQXRAhEcEOH9n0gsFWdMVsCOilYBdSfhRx6USxq6c-nrEDkjnI4qkXwTO4YGw40MURvS4AaAgKw=w1280",
+      "source_page": "/calendário",
+      "also_on": [],
+      "alt": "",
+      "source_index": 4,
+      "download_error": "HTTP 403 text/html 2389 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72u19B10BiR12swwYQExwvz7TgOpOw7ckxnOL94bwriW3Zn1EzlbqYhFfanOEloAG4q2sv7DQ4CGiVJdebqLCsxX4goEKBGgvOsY9Sett3J_QcRFdLijc_QQBXCpSk6TJYblPSRyxd0NzCYmW3eF0LH2UOVPDfixnd58krAgoh-dp8plWXL02oEbEqRWHyUgRLUPvqfkElHN0jbtfK1sa_CysJZpCNxqQoQr-xR1=w1280",
+      "source_page": "/calendário",
+      "also_on": [],
+      "alt": "",
+      "source_index": 5,
+      "download_error": "HTTP 403 text/html 2384 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sItwLZrbBzKgypEfdtr9r4z_ZvWA5q1LfO9Kvb97eqg0_d4FII2TVngRF4zCLylzs8xiq8sBiOB9h_bFBms1z3hCe8hfoDKN--nnKYkYrQKGw1_KIlieP3T2SRTDX8YThR_sjFuj46N2hZ0uNJsI8T2DIrywpjJpfFWNlPb347tNSPbAdrs6t00Y19sMBBzw5ysKqyspUGhXyWKW4RZcrlCC39eChuXWpmsI9O=w1280",
+      "source_page": "/calendário",
+      "also_on": [],
+      "alt": "",
+      "source_index": 6,
+      "download_error": "HTTP 403 text/html 2386 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72u7xsus9OuhTaeaV8dOOyjhi9AFsCCb2G_TspakSSkpIoMZ0U1WkTkyXKKp3kbsUBZTimdnxDvi5k1UFm6ec8uO_xkdyQubGm7aLzgD_ssiFNVISc7DLGmzUZfUHym6AGNsqVSu3gD9jBIfdoOq0-4nU9oH1fvs7VsKHpZ4QLDZxEpZZp9NXDy6OH2CR5pXaZfuxdqq6zrjI1ciQVF3vOImmmicdSulthsum4G9MMI=w1280",
+      "source_page": "/calendário",
+      "also_on": [],
+      "alt": "",
+      "source_index": 7,
+      "download_error": "HTTP 403 text/html 2384 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tT6bNGWVlAK5L3CqVIZHYXHPfGlVF2ikJ5vTvFnrnFHhT-Vyb1kvVFtMJyjilfW91ylzO8UJEcDq6VMeMMjS5RJoJMnqELocPuAevCIlw9dWjr8BO_G9T5os7ODAbGAzxUDRYraL1F8Y4Y5OJrDDnc-93rdPUh6kK_CWUr746HRC4ug4m8phWAZTL1NjkJDi45O17w8luhBZRs_lERID2o5JKawAErVboY8nSTpy4=w1280",
+      "source_page": "/calendário",
+      "also_on": [],
+      "alt": "",
+      "source_index": 8,
+      "download_error": "HTTP 403 text/html 2387 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72v9c3kOd4a0ObeJbXctLxZFlDH3Ntj2buLHeEk1B0KuSN58oolB0lJmCSdgFbYyUd-ce24hscQFuATeyW5fDudq67MB4xWN-_ONjaBiFqEZ5r5r9vxwYahSwTkoxwfYZRwEbG09CwnKvJWe1pRkEEbJexUL7ujtPe54eXQox4NfY1zILKgSNIW6eV_Ky8iS2ndAt4-5PuQzVRB5U9Ffe6swsMtkfSNky9eikWMggMY=w1280",
+      "source_page": "/calendário",
+      "also_on": [],
+      "alt": "",
+      "source_index": 9,
+      "download_error": "HTTP 403 text/html 2387 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vk5RrbsVhPY3dMFTzEuGBozEX4_vELSVnb1dIQQVDnRgntmtV_t8u-rYhFs6Pum3YfQ5HU9Ygib76w7b5WyOPHGsUaAu5yDsOJzG2h2HGIN1e3xEag4JMWzuKPfFxUVPYWXPhRmHdK9x8l8ws1sfiFoCR_ZV1Hr1Ufs7y2P5svlB4ii70SEz9dkqo_WW-JP7dFg1w6V8MNhCN0d990Bmuu5oE_41UUejyLGzkyStA=w1280",
+      "source_page": "/calendário",
+      "also_on": [],
+      "alt": "",
+      "source_index": 10,
+      "download_error": "HTTP 403 text/html 2387 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vszpJ9WGqLE9tXX1jm6oIMcx4AQpTc8U0FwH70wYxTs8I63-wJPaLjx0Zeh4Ixf6GDrDZZkHix6FbX__6sK2EQDVEzvvpBLnOQageFl2bN_IErHf8pO3yNkMPcldFpeP_W4xymRWl-_lD5mR5hPg5dmaX2Bs2HriSGMnqFMa6mAr4xr90cI8gGLjqdVlXPswU4rtu_MTzAm3kGm--A77Y4jlOFjCSf5fVuh_CbPJE=w1280",
+      "source_page": "/calendário",
+      "also_on": [],
+      "alt": "",
+      "source_index": 11,
+      "download_error": "HTTP 403 text/html 2385 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uh95pimyIkKjgGU-KHoPt78nzUV386qBXhmDHc7661JgVDeniGn5bobWF8NXQzsdDPOYwX_UlPN7JZiwj6ivq7ozBc1gdLscygudy6KEn3-IkCSWm9TOqtkxDexeF7y1PGeYjRHMeKiGkbUXRT-Z3tBlzul60emPpjmHu5Egrtbf-omO9B0jgMnxGy-hLReKXSBSP4r2T8uecnDWZswmiSqJU6tXAXSGnr76N7=w1280",
+      "source_page": "/castelo",
+      "also_on": [],
+      "alt": "",
+      "source_index": 1,
+      "download_error": "HTTP 403 text/html 2384 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tFN2FoS2aSey35EnShIXW6vh8dCxs2gCAhRaSW-SXYsteA-QZcahojtOv6zRhcb70xzL339m0XJyicgJVJAMMQEon19FlsMrfzZeezdX3HAlBifEOL5wPB2BUZWZdk9Sqcwwpbh-K8X-4P29zpnYiKnyNUh8kXmyRTVSI5M33Tz_DnXnJ3WWMZAeTzv-c=w1280",
+      "source_page": "/castelo",
+      "also_on": [],
+      "alt": "",
+      "source_index": 2,
+      "download_error": "HTTP 403 text/html 2341 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vbbcSZeDE1_Qc5lyo8uuWnTKrQFmf0qsbAV8Q37fi2HavXd20m1UMvwSB9TztWZQj1UYyImJY0OIAAKwBe0bvpYEOBdYR2x8EQhq59UrOC6KXH7YoK3xrDCqpVk3AWGVAIpKGCmAEBoa0Z546O9eDGLubIpHR7XiFCBeubvp-NdnTq0fmqAaDu9HGb8Pjpm5sAre40W2TAWgIXHm-s-TOBu3JRqw9sePVzs4vK=w1280",
+      "source_page": "/echoux",
+      "also_on": [],
+      "alt": "",
+      "source_index": 1,
+      "download_error": "HTTP 403 text/html 2385 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sAz22ah6TkIcKgnOlc_ijgP0ehGns0azeNj0Jo0VnRni41KgGi_T71Xv2sjVp3uTYT6T_VuABFFETPUX0pA9bjskn-oaQFjoehbqvTni8cq9Gp6CHPs5yGk5ERY8hp44jVej4avOYHBF5s05IDDzVBaIrmQyJyk6n0NLntP-Pk7SLrFYa3GGB0Mbb-vVFYC583KiPTNksDLTcn0U-QcbX-b-MJiwFhZBh68utmsDs=w1280",
+      "source_page": "/echoux",
+      "also_on": [],
+      "alt": "",
+      "source_index": 2,
+      "download_error": "HTTP 403 text/html 2387 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uKA2-G4iZ4OY_auIwrrLV3nr0ihGw5ierljeuMc4KwsrlEDYElPM6mhAnzSUxnPlCyKSme-2PQrlOOHLacpkFdFuBw7E2bR1Ofhx69XfekRq6jG7_Nh0zL8DBeGDQ75rNFBgozTEU-_rN6mgnUb3FyXQ3JvRlHYcPPwnJ_k1Edllneu9XYQ-bThoLVqC2GT0vp9h6Va-MS5pPOxMtK0hQ45t6Ge-9dk6rMmIjCLBo=w1280",
+      "source_page": "/file-guard-page",
+      "also_on": [],
+      "alt": "",
+      "source_index": 1,
+      "download_error": "HTTP 403 text/html 2387 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uq0jR3QPQgXcF73OD0kReBwfNRw2IGvtY2HjucblmiugYCBTL34RXHuBSwnnuqTYENQd0ONYYw1kCKgHRR_VUdPZRZ09E_PhCMyRsyr0Gd4L-ZJLB7_agjLF5PEKYXm8LN9PsKo4GMHbOV7JCyYu87e7q4JvDqE8qNfbRKX_BvAOii6Qci5qc1TFZx=w1280",
+      "source_page": "/file-guard-page",
+      "also_on": [],
+      "alt": "",
+      "source_index": 2,
+      "download_error": "HTTP 403 text/html 2338 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uAl56COz0OEkcNYhw7ToWzEapCKF562A7t97wz6eC9dEWDWomtmVxRw0n02BIO3bjZ5QvyQNY-BaSRmYbIMns85mZ9kVJg_WPGyKrlcLm4f1qQQAz4spDgPu2XCSOWAYTBBGeB4O1IjVcJknm1aTkiBkUmgK0-s_qrawxzVghSvfzTLNy8kDPnBG79f9vLqhvymeeAHe7ysfiQ8o9GTNkJozJ8u5r6Kjz9AZrMnlM=w1280",
+      "source_page": "/flory-page",
+      "also_on": [],
+      "alt": "",
+      "source_index": 1,
+      "download_error": "HTTP 403 text/html 2387 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sOmqbBaEwY7dVkD3o8DAsuU2gt-h8t7IBBC6AHT60Xt72g1vIJmpb7tEfBIqs_L6mPUMe0oo-ZzrPyTC5nOSIh6lq4biJKfL3iProBE8HJZRhRHPtCFlJOMZVvLEYA-F3lzj0EH1xEIt1WDZV3XBKjwBIRjfpFZYrUiRJtZMH1z8FCpUcSo6SDvog5ZAVQf9eG1hkr2jyx6yrBBeM41Jt5q5J16vFZbMl5548a81k=w1280",
+      "source_page": "/inclinic-page",
+      "also_on": [],
+      "alt": "",
+      "source_index": 1,
+      "download_error": "HTTP 403 text/html 2384 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sxtbODopR9RdxQtgSg7E2PMA106SJGziS4MI4bXY5M2CuD-qXcPJ9VeEaJJFmIF8RkT7_O9wQBDUZRAc94zyVQodL9x_-bLpW86lJKgIYEib7gAspx1i-wVNK3DVmyEQtkT5dlfOa6au-1bltdsS22wJIEfOYBw2kTSgOjkf7SNRRbFQSMb0kpxlZAYntCkofIVoGJt_gR3PGrT3wwy20NCNNgkZXMPelqL-nx=w1280",
+      "source_page": "/meurh360",
+      "also_on": [],
+      "alt": "",
+      "source_index": 1,
+      "download_error": "HTTP 403 text/html 2386 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vLdmpveBFE1mJdIwnuvsuh7aOxo07IYA4MhlxbPDJG-_euk9PFdqtj61weyfgin4sPPjB9R1E6wMKANEUlFaznVkIlucDTFHJJ5pGBVR0c5OnSpvC6mbNIGNXCckCCeueCdoEyUTkecpFvacI71hDqcjUI94bdrqnAPvBQ-lnrQW3xQ7OxzcgLc6qo6_NDmiXdN5YdPwIsasi2TNczJeDsmJwEOopEUw3yn900MAU=w1280",
+      "source_page": "/meurh360",
+      "also_on": [],
+      "alt": "",
+      "source_index": 2,
+      "download_error": "HTTP 403 text/html 2387 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72seFnARHNVyDDwci9QhD9ZfMN92vH9WNSMht2h8-5XD2RbTmEqYC_mrUmoG7VjOgc-H_y2kU_jURv4LNv2X3g3kDZA5ExXSgAQeNdi1Ct7hH5o_g0eyX-hHFybRn0_CgmAwKWgFtSGjHj561QYbDZYoKZa-Uj0kDIutncANlyo1cY1rmEJX8Dyff-bH=w1280",
+      "source_page": "/meurh360",
+      "also_on": [],
+      "alt": "",
+      "source_index": 3,
+      "download_error": "HTTP 403 text/html 2341 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tTpRxtiIKejZ96UV1k67fl67l-nrimX0YtcHB_XmjP6sCPzcyhjFhxw1nOw4NlM-bweJMehV05yL0nPtlkksjrgXHSzVOjJeU0KSFlMhidm5aXDZqbc_C87hHA7URsCCk7R-3uMbk1cjgDmjWGCCJ9_1xETR385fWzfGApQMc2-FiE5kgtK_oE-M_u6_c=w1280",
+      "source_page": "/meurh360",
+      "also_on": [],
+      "alt": "",
+      "source_index": 4,
+      "download_error": "HTTP 403 text/html 2340 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72txKA2x04VxFio3QLe-YaEDuXtA3YcK71aNlruEp2kALhSVJIysmeDyF9TE3ivamLFhHdh8b_8-tupQ84UdoIFiowvwDq3vcnNDj7Co4PmR1-n1Uc_6tugPJX1538oyGtSwFJfkrzOMW4wEEeZrnxqyGMUGjrPymCssD_uJasaPDXY37GGvuy5gXIofilBF6wEZjIyxGMPRt4KlxXrms0ov666rLequhGvwIEJE=w1280",
+      "source_page": "/meurh360",
+      "also_on": [],
+      "alt": "",
+      "source_index": 5,
+      "download_error": "HTTP 403 text/html 2381 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sxWJsaiiz7MkY-imjJwBFSL14lbqHQPML-uVKp9xWCiSMso7rTWx9hXaQibmc82sXsgGawkbZ6VEVxSQGDHTXXkqV0NwV5fqGk6yPey70--5WPbqyNSp-7zl6xI7u70VGnXHXIEMUOt7Z8epahJGre4yvNyKQqISZptK1yCXrxrWCHSZ8pqfqiu8o8ImRih8bCavx5XebjpM0ZuuotLmfaKOoKoTj82N-0PDAN-JM=w1280",
+      "source_page": "/meurh360",
+      "also_on": [],
+      "alt": "",
+      "source_index": 6,
+      "download_error": "HTTP 403 text/html 2388 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vKQMUUBYBU3ORVkh503RhCNM3hoF8h3oFK94rR5jBvqu8IwVLpJPjBgnkp0FVmgrmie9_lFia9v7EyDHfA1gKTNKckIqWMAO7ozZaXUq4wekO7HLTPLnKtl4jy4l7kjYUZmme43AJXxLIfti3CxxNafIrmnFTHBLURdlJ0H_rFpm6_-gSMPuDMkpstmLEpF5l0eGMxYrkkoXunYlWEya_r-sbo5AjMkj6ZF_u5=w1280",
+      "source_page": "/meurh360",
+      "also_on": [],
+      "alt": "",
+      "source_index": 7,
+      "download_error": "HTTP 403 text/html 2386 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sjplviad3GRtfsd9pz0V10Ha7HpnXOTEAedl9DkqpVl9wrVUwaZYyxN_XbXR2eiQKzvdr8vIzlfVcXItkolrX14HNPhZuaL51s5GG1AGVI0OFX2PlwZm2Y1Y3CkO1X78-RMUdhw1978JQ_M3B31fjrxtS_BMII7UuCq8BWqbsdziK6ljsbFnSeg4VnpOiYIY4RPp9n7I0-SBPzet9dnHfZwuA6eUuBHi7oJGOX3_4=w1280",
+      "source_page": "/meurh360",
+      "also_on": [],
+      "alt": "",
+      "source_index": 8,
+      "download_error": "HTTP 403 text/html 2389 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tF384rOfv4oB0j0pJ7o7U6IqpglbwdqSwHmZ0k31UOxAYrfHDmID5OE1Jhlz7entWi5ra46JFLGmVSHtA2lZeB4VTAZO_-SC9eZ45sxoy-5V7fhZV32M-UEeqE9OR21KftQDqF7zJqpAPgqGBwf1YoKLHQ_9p86pqSWGdZsFVJNRTHkC09fLDxXuHTl_z99-rSPJ2f9VQ1FHQZkqGIfRLNoI1LwThl_kKS_5m5gi0=w1280",
+      "source_page": "/meurh360",
+      "also_on": [],
+      "alt": "",
+      "source_index": 9,
+      "download_error": "HTTP 403 text/html 2385 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72thovVfJ_USDqBstx7G56nh1V8mdTwiRFDWMLoJN4HlmuRwQ6cZtwR1_32139WmrgIS7h81zRVANr18X_X6uVaOUvtPtI6vTT6UEOewhtSuDdq2t43wUHZjxABR0qXNQo1Lq68GOJN6eKFBRUeG-ubaXfpHgTcJO1KVu0fOzMKfVu4SBS2eNJcPbeR6prcSa-wXWPo5KPrRyAGnZ2aA3KCdNIFFOhjAkeIc33DIc-w=w1280",
+      "source_page": "/meurh360",
+      "also_on": [],
+      "alt": "",
+      "source_index": 10,
+      "file": "assets/reference/images/meurh360-10.png",
+      "bytes": 268890,
+      "content_type": "image/png",
+      "sha256": "6bec583cd7e40933e16fdbd5300beb5f1b67130efcb7d83b91fe499cedbcbdfc"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vzHQe1T-zD237UeDuZ6Mt9fVw6NdIsUEMcUzx090uMvTFOLL-aLdPvORCiDi3cKYz4HVThfQOimEjgSG_Nqm11dLmVW2w1EIS8E52w0mLBBZqEHgQTHhM8ChYrZARMTU82tvYtzLr1Q9idS2YBnuduI2rm7frwIhAWE6VJG7uePIbengi_IEgbkap1YvuTAC2FGpbQ3gSUFOc401lLG9xAkQh-BgsBgaf_TJX1SDo=w1280",
+      "source_page": "/meurh360",
+      "also_on": [],
+      "alt": "",
+      "source_index": 11,
+      "download_error": "HTTP 403 text/html 2387 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vVMVZHkPR3pITANC-mBWQR_5SfFRuOdzijUbG-FAHobfkClyucGJdiUb_mWQls9xwSaIMERsDxoofRqBDx6n0xJVUzrEWNTOmyZkSrzeAe50TcUM5xvTT-HWqUNP54KXi1JVUavuu8WUm8aT64ZrbspQH1iFyd5LBHRJs0xJ6dLr16FJ6u2K7rtI6lZtBKmWl_uCjcPjY72eFGXrCDtUgbeylmlb3SuxI0cGmbYUU=w1280",
+      "source_page": "/meurh360",
+      "also_on": [],
+      "alt": "",
+      "source_index": 12,
+      "download_error": "HTTP 403 text/html 2388 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vv7YHsl9vd8C40C8nkyo6NqmKenLkjE-UGDyZXEL2J_WGVr8nza5y9rfdmxllHe2zmNVvGsP9VakTnsE8x_d0Yh_GrQLrL0LeKuP4QAOyl69JbBSICfimIPkdjEQLwjMVjH9hqUc6i6D09MkiuETJVmSVEB2wzpbwyqn1FrsSmTj9CctgNpSo71CJ8-iI7lAIThapSN6OYXWrXZQ4hH1SVC_k0cKlHIFjRC0HuXz8=w1280",
+      "source_page": "/meurh360",
+      "also_on": [],
+      "alt": "",
+      "source_index": 13,
+      "download_error": "HTTP 403 text/html 2387 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72v-W99ItzGT5vogf4oYWdtHeEzI9kj9cEH79-TnIYqwgzuACnHl7Wd4VNIeKpK3QIO7NLJ9Ab62OONqeprcMghx-3WijDtPOOg55OG4siO0zGXdA5LmAVTjEIHB_T8Bwa6gYl1LIV9DcK3gvadp0DDcK6MzKKvNqgwlxK1uC9R1gicV9BOvK9TyXTvXiMH9vpyGyP662gwNfFS5o8EKi7uSqcznVyJyHeQrVRMuoTw=w1280",
+      "source_page": "/mixzer",
+      "also_on": [],
+      "alt": "",
+      "source_index": 1,
+      "download_error": "HTTP 403 text/html 2388 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72v-y2vdbqb5GR4D3tL0Yz3pa_Kj7dLXA_qqsLCAv8iFRgNxNDJQ_JAzj13y3-e4s9VFAGfZub1fOMgZonB4KIZsAaBxoh9BTutQ-AwK8YQlB3nGbGbyhiUSwXTVc8RwQeIXnTssSJDDjQtCkpTh-G7itWz-0-Khg993-dntW6fSCXxENMsFLUGIMCfa5S4HPoYSunQDjq9NUcXMFBmPkubcZIOKAG0EbWKtZDRD6Lg=w1280",
+      "source_page": "/mixzer",
+      "also_on": [],
+      "alt": "",
+      "source_index": 2,
+      "download_error": "HTTP 403 text/html 2387 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uUtWJWhAMQCENr9NHhoI7VWc3n47xadZm3Hm66-tiFqwX7t-IdV-PiYh9csOdym3887EfW-AL3UoEX2EzzZuefm_06Z03d_alGSpGX-W55-ialgJzzByjGTRwUiAAjAKmNwAlTYj4Aqm6-cLW_Jt2F0IYeYaFd8j3_xVvmayjcXF6mFVbaLTq3qrQI357N-yzkuJrNceNIlFwStqXGX7lS77DV53AeH4O77ZiOv7o=w1280",
+      "source_page": "/mixzer",
+      "also_on": [],
+      "alt": "",
+      "source_index": 3,
+      "download_error": "HTTP 403 text/html 2388 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vJnskg9aD-djMU2Nrk3rxGnPIV-JO3wjZQa3MK3wbbJ3I3_HvMCLqTLxDDmQTRHltCXAAeL0HSzITv7C0PGbBj_R1UUA5Gj17y7yHRbCqFjNItjUgL33tX2eDCUuaZ7CWHq53UyWUjqW0eqGkAce4d9CgmYR-MfA4rQo1MD3DbZ2dYC9wmfZ8a9Ai5PUfewkvFW420SBcjFv-eX0futlwtN30U3iujanMP1GQD=w1280",
+      "source_page": "/mixzer",
+      "also_on": [],
+      "alt": "",
+      "source_index": 4,
+      "download_error": "HTTP 403 text/html 2384 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sz5gYbwzkm_nTqACqDEPKGC_3pzqS4toc1IhFY9AbH9x0byrJUyHpRmq3t4hgc7KKDmY-29tHOI50JlX1w6CwT1PlJyEjmT2E3kSs_QB_FuavDQoqT7Q8uerZUHB7mi5rOcyps9Cd4mh0hHi5XQt3R2IsKaz8CjCcjrwOr5y3NBQ4S-WYghlhDuON-OEyy6NlBy3K-dt_tRN9oLgHrplbmUvw6TJ6cXEMxI9hjjMQ=w1280",
+      "source_page": "/mixzer",
+      "also_on": [],
+      "alt": "",
+      "source_index": 5,
+      "download_error": "HTTP 403 text/html 2387 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tAWBS7UyCJjtJKKfmc70OukJIWPUvze506VloLV5j-bfM445z9sTv0c7Y-ZOt0dMZ-KT_lsOFZLVtImCIiA4C0YbTdbHyQzTu6kx8OU0RIacqCCQnnwBNj-rl0Y4UxHhUr_YEPhxkPnc6WIWpktmg6WAHAe_fiCEtEGeNIWgMiCFT1Bc4Fmbt3fC12vgIwO_QQosz_xJDLbr232zUBdWUvj7Zp1MPbMsYD_CWY-y8=w1280",
+      "source_page": "/mixzer",
+      "also_on": [],
+      "alt": "",
+      "source_index": 6,
+      "download_error": "HTTP 403 text/html 2387 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uVEbmmziZCWr9bj60agu9N3XaxC18lZVqWc3c7Kamx8GGdRE0Bx-bdYejUjg0z2iHBiuefp0ZGAreIvANGqsWlMck1rOro1WKOo-gSUGKGd3RM8D3YM8-3cFwA8Qe08gc4I9o48p7klUbRSCZsKughho64MftHgXhYR9cZoP4NeQJuDILeTGTPGOYT4xHev-KgHtpTQq-b9CfUgCVjVyRMUNqSFAwKMG-YlvaomKQ=w1280",
+      "source_page": "/mixzer",
+      "also_on": [],
+      "alt": "",
+      "source_index": 7,
+      "download_error": "HTTP 403 text/html 2389 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vxnltyhk6jx_5Iv2b4YN3sXiF2APX2as4x2KwznsVSL6NGa1lARc0k4ONf0-A__jjYU1n5IKoqarDc3LIsJth380wJFNu4CDB7vO4zd2flQnBAZz4lbolRdaRNg0XNLkGqJTTQoHAhzh0QvW_WTuu8868KbrUWX4wwVBB2AqaO0BSs1Kk40kvphz6DXZNiKuu1mN0pZf1E-WZC6Rz8xD4Qqu1JkxiT4IOQVAWaeHM=w1280",
+      "source_page": "/mixzer",
+      "also_on": [],
+      "alt": "",
+      "source_index": 8,
+      "download_error": "HTTP 403 text/html 2387 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tpRM3CwENIiaLP_HZm-O_er1l2EKjAZW8plNnSQpqQFrAVx1OhcfPb-iQhQDtl8uk7Ib3Bj1G1HGbNPkAQk-vIDGkxRJWKGL3XJmltiX16Bd4dGdwSaA_tC_ZF2abU4Kvtmg116tBguYIYRbqgLFb5xbVA6d_VKPA5kuOzT31dqHlX6DQRmUfbg_an8kfOjKsR9a_HigjM7QH3f-UGLdgEPMHEpAkaTfD-y3-8=w1280",
+      "source_page": "/mixzer",
+      "also_on": [],
+      "alt": "",
+      "source_index": 9,
+      "download_error": "HTTP 403 text/html 2382 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sxsIhlp3hh9_pSHYELAIBSOxp9vEnKWjSXUMjb8EuZ0Q5lbSHpAQ7ea71F6Dzviy1Kb3LxX7Y1ZS29Un0xx8qtcZLoMtImEpAb-lGK9UFnn2oyxqQvwjwMX5-vbHlFDTm8cGHIv1Yzuye-JzUZRUxsle20WZeBRgHbZoKcYzbNnAw57mjk6p3ZAdrOtC3rcs_kUWBKT7Ol-GaC0pQQzym_RAQOKB9aWGHngR-e=w1280",
+      "source_page": "/organograma",
+      "also_on": [],
+      "alt": "",
+      "source_index": 1,
+      "download_error": "HTTP 403 text/html 2385 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72u5_UVGSz1j9C9oXVwfhK1jLf69YVfrg3r4qeUvf7NeXg-FZp7lI2OTl4ikdHHenPpKcgHcN3JhhWGNn-y0CpaEtmuwXCUh1itpGWeU7PBbv2OVGS3r_sJTjweqrmHlL0Hmp_7rst5bZl_fmcEjuVOEjaC0UWg9LWoXcjDydTbIVkLq3EKienyjIJ7BCaJgLqUN1Zc_oFbmSeSd7e6R_xjR8zHrTD4XfIK8rsRP=w1280",
+      "source_page": "/organograma",
+      "also_on": [],
+      "alt": "",
+      "source_index": 2,
+      "download_error": "HTTP 403 text/html 2386 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tVINEQ70XedoUySX8F5fudehNpB6AOyLOVu141nG9k-2NxbXb8EYFn-orfT4ghh64BmVaYF6u3PIbOcXABl5oFMg8KHLRHg6ZBA2l5RB6nKylXIBNEWSIToFTMJXxSVzq4VMM2h4vvMcSGYdMGTirWy_4OxvAdL2GciFvmrmtebdnwsRc4vu10SWqwQgEe3xzyid3R_9BrBoDlDh8LOIae-WoGrCHroH0P_FqZzTw=w1280",
+      "source_page": "/organograma",
+      "also_on": [],
+      "alt": "",
+      "source_index": 3,
+      "download_error": "HTTP 403 text/html 2387 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sAsJDTabwg_l7yXWXhnsIMlZxP-15auu_kLvv8isHJdJH_yeDy4KOkZ7SUwTlImvAoVy4n1tqUtwT8UJgC21ww-RoGNUFtn2r8hlHbM-Bu6Na1qgFS8jGpfrfAUejWCzIR7KpGiznKdV0bRCozqbWRY14b6mPbGiE8yFYWCVt-9XIKGkR5qnsC9hNthDxYAEsirSV3BY0ZoJZSPWzBkfNKi2xhazy_F98LWbOgcbs=w1280",
+      "source_page": "/organograma",
+      "also_on": [],
+      "alt": "",
+      "source_index": 4,
+      "download_error": "HTTP 403 text/html 2385 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sM-PL-x7IfESIPyr51fu_gxki-Y4CggW-KJIaRJipanMPU9nDXweRgmTMa5sKFqy0sIOw0k7qysU2AbH2edbbDBp8RqPVXoekgzntwg9JgY_hrmkFDH25CjP0Nq-PSKYkyCJ0xwcPoea8XppNDaIVKA_7JsziFf36gK3qHnogGwoQdxwHobRjXNfnwOPCoBNFMSxeTe2i28F2GfP0OpSPXyfCS-dorPyCqu2TIVYk=w1280",
+      "source_page": "/organograma",
+      "also_on": [],
+      "alt": "",
+      "source_index": 5,
+      "download_error": "HTTP 403 text/html 2385 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72s6NMuXURho8Co1zg19elvB2y_DAViKaR_LSgj5GksN__shRspDNUpFg_9OdMteLBq2NNoGS4Qq3oETS9QcM7CRqx5iTDKqkm3cr0tOLADkfizQS43bSGuQJZcLt0wq-rx1Xt-nOIIkJINZXGMBMX7ik-zROgF60XR_YtW8esTIQn6Qs38JfWtk28QqE6R5fZpRzyXKx5RO9ztldJHnqMri2F0tIeVoPrzgh16m9tM=w1280",
+      "source_page": "/portfolio",
+      "also_on": [],
+      "alt": "",
+      "source_index": 1,
+      "download_error": "HTTP 403 text/html 2387 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sfjaRSDiQIrmlElKURRQzKgGKvypxt5rhPySoT8DXchdEqTB4UFGBl6cZHK7SxwgQL5HqXLcHNwMLlMbjfz6hCYkcwypbLqemEJEjtSnZWKdqn6m4W0tKU-1qOH2G1Loh1pILSCuoroG6Z9nb5rd-NHcJNM3Uy4UdPIBew9UZjo_JN4aH9xIGZCNlkHdgUsXArLwoGhDMlETx0mnMOTiaf1DdkzrDdDMSYlowa=w1280",
+      "source_page": "/portfolio",
+      "also_on": [],
+      "alt": "",
+      "source_index": 2,
+      "download_error": "HTTP 403 text/html 2385 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72saq5fjHpgAJH_bJvCYjuBNG4Sc3T8HSoaoEGg710WB9lgD2q2Z8cWuoXoDMu_1i2i7imlGy2QKe5Jz0v8utJ5ED5VIBRsKUvWDPqnHcAL1vvoiOltY55j3feaEKWGOPjK-qVDfi2R8D2gfDkaNPckawdbg7fpTvOSoDvnc5WNETxtuo1bcH1FKIssZ0_SuKdF3oRXXfdVCFH7zknK1GzptI4ufLRpzQeXyCnVI=w1280",
+      "source_page": "/portfolio",
+      "also_on": [],
+      "alt": "",
+      "source_index": 3,
+      "download_error": "HTTP 403 text/html 2384 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72u9Tmugd1CMpAzHSoAeWvjkSV9HONFqlDBp6etngsKKxBSLzQi0caAJch-hHX9S9JYzgd0Pq1oLIpsUTyVw2XcbaVXlOJ9OYbS8G3hiyMKIu5GboZ8QRgbkoh4NE0LyXa5ItDAtaMFIvgJYiIiH1e7ZOMedEKqp787KAGxKnIQr2t3aQHVFJMWHfaR-zABteoNbvEP8VRtCxmD3uCETcYqzunDnBnOshIojxyxapBM=w1280",
+      "source_page": "/portfolio",
+      "also_on": [],
+      "alt": "",
+      "source_index": 4,
+      "download_error": "HTTP 403 text/html 2387 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vti__3b3-yHB-N7MBOhqWVPDg5udYEKN0Ap80T6Ejue23UslMs5XD9KU08Iqe5cxv3LTQKJLohkmHPVctiL3afuIdMtP_pN0EVZrNuOr4jUIFsjHENDrt4am2KmJnvoJfwwxBFCR0RiPkYUSTqZ0iKopvyak32AUJDy2ku3csag5J44FNN2QFOJSh4T1tQNlKHIe09-v3dzWKH84Yuma_rWraiyT566w1MY4Zu=w1280",
+      "source_page": "/portfolio",
+      "also_on": [],
+      "alt": "",
+      "source_index": 5,
+      "download_error": "HTTP 403 text/html 2384 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72v2o-f4quiaqX7pJEPBgNUW5rdxsD1uGRvGPeydUHdBbYL6_GOKNSsbQSTdMABPKINoQtsJJ974lw-OA6VZlvfy5_COqd5W0gWscZ5W69XBT7rU1ljTUvQ4K-rI2GmGkBV8kd7gViaZRJQ8eHDTcBnB8mo0ATeiNi_cKPVBf74RTW4TvoPx4_SueYYcu4QO7ibwFbB3gBjr-IZdh03GMu0SgLVNvDHOxagOe1pvveo=w1280",
+      "source_page": "/portfolio",
+      "also_on": [],
+      "alt": "",
+      "source_index": 6,
+      "download_error": "HTTP 403 text/html 2388 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vDsa3_dXFMpFbXa5aGa3ZtVJI-v8R3SjecBiAGztPCh7lGmTgylNbhP7xz7HMHhDxskGzAeDksYcB6bNKLxzNWxJrS1Prb4NPUFSJl-WkZ9q-oVVMWTSttARn7uaKm1cee-zGpACmEmtVA2TZ4WyqLWOingHwN-7kBoSOfhDXEWbmkanO6ZeEccAud_kzCHdzCJGn2ssamF2yY2Q7-ivckutM0CJaGk2ntndEwVUs=w1280",
+      "source_page": "/portfolio",
+      "also_on": [],
+      "alt": "",
+      "source_index": 7,
+      "download_error": "HTTP 403 text/html 2387 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72v0pZ4JSckWSFruy4hgumgARizAQzPEnesVMzbL8kyBJvf7SxiLzi7b8dNEt7edNAADkdv2ynJHZmRa-iDqIc3M-MW3bRkFSFEYUzL5Vr2En4NduM990m1KTtO-aj5BUcHb2VuR6FiM8166eqoP31Hcrj3ULJJDaonXsLPt341XEMHNuIjlP1YrIz04VBU=w1280",
+      "source_page": "/portfolio",
+      "also_on": [],
+      "alt": "",
+      "source_index": 8,
+      "download_error": "HTTP 403 text/html 2343 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uDClvgXF87SQYqKjxa5e6lEsSOhMVI0v5bh_cjtHAcWjlwC5pvjNiaHipIU576x3VLeNAlc4qRFssDHICy-suuGDXVYKERVjyzgNs-0GHkYTgqAqp50hPxTd0o1IzJPeeZPQ8_LcAbw0-TuqzzOwuVtd0pSUi5gwo7C_uciPnCIumnDPtiUfA_NUPwk4Lp0e70kSF5TJ3J96sQwaqU9yh58gUZkm7r19FEMJuCdDM=w1280",
+      "source_page": "/portfolio",
+      "also_on": [],
+      "alt": "",
+      "source_index": 9,
+      "download_error": "HTTP 403 text/html 2388 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72u2Lgpv1Ji7VHAFGTfjNa6lJnc672s659ci3UKYgvDYOugOTCBmoBpUH_gaIIb0uHXkZnBmfQNTTK1bBEY5lC8in0A8yysm14B92fJcN8bfzrqBnV7lfmgZftAVxa8MPT6sV_F39_ANqvru_C5rrDqjBtxJQfQf32FwrLimAUzU8mkqlbQGsJ4-w81xaSg=w1280",
+      "source_page": "/portfolio",
+      "also_on": [],
+      "alt": "",
+      "source_index": 10,
+      "download_error": "HTTP 403 text/html 2345 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uFKHaYBZHj_aR5kQrkb5q6YBtAc7T1lIRjB4aX32T1fOtKGLhho5LOIqFQlUDJyqK5B9tlIWmZ-myZc-NBq8Lq9z259umjfairrSZff0xzKTtYO-2XnkhviGsuGThj0m-fbE8OTcb4NbslDd0Q67q-tSWS4GQfQaKXMnsDQZ4P_j4CoKpVdYXYKzibcSU=w1280",
+      "source_page": "/portfolio",
+      "also_on": [],
+      "alt": "",
+      "source_index": 11,
+      "download_error": "HTTP 403 text/html 2341 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uyk15PwWGnNfWmr7T0sJLJ5A8YlK7ucc1aR1633nqvTZbxLHM4Vw-bGqdRNbqYOFWTf76fMZuP8DQUAodPEmUAsUKEiSG-K7Ng1GL2jhExfAqov3Qzzd64wztAdRkdVnREDIAYxn39xTtQ8OUxmYbiFjUrL9_yZ0i1UPsu9dt6egP2HAV-MqZ3c3EmfTw=w1280",
+      "source_page": "/resume",
+      "also_on": [],
+      "alt": "",
+      "source_index": 1,
+      "download_error": "HTTP 403 text/html 2344 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sOAEw3lPxc4IiZgIHjsE9gTAyRsIP-FCFTIp9AbpC_v9FAofh3H_ZYZCOO73zvb64xWot8j5Qf31bPCXS-idvPyX1PmYn5dD6V_dw7PcMqnCYnbv7vqXlOcLuD4wVVM6Xqh_ko1_pgc7VRwodkgt_VVGi5ZiCGCwxG_27yi6cpFBFqMCJj6IhX6Iboc0rtb5W_NLDZAg6g3F05mHCsTzbYRs3BE3GD56IXzPmY=w1280",
+      "source_page": "/style-guide",
+      "also_on": [],
+      "alt": "",
+      "source_index": 1,
+      "download_error": "HTTP 403 text/html 2382 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tuxu6f39KLWwowdhT2El-_5cC4X1hZDlihqszuRwvKt5WjbNcP63M7yD5Xam6yuwbMZPJ882jPAdBFc1VfrSF0_CQLiAB5WOTJFG3cvEAIyzoGpDThLGS3i75poU-duczWsBVOYKNCLMdW24qp4womEkwzc5gXhXU4jrBLtG8IoRsuQqGXGwsMG4xzJuH58Q-CMMpxWh4_9Z9el97Br6FIVd79qFqB_c8VsX5CUEo=w1280",
+      "source_page": "/style-guide",
+      "also_on": [],
+      "alt": "",
+      "source_index": 2,
+      "download_error": "HTTP 403 text/html 2389 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tX9ZNI91qg4dsMV_5q5u30yQXR9Pl7mqo_cBk2DqzjrQmgbVuLnYs9pxZnu3BfqDJgKBN4fi01hZp3z1wusMOeuFpa0BzIA79yal9C9DcAuYdUAxn3QJJaYYPRYVLd0myGoOoAG4obzLEhOpW7nBKLA7N9tmLTBk4-85xXqYegyfVejTDSb_wysDPBaQ1GOHg5dCeI0C_z7ROM6i4quV0_uamSsb2YmJ_SFVcy8oQ=w1280",
+      "source_page": "/style-guide",
+      "also_on": [],
+      "alt": "",
+      "source_index": 3,
+      "download_error": "HTTP 403 text/html 2385 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uyCbaPFcXPn0JdeTjWxYbhDdSUwmPFDDnWbukarkjgvsdEHl9X8CQwYSUU_S-Gxx0cPYSV54nOF6KAvycqU52fVsjlvtk4nnzoA9UUeVyl1gs3YbYFZ4TP62JZ48ABlkRf8PEKZF35xFMuqooa_KB__OiGypCGc-jKM70l4DF18rkM9lp4vSQMSAbt-FpZw-5VdY9gUWC3Vcdnicv5PjjAcJ2EQODRcHlvJiqqv3w=w1280",
+      "source_page": "/style-guide",
+      "also_on": [],
+      "alt": "",
+      "source_index": 4,
+      "download_error": "HTTP 403 text/html 2388 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72v20PFhkDR_uv9qifu3kD7yDZrbvw6tCJ8HF63r6fgxK92KY8dOF-HASdtk7-JzEDXmQiZHLIEt4oMEnj26GaUbNtIlGXsV-e6-HDCLnW03qC8qKGHEvXwfpY0raqydsD48YDzAQifXJNl4MHC4XcVmjVPN3AuJzje0SHtbbesS6_wfO5WOxnexv9fam1T9Rk0Gf8mqo_C2pEMiTS0sQvTFicBPS3rGVBk1PNgJ=w1280",
+      "source_page": "/style-guide",
+      "also_on": [],
+      "alt": "",
+      "source_index": 5,
+      "download_error": "HTTP 403 text/html 2385 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72s_7rH2605fvw8kdgKWHrnyHa225k_4j2VTLv6UtxnLHhA3iEFVEGICrrepu1aNkjmSJJmxA_w2uH6l5FfdAEqSA2CbMx9JgJV_1EGM7mZdqPSrC3hS-YfwqB4mjblExS4oFeQxJe5wOauayOul--FB003K1Jvk-oSdN-hBOE24Ywdcnd85keIQheEfHw6JAc9rPNeNIjGdWq6gXYRzyFvTeVNjXBr_Ct_87LDW=w1280",
+      "source_page": "/style-guide",
+      "also_on": [],
+      "alt": "",
+      "source_index": 6,
+      "download_error": "HTTP 403 text/html 2384 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72t36-rb9xqMmXmdPNQI8ycgfJ_KSG0_rqMhtxF2SXX1B8XbFVxnWaHZUK2u6AobQ5SB1_s9HWWIeb8qBtsy9P15c_5FD5it4H_N-iPexrK9oG9VJOf2cDGUNyHpNbS_9p2RugotyzdCIxvM-qijQVpEFFXErYrFjL5I94r-x8Piqg9ZN1FygssbUR9aievZUrJyRrClOt0wt3_KAJnXlLITidLTVZWuMqsGwxwvOg8=w1280",
+      "source_page": "/style-guide",
+      "also_on": [],
+      "alt": "",
+      "source_index": 7,
+      "download_error": "HTTP 403 text/html 2387 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vGCCmqDvhRgk_8wdLQl6BnrdOBwoudYBrw16BLz6M7KWWWx9-ZASF74FHLvypAgNsW8jAvpb7k3MqFUz68-PM-yoDZ4DuFBqYZNuJUzCAKSz8r4dW_IaAknkdLgrHMgUoFGD5lZPaGQrWSmOTjfudTx6EuVO74uiDvyY1l-VeQqbKWUtYh-KMSr2DZ7gs=w1280",
+      "source_page": "/style-guide",
+      "also_on": [],
+      "alt": "",
+      "source_index": 8,
+      "download_error": "HTTP 403 text/html 2341 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72v_3_DtqQj0GcpZk8JIpoeXwBUs24Mdaz0ieTT7GmXXBZ-Mo5IMn7NOnW4y8W-JMVSsRqsDcEaIg4AdE_-i95p6DjsT-0u8TPLUIX4N8fimp9R_dpGELG-S9FDrkisZjg1yvnFlSYJ8wtCKZfNd5gZ7P_8DRN63EQ2j-qX_I-n6q9Y_Mh-vbHz3ye-qrCE1hKTz-pG0WkmVtpW3pf-BlMVsYBTEcPVVIPBfHWRW=w1280",
+      "source_page": "/style-guide",
+      "also_on": [],
+      "alt": "",
+      "source_index": 9,
+      "download_error": "HTTP 403 text/html 2384 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72seGjfA0qdazQ74kRagm_a7Exdg3vybHqHZ9wtL87sl6QyKK_C5P2SULXrVsSRUOk7U1XUD-wmnzsfv3YnaArzETqIYc4t97glQSzBUS1QV7_nQFXQQfgortUzol4SdQwiWL2Ve7yeLxW1NdQJCfnQcmcWF1vU0r8ha8GCpVUXdmcLYWoHebPhQPvyEM3bhYqxsIYmCsuwSoTES9wiVqvWXl0cpFIfQQdJDhYxfts0=w1280",
+      "source_page": "/style-guide",
+      "also_on": [],
+      "alt": "",
+      "source_index": 10,
+      "download_error": "HTTP 403 text/html 2385 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sqyfw2BFD4LdH5QnHolGG8EbJYMRCIM6zzoN41FZXK7kapRTDAdSF8vntglPC2PLJUkMMWt-k1wGuv8KU8A5T0yLXhf4U4wFqoChT49BAPx7CnpQzShJ0LwcPagMwxBtb0MAb8VhXywwf-JgVvFvpy_4408Df9dsO99KdcnLmSdwPeBfmuG-gLqLAkcSvlwI6z51PGut-LCCGkl_nq8olOaxSs1ZeHOjrJhKkr=w1280",
+      "source_page": "/style-guide",
+      "also_on": [],
+      "alt": "",
+      "source_index": 11,
+      "download_error": "HTTP 403 text/html 2382 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vcqZfdeUaRewrKmx8osjYDqCsVMkYPSPOnkBkpFC68zam_kxrqndq3aoCoYCqs8zE0v5xBHOh70CuQljiRNo6eNs09GiZPFlAilZ-1WyI3OKfZ5xlGXtfCm4JrXzspvdsrsrmscztT8pPMg-vok03DeDA4cbje3vl2cz9UrowYXzMF5zguFDBCQ8faPe8y_wsKhaTKCKAgDLlbvVMLTKiFUmzY8Y_Yo71wtA=w1280",
+      "source_page": "/style-guide",
+      "also_on": [],
+      "alt": "",
+      "source_index": 12,
+      "download_error": "HTTP 403 text/html 2380 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72u_xP7nOTFiinoGBypredpzCufF6c4EJJUC_Nd5OgGLx_U2KneQuhZPK3oivyOwxPQry-xqmmr0vR-H_F8CZAZ8FzRpwiCKBKAIFj28MIUBckzLiZf_4-TTft5WuA_ivDgOGA1_0GEGq23gfETvrE1tYTTIhG0jlmgtUi94CKSShFsAbM8BaMjB8vtlROeqAy0VRg4b5wRa3oPviBaY9P3GmEjE36TGh5RSukBBJF0=w1280",
+      "source_page": "/style-guide",
+      "also_on": [],
+      "alt": "",
+      "source_index": 13,
+      "download_error": "HTTP 403 text/html 2387 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vf4CvCMPTieyoNaGdF5Bov8idU3U_h4pbodkpu4VopEmhxvq3r7wyEAjpca13-D0rff-IoNN5rjeQBGZ_OQ0MAL-d6ooONX0ROK5y0CjYAfDGY1QdaPl62pboFImye0Uv3bv2ZdeMrCnMxj4NJPM2Rf7d2HLtuQYrl3gX67ta28bmR-U_zCLmVeqq86OqjLw1PUC8SueOOStkJqnq7aBIfVj0DyDvZlFPIH2A-=w1280",
+      "source_page": "/style-guide",
+      "also_on": [],
+      "alt": "",
+      "source_index": 14,
+      "download_error": "HTTP 403 text/html 2384 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72smJcdniKBWBqvYVmBmKUpdprQ-2F81twve-dRjoKiIZFw5VWyV6KvKM_WUPliTKMd7K-wLW3a3jxQesv8clmXPgi94TTFOvbUCLd3M8F_1fw4L_1QzwFwh2i7MoK_qFNpERDLyVoKGpsM1SYQnfcse9xxfPcwAF3dWtezFuTocpE1y0eScq8emtJFmeJUwoVf4CFkXGxqDtxEqntC4BRQSgenE5NsTiqeyXljy=w1280",
+      "source_page": "/style-guide",
+      "also_on": [],
+      "alt": "",
+      "source_index": 15,
+      "download_error": "HTTP 403 text/html 2385 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tX3nsHU4YVXPIYwmscOEYWYGUNojmL-3fhQpw5imnamR5iWG5VI36Wp8YWX-FinhZJFl9w4yLqC60DuuVmgrkcuBM4lWHlKqi1S4VjmIFDqRSX-dHUzPnkweTMyPBBzXTFKAw_T1VOS9QYzeDpadJ4EsL_6khvDoPMlSdMOU-Ma-Us9MVc0D65LNiICk5j81btCa2Z0nV_prlVFt1luyTVaj67xyq6PEmYA32xIxU=w1280",
+      "source_page": "/style-guide",
+      "also_on": [],
+      "alt": "",
+      "source_index": 16,
+      "download_error": "HTTP 403 text/html 2388 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vYgqmDqQm7gQqwt9nVpq0IKrElHiID-i-KS6FoNVfwBhpkO-PlCGuDg6QwRRZ7zvBTHJhgEOoqbufmTMqYXeXcctWv0xlKZa0gqkS1W_6IQhe9nH4ilKI4R_62C0LV_aoPl1wo_WpqHJDXCuS1AM155Q9RJEfEDmWrTsCMpZfvIJNJPe3SD_Z_Qh30HqJnA-ML_-pojP_8M-3_kxiDWiYS92t3htfz-jMMobl_=w1280",
+      "source_page": "/style-guide",
+      "also_on": [],
+      "alt": "",
+      "source_index": 17,
+      "download_error": "HTTP 403 text/html 2385 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tzkEfD4mXXg7ZC7MWngzwHHiikm1PgbF1mJ7-ajNrft6ob4Q0Mg3-ayZKyg2Quvg1m1px56eE_CzCKUnjkJyQV4XeamH1cZyrMigiilOk6llXIbjsSzr6wn8HCjmL0khlaq31yGWCyz0MLpz1cbbekNHTTQmQkLKvha7OaB_lUeLBDcIzehS3K5G08RaktOAoEBH8JTXmGYawXVZOgcMw6Mcpcd1oRV1TIA0is=w1280",
+      "source_page": "/style-guide",
+      "also_on": [],
+      "alt": "",
+      "source_index": 18,
+      "download_error": "HTTP 403 text/html 2382 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72u-rpBwKe-RXzhkGoxJiyPzJQW_ILcAoXh6cJZXsImXlH-XweeEn4fCoJlxCJbk5g61-ADl_ZO0oeb7wqC3Lbqt7CespfuknpuZtpClZ-AGWkCOHN5t3OEgWTy1laoO0BLhQ3yqSkLV93UIGlT2iiv3pycWm2GkaLgrPTDEZryV_0bvlJTF-Ja9eTx6tvoG04lY2h_FR8a51JsXOxw3fF4hscoW5_aOHob8pQHy=w1280",
+      "source_page": "/ux-analyzer",
+      "also_on": [],
+      "alt": "",
+      "source_index": 1,
+      "download_error": "HTTP 403 text/html 2386 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tPx6AYitDtO-zphY-D0Lji-gg1OI9nTs6VCAvH4QlfuNSvtQTc9iNH9Czqs1DK2_2-2Hw4ZFtbIglAvsojCGHalj0HEEpqgpX2v2ocUD8R4ocmARp7lcpT5MDDX-iWMx5jhMIVUUcL9W2sw-rbJ8uSOqnPInwG5dnL1byaMgOgkvaSnSnA9tOJph4L3rwSxgOZjfa77abOLn-cV2qk62U-H-_haQfLoC9OeDIKNiU=w1280",
+      "source_page": "/ux-analyzer",
+      "also_on": [],
+      "alt": "",
+      "source_index": 2,
+      "download_error": "HTTP 403 text/html 2387 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72s8AbxBWuhX3n4zwDiybL9qF575Ml5-kjwzG2tA68yuu1e7L9aGB52-kf80gUC4zbTRl3m0xVIe9BFfO3cGe2lQ-R2hRAxnjoslh67GOKSsnRJ-1lQDX130Hn5bKrltnImxtX-1z1onb2tAIaOsp6pA9WvfJEjbFr3Kkn01KLyNBLNvGoQo2pDbYKopybZKCUvVD5rii8_kZpp1MiAQDT77posng0PHGvJ0sY0i=w1280",
+      "source_page": "/ux-analyzer",
+      "also_on": [],
+      "alt": "",
+      "source_index": 3,
+      "download_error": "HTTP 403 text/html 2384 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vKj6m4hdKEercskdDyd2jgheGyJ733wnVwkj93_NuuwkYVOgONuC8G25dx1yLW-s2MQJDY6GxeJzghgzI1vssPVntJYxsM1UAemNaVbyYTCEB3Fdx3HI6c_BreaIfJq9DxQFc0piDx3NXcwoaxSfGYh7BI1Xv_svEPZeyC2UTumTtoYnTsNJDu1ZOyWxa6JWgemjHfCYnVI3W6-Ne1Q4UJEi7yfycUm19bUQSH=w1280",
+      "source_page": "/ux-analyzer",
+      "also_on": [],
+      "alt": "",
+      "source_index": 4,
+      "download_error": "HTTP 403 text/html 2384 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uF-MNktNjoLMvF0vyXzdUhEIxEVVi6Xrx-_PJW6-xI1oi6QyT84cWBw7vc4NfAGMITFBC6yPi6b7MsbKpN3U--K2rPWsq5BpRorXp3CfGA_0h6tusqo0lCUY_m7fRnsTbVtMdNeVYMsTAB1ZFb5E6yNIbGgULPeEqDy9Mi_Si63grapt39n5p4mtYxR0TXuBGV-FC_aqBaDAYYGZGc-Nb1mWSoOMIOG0nXYMvU=w1280",
+      "source_page": "/ux-analyzer",
+      "also_on": [],
+      "alt": "",
+      "source_index": 5,
+      "download_error": "HTTP 403 text/html 2386 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sowvaW2ksAQRtl1lLhla_HI8NwFMoZTBFtcaDgHWhRoUb72CFmvVZDq1GWmuSyC4Rxe2RLoZ6q9msTVvSoSrer6K0SkhXd0jiEB9xN3RnLLRZlslt2JNUyAAf8_Usd6Pfgs4l-OOkAcBcIqNHUDHI27pIiLe5XQOmgPbr-8MGDudzbMpejl5Ls0wxDB13DvVn0UpT4ZDj56XcO06Sldvb7uwgLmHaMItTBIlGSNqw=w1280",
+      "source_page": "/ux-analyzer",
+      "also_on": [],
+      "alt": "",
+      "source_index": 6,
+      "download_error": "HTTP 403 text/html 2388 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uXYIIkTETIw7e390COcem7iM0HHjq2Bx9ztAWjVI96asIWZfnvy8pYVWo5yhqTXwOuNGso2Qzp43DbcDpX0E15aCl65AdLQ63JrXdvfoI4hsk3rm6ZbT6jZuEl4Jwfuo9DaQPOjkeBA4fQG-_2DKpqM08tUDgGei06Y8ol8Bz0czBS9Vkb0MOPICFlCWsG3HVr9edq-onJaaiyKXn10aHzkZ6bnpemXrCEAjzi=w1280",
+      "source_page": "/variansee",
+      "also_on": [],
+      "alt": "",
+      "source_index": 1,
+      "download_error": "HTTP 403 text/html 2381 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sjMAGR_cYWzuhIcYUUuVvj0cXus0bWOWriZzXyZtrgFvQegKLFe_BuQ4QRF49qh7fuabgjEbqATbzEq4Sd396797_3GI1wgobLtoh68cY5tgEJnSprCJ93N08YcGpMrOTbnzTiqjqdhTTHQZlKnDgAli_GquRWdBy-wYKZI6uOOirbMym4NNQzGYNrmF4=w1280",
+      "source_page": "/variansee",
+      "also_on": [],
+      "alt": "",
+      "source_index": 2,
+      "download_error": "HTTP 403 text/html 2340 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uA2GaZYwgOzmWFzB6Q7Tfy_DAtQPo6Jj_Q30Gyr-d-BWPEwtD_g12V9853I41UicNPIzONTbMCEOOE2TjQx9sV_E0J3FlFu13Qqn8c9v_C3hLaPV_jjfx3E91QT3euQ7upSzUNIPap3uxEqOTilp7w20hDyAsiBpfAzw2X8CbfFzT0wD_OPw_MpXD39pg_HWryHncKDuW-Y2cAd3UVQqa9iWyjlHU-e0MnkLieDH8=w1280",
+      "source_page": "/variansee",
+      "also_on": [],
+      "alt": "",
+      "source_index": 3,
+      "download_error": "HTTP 403 text/html 2387 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vq54SlsfKuiAvKHX60UNmYKDGbLwe4U2E_Wp_8RA68n9jv59_dLl-r9mtNFOParfy4tT5-1omwW6-50F_-qfH1ejpK2wdX95WJxkxA2D1oKLwyjDPXNBlaj6Juye_YSV2Ytx9leRuR66hwMYOTyOIcV_FCC0vKcpe1liFW66Lcdivj8YQo5Z_uRD7sKROuosPOlz8RFgYiGReDerO7fkLqkJwC94PVYwv_ohaQ=w1280",
+      "source_page": "/variansee",
+      "also_on": [],
+      "alt": "",
+      "source_index": 4,
+      "download_error": "HTTP 403 text/html 2385 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vQM2nB3Ktu82MJacaM4cwi38yaFJT2am7A8uUDRlAIvzvJG_9V0MoTxyQIIzahjuwFIW3kjzW6rsG7LszhlGAYEQdyUuQojJpiEpomMOxrZKW0GezYrnEiZxrwy1F-xICbsJqL-IMlD-zXkEHgt_o8aHQCGNFYOhkziyeU-spxF-kF5sRlLX7VorABIxIjihjkc1xWF_Xq_O-u0BC0s3TGvCbIXUztjkq0AE6D5YE=w1280",
+      "source_page": "/variansee",
+      "also_on": [],
+      "alt": "",
+      "source_index": 5,
+      "download_error": "HTTP 403 text/html 2385 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72u0ymrLvfnrNZGoJ-NakELP2xna64pFaCFbo856b9445jb9uaCnpeWCNQ0OSPwQl5n6SHwQg3Aqz9XqIzxHctP89PwYIcXbRf8SeEwMzmEvu8KJm5tT6eEobXDu5mKAahD5wQagT4RkHYr0naLSsRJkSDAgk-wJK-ovOE0XZO6YCsJWp_maFLzjQkykFt4rU9y7CHiXFhNbonv5MJF-JF7i4NU9TwTT5_nPOmbbZNU=w1280",
+      "source_page": "/variansee",
+      "also_on": [],
+      "alt": "",
+      "source_index": 6,
+      "download_error": "HTTP 403 text/html 2388 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72ujFgG7QL-2gZxHBnmOcuh2uekuKLZT2tdaFpTsIqiQyWMlPxCjcfICtOO2NYbOMVDS5OYB8qa7FTTRoAtNx0N-hnqA9JB-jSrB3cDSaDBNXOXtVPuWJDuOs6qXkte4ZHTbW0PR3iPhCqkpaNOCEa7aqP1SP2hxGFrIwMxqp-1McRRLV_OIXOOnExtqtTUzD_U4mylk8x7jzre9zvNVI8W0ytsLmUACtASEM8TX0-8=w1280",
+      "source_page": "/variansee",
+      "also_on": [],
+      "alt": "",
+      "source_index": 7,
+      "download_error": "HTTP 403 text/html 2387 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uvbyqwrEC5F0PiyTLNYRTzgBauUTmz2QCLGI3EZYZ5LIXziNvh5gGCpAU2b8UDfGoOgtw7hzgerIaRhgGpKTPWrWlduyK_lO9vrTP37ijOmA4SdwN-vuP1EDd41NSLSokmtEW5x-lL3_hINbYew_LIqgA9RJjad4TmWUXp9tlUF_hL6rWX5eeiTahr-im-FTJlSCSqoCL55IfbaxG45mcAhMuOs6O-344kSaQ5eIQ=w1280",
+      "source_page": "/variansee",
+      "also_on": [],
+      "alt": "",
+      "source_index": 8,
+      "download_error": "HTTP 403 text/html 2388 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uXKOaKgkv5KhWNRq18XR2H45Miquvdjt7f_BT6Gx9YlKRjuClyTYfB30d3R3_t3BDAAP5AnFeCDMnugSmR8us1MJNDsjdHeKFFXBbN663z4bUbCLwlFM9fhDAVX5Gm3C3EbNUrRZ7bW3WhNZy-npzXpc-_zauGg_T1IYAR_uvrRfQ5rSfmHEuiZsnaCX-ZkFHtFrcguMRJ7Y5duzk_YE56wBitziLTyn5xxb4j79E=w1280",
+      "source_page": "/variansee",
+      "also_on": [],
+      "alt": "",
+      "source_index": 9,
+      "download_error": "HTTP 403 text/html 2389 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72v9aYDiRlDchx1M8NI3Pb2lbma8knzJfaw8P-dRybfAKgwVIYpZUjFbOwfLraHRbR_JTl6z8tbFy-fZicvnnwzgAq33kHCqYKPPYVDLLbUORe9YQIwxUO12jYEU3uEWl4qufWbDdbkUFSscG2mwwDBui-IhcqjmH2et-YMTIhkL8-b-k9xLyPh-5gXV9evzgCiQqodwqEruKkrFDJYQdwGnyIunuxqcHbU0RhzkPkw=w1280",
+      "source_page": "/variansee",
+      "also_on": [],
+      "alt": "",
+      "source_index": 10,
+      "download_error": "HTTP 403 text/html 2389 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uDkZpCFRAGH0zAbnuGQ4ggyhYoU23xZm1Bf4oSDULEroWh54PbwHaq4Yh6WhRhrjQ-g8LskpC9XMeBAYC07aJSy2eTcUC_BS6CTw1_PpdbQqLTG1Ox2jLoMd6re7fEEG-oKrUxnrSZ2AooGRwimvw_GCy2O96Ru9f8dI3KGydbJb2_qZAGYez5hPL_TtHFMf_HyC-iIhNCYV9cz4Ex-RsZyNfRjhJ1_sq8INzQ=w1280",
+      "source_page": "/variansee",
+      "also_on": [],
+      "alt": "",
+      "source_index": 11,
+      "download_error": "HTTP 403 text/html 2381 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vOY6dB_4ugRQePlOVi-StMMtVxygRP5PUiYHtH4OtPGhRQ4DlQKF_i050PBSizaT5d7EQwlEFIYOXk9q9E2j8if5hdRN6VMB2pbUr1YJ7L1Xll7wyx1ZcAQr_IZS2Urzw4los9MyNM8yYEygNnuhhcgGW7b6-_Os4hU4izxtS2dCpxHzFsyVIvHqFMametgtbQkLm1H5xncIuy1m_zuHvCx1exGTB9qIlS5pXRBkU=w1280",
+      "source_page": "/variansee",
+      "also_on": [],
+      "alt": "",
+      "source_index": 12,
+      "download_error": "HTTP 403 text/html 2388 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72t5YRiNsHHnlWTu_v6e6rYqnm3f1ipRbF36cMBkCbMTDPMzK9IOw4YkJii4-ij0MTHdq7YthKAgBX_1VHdcz81v0GBrkiRavPqDfm6SIStgMD4CxVjAJKHKJXdmKDWlRZK0RCMo3yoijfvFT3IgHFCPLZHCk-9pPAf10coAuL-1nUDbQH6mebSbu_WNXmg7qKEJtS4bADMJaC8WR-n3LFF1r64xKrkfT6qolsk=w1280",
+      "source_page": "/verona-page",
+      "also_on": [],
+      "alt": "",
+      "source_index": 1,
+      "download_error": "HTTP 403 text/html 2381 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tleD_JT4MlEr_yptfVDaQOS2HVXM3prSpGi8pVjb0rbk82tHWufUvPODXJ4O7lJFpEAqxO6ugGKPJEIr-kezldDg51uBaIcOY825UX_j477O8cUzb6wP49T3YSjo84DOtYaUm6kaiZY510NGo5FQapMjVId5w4okkGCaEkVO7SfyREHaGL1BqElf_S=w1280",
+      "source_page": "/verona-page",
+      "also_on": [],
+      "alt": "",
+      "source_index": 2,
+      "download_error": "HTTP 403 text/html 2342 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72saBXz2zOPA9LFikPWHuERC9cidmMDybrbN0Qmf4vqJ26dYlqL9kWXoVt5Fmrp9T-Iq-m00U2RbjUoNSpBoNEFOiiejMZic8hY6nvdSgYBgEXlq6imiQXx3wirFSNwUV0_nPDBxE2xjm9JhXL-RzrpOwrF8ECOqoDbXOcYgtE4dy4JvGm1NFClnEoCVuRjZCbKnBZgkX-a00MajpCx9F9_jvT0fYioicYaNIgzJXE0=w1280",
+      "source_page": "/wallet-guide-page",
+      "also_on": [],
+      "alt": "",
+      "source_index": 1,
+      "download_error": "HTTP 403 text/html 2388 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72udYojVE8-6j7nOaDuXtxxnnA-izp6_JbYCtZmUuwgBgtiLPvLmH1JMot2PEx1QvyVVUnyVM1i32CsgwWRcEdB6JsTQIF9Bx4ddul_Aetco5h7xHBLQ05r5VSsV7LDmzrkggToHy9tp7nFR2yKA86Ky1PoTaiaqzrtLzWA96uFQZcOjJUt3eR-XfC9D=w1280",
+      "source_page": "/wallet-guide-page",
+      "also_on": [],
+      "alt": "",
+      "source_index": 2,
+      "download_error": "HTTP 403 text/html 2341 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tJlxoPNX8jIAWExaOe90-0rV1TfkhtEuIraRAeiAvkrjyoKxJLmfE9V0WOnNfnumFZGj-DcBF7m7arIYCvOC3zpZJ7ssVZbnLsGyPtV3HTC_skQXJkJTMvY8BeKh3c2jXR7W-j8RLOZbDJcfF8xgks457yMD3wv4DCcw9hX1DPAJXGi9uMKqNHqM9dcvEzGf2zAqpqjE3PcVEuX4uj6-uMzRxVsFUuWlj0pA=w1280",
+      "source_page": "/xipptech",
+      "also_on": [],
+      "alt": "",
+      "source_index": 1,
+      "download_error": "HTTP 403 text/html 2384 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uKEwe-ZCEL83_1cbM-egoyZ3KhzIj0NQldq7_UgNI3FFdcYfTHNsx_QJM6MrkuSeZt4nGT2WXqd8NczG03U3RO79n4oXZNhPNImzMph4NklQSxreebbzhgd1bzpRcHWZhorFL-U8wDRNa21YziV9KtilSadFZ-lCFWtzzpLbAnjJGbyupie3rFEHokQwxMwLGKQpSShTkj4-_Ha5DZFXnQ41LiWglIZUS29l3B_-s=w1280",
+      "source_page": "/xipptech",
+      "also_on": [],
+      "alt": "",
+      "source_index": 2,
+      "download_error": "HTTP 403 text/html 2387 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vskKub4vrbMMrBfSJNoYhoS4uugQpVd7lMHT2QbiG-UCfBbb6DViO9iDO1TOCPBianeM5SQDRpQe4N1OX2UPUNi2dZ3pj0lXHUuS_w4gn9iLo_OH0qFbZCxUQkyL6i8a99zzqI9towuo-SLjSnhUZ5Q4kAjN1gtRxvZVZWgoT4eEyOaxfjKuYd7xTDDyoNVI8B7cRsOJ-UeYY5S-AKh2Jc6QNugdlKI6smshtu=w1280",
+      "source_page": "/xipptech",
+      "also_on": [],
+      "alt": "",
+      "source_index": 3,
+      "download_error": "HTTP 403 text/html 2385 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tbomHGoUqEmMmUJCxaPB_QeJt1MeVrFmfEvhYtTSHALblFxpxUcQQ75ODlLJIGqze0CuInoT3rm0BmopL-1txaeLeO0sW83YmYzrHXptpat7mc6Wh_-52N-ULY0CoTLcYgqIoRTUvd14eTZwgS_hh-WpxPp_e1taV90ss-YfWqxGVeS-v-WVGR5Fc5kmeP2yPF8rWEont112OEaKcyGuB0nwR6GUenRAJf8qymHKE=w1280",
+      "source_page": "/xipptech",
+      "also_on": [],
+      "alt": "",
+      "source_index": 4,
+      "download_error": "HTTP 403 text/html 2389 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sVh414R_gecZFtQBP6AWQuR0R09Dxn60NqiaefrViPMVxsC1WuJQ9m3h8bU0QeeyItTJbOPDfp1XQM4wsXr5DqDZTNEm3F4QyGu_-G6lqYjJSh973pHcaOLhm8x6037AdM6I4K77fEYKEx5qr20Ai7gsNaZ8QJ7e_WPX4lfH4LtWQSC8ksuMfUN_Cz8Vm9WRGmPMJ3JSc5Im6ow5I_AdF3GmLmEsgyaIqZjlNB=w1280",
+      "source_page": "/xipptech",
+      "also_on": [],
+      "alt": "",
+      "source_index": 5,
+      "download_error": "HTTP 403 text/html 2385 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tb_ORUINZewzQXTXYzrzFEvLiXRsNVykFAXT98uP3uB6UbJQYgxWXZpk_pXMdLDDSKVk9VoN_IJsw_W0On2o24D3i0bnxDu4JlveWV9zAoBoHGbGxRwzt2J1xwbQSv552k10Teq7wRWazLbW-4VMoQETtZ-zqcxRMkaDF3uNl9H8tBfdHEop7YGdtN87ON2mXzHgeJpQRpRFvbF9aZHtYJAGk9GRkUMkdyToqvBUo=w1280",
+      "source_page": "/xipptech",
+      "also_on": [],
+      "alt": "",
+      "source_index": 6,
+      "download_error": "HTTP 403 text/html 2388 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sdBD7-f3NsurD4hGWk4GJmHahBAw8Qq-kCrSlt_4HeolRxbaQdWzPTZ8p5430Eif1rvHduCXJ9-pcDt8sbQXCq6tEddceaVmc2VOkKsL277-wvqccCFj9xw4NKvCgzOfHByiEAaLpQ0UL47LwAwzWaXRG6bW0vvejgyZ1bVSTpM96qbMz6K-NO_0JVhvDzZJD5yjydB3w0F6FVbTdYB7OUus0GMVg-xwLRIMFWJuA=w1280",
+      "source_page": "/xipptech",
+      "also_on": [],
+      "alt": "",
+      "source_index": 7,
+      "download_error": "HTTP 403 text/html 2388 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vC_bFMz1ccawbiP8dB0WwYtPmNmtPzddltjC-iFInPzfQgwE-uuM4DkL1bLwzAvQ_Q6CMPMgucqyogTflnwHQxsANjDtLtI--Zpqs740R5TJ-xuBTOue3blQFLZGwx0p2SpH4F3FA3K31zvcwmVcMZphiSkoF66EWowlCQcQ4aMOjCbRo_D01fAU_Wv_WTQPGJIZKXMvZH_IIFtk4Nefq9fslQri__hmRUowSkjeI=w1280",
+      "source_page": "/xipptech",
+      "also_on": [],
+      "alt": "",
+      "source_index": 8,
+      "download_error": "HTTP 403 text/html 2388 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72s59kJR2BZvQW2fgIT3-Rtzldmlz81rfXbNXVzzZraq8d7KDECm1cILFaFpCID-DUbkXzB96DML2r8MG_HDBaOn-wF8kj1bD1unY_JmQDZREbrT5XzqG254b0l0AFKtobRN2FGUdIWgzdcDv2UFindliTtXRlDDnhhCv1lddF4zF50xg6mil68QQ9DAsPk=w1280",
+      "source_page": "/xipptech",
+      "also_on": [],
+      "alt": "",
+      "source_index": 9,
+      "download_error": "HTTP 403 text/html 2343 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72t4CazRKHKjSxaSbVOtyaBt6Th3v8Mdz5dN2YrIxCXPs3jjeyUCVpEAkKBjGQeHQTf3kMNHRwegEhS-ndQD3tIhXKiURRFvjBOEP7QThFOPAr_i6QF2R4_XvQrtWXxB7KH74AjjYgePciDEurlM0dotmQ8QU9MpTvkU58yoAPfdoVa2twAkJlQKbNkx=w1280",
+      "source_page": "/xipptech",
+      "also_on": [],
+      "alt": "",
+      "source_index": 10,
+      "download_error": "HTTP 403 text/html 2341 bytes"
+    },
+    {
+      "source_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vyWpAKyCQu8bF2dIvOiHNAzu3ue8CHnZyrwBCxZrleA-USx0AdLzW9qKk6rFQYofKGhKWzyQqzJvcNAY4xRYdtxLHQX7rVoO_khRTiOTBQCh6NaGvKI180oIR5wUEHXZsEb7n9BRT9UzE7eOpf2gYVfM0eR0gKVEVjo1UUG4ubN5cHzJOjvHHzMsRfuu0=w1280",
+      "source_page": "/xipptech",
+      "also_on": [],
+      "alt": "",
+      "source_index": 11,
+      "download_error": "HTTP 403 text/html 2344 bytes"
+    }
+  ],
+  "summary": {
+    "unique_image_urls": 161,
+    "downloaded": 2,
+    "unavailable": 159
+  },
+  "capture_note": "Most Google Sites image URLs returned HTTP 403 to direct downloads from this environment; source URLs are preserved. Four clean screenshot crops are retained under assets/reference/crops.",
+  "captured_assets": [
+    {
+      "file": "assets/reference/crops/felipe-portrait.webp",
+      "source_page": "https://www.felipeparreiras.com/",
+      "description": "Portrait shown on public homepage"
+    },
+    {
+      "file": "assets/reference/crops/xipptech-devices.webp",
+      "source_page": "https://www.felipeparreiras.com/xipptech",
+      "description": "Product presentation showing desktop and mobile interfaces"
+    },
+    {
+      "file": "assets/reference/crops/frontcore-design-system.webp",
+      "source_page": "https://www.felipeparreiras.com/ai-workflows",
+      "description": "Design System laptop preview"
+    },
+    {
+      "file": "assets/reference/crops/variansee-settings.webp",
+      "source_page": "https://www.felipeparreiras.com/variansee",
+      "description": "Contrast and saturation controls"
+    }
+  ]
+}

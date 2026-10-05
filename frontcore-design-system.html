@@ -1,0 +1,1303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FrontCore — Design System</title>
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  /* ============================================================
+     TOKENS — faithfully extracted from the FrontCore prototype.
+     Those marked "(consolidated here)" existed as loose values
+     (hex/box-shadow) repeated across files, with no variable of their own;
+     they were organized into tokens to make reuse easier.
+     ============================================================ */
+  :root{
+    --primary:#2948AE;
+    --primary-hover:#20398b;
+    --primary-soft:#ecf0fa;      /* consolidated here */
+    --background:#f5f5f5;
+    --main-card:#ffffff;
+    --white:#ffffff;
+    --title:#363636;
+    --text:#707070;
+    --placeholder:#959595;       /* consolidated here */
+    --stroke:#d8dadd;
+    --gray:#e0e0e0;
+    --backdrop:#c8c8c8;          /* consolidated here */
+    --red-danger:#e0443f;
+    --danger-bg:#f8d7da;         /* consolidated here */
+    --danger-text:#7a1f1f;       /* consolidated here */
+    --success-bg:#dff5e3;        /* consolidated here */
+    --success-text:#1f9d4a;      /* consolidated here */
+    --info-bg:#eaf4fb;
+    --info-border:#4a9fd8;
+    --info-text:#1c5f8a;         /* consolidated here */
+    --overlay:rgba(41,72,174,0.3);
+
+    --radius-sm:6px;
+    --radius-md:8px;
+    --radius-lg:12px;
+    --radius-pill:100px;
+
+    --shadow-xs:0px 1px 2px rgba(0,0,0,0.2);
+    --shadow-sm:0px 2px 4px rgba(0,0,0,0.08);
+    --shadow-md:0px 4px 16px rgba(0,0,0,0.15);
+    --shadow-lg:0px 3px 12px rgba(0,0,0,0.25);
+    --shadow-modal:0px 3px 6px rgba(0,0,0,0.25);
+    --shadow-xl:0 0 24px rgba(0,0,0,0.25);
+
+    --space-1:4px;
+    --space-2:8px;
+    --space-3:12px;
+    --space-4:16px;
+    --space-5:24px;
+    --space-6:40px;
+
+    --font:'Poppins',sans-serif;
+  }
+
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  html,body{margin:0;font-family:var(--font);color:var(--title);background:var(--background);}
+  img{display:block;max-width:100%;}
+  a{color:inherit;}
+  button{font-family:inherit;}
+  input{font-family:inherit;}
+  code, pre{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;}
+
+  /* ---------------- Documentation site layout ---------------- */
+  .app{display:flex;min-height:100vh;}
+
+  .sidenav{
+    width:272px;flex-shrink:0;background:var(--main-card);border-right:1px solid var(--stroke);
+    position:sticky;top:0;height:100vh;overflow-y:auto;display:flex;flex-direction:column;z-index:20;
+  }
+  .sidenav-brand{display:flex;align-items:center;gap:10px;padding:20px 20px 16px;border-bottom:1px solid var(--stroke);}
+  .sidenav-brand img{height:22px;width:auto;}
+  .sidenav-brand .tag{font-size:10px;font-weight:600;color:var(--primary);background:var(--primary-soft);padding:2px 8px;border-radius:var(--radius-pill);letter-spacing:.04em;text-transform:uppercase;}
+  .sidenav-search{padding:14px 16px 6px;}
+  .sidenav-search input{
+    width:100%;height:36px;border:1px solid var(--stroke);border-radius:var(--radius-md);padding:0 12px;
+    font-size:13px;outline:none;background:var(--background);color:var(--title);
+  }
+  .sidenav-search input:focus{border-color:var(--primary);background:var(--main-card);}
+  .sidenav-groups{padding:8px 12px 24px;flex:1;}
+  .nav-group{margin-bottom:4px;}
+  .nav-group-title{font-size:11px;font-weight:600;color:var(--placeholder);text-transform:uppercase;letter-spacing:.06em;padding:14px 10px 6px;}
+  .nav-link{
+    display:flex;align-items:center;gap:8px;padding:8px 10px;border-radius:var(--radius-md);font-size:13.5px;font-weight:500;
+    color:var(--text);cursor:pointer;text-decoration:none;
+  }
+  .nav-link:hover{background:var(--background);color:var(--title);}
+  .nav-link.active{background:var(--primary-soft);color:var(--primary);font-weight:600;}
+  .nav-link .dot{width:5px;height:5px;border-radius:50%;background:var(--stroke);flex-shrink:0;}
+  .nav-link.active .dot{background:var(--primary);}
+  .nav-link.hidden{display:none;}
+
+  .main{flex:1;min-width:0;}
+
+  .hero{
+    background:linear-gradient(135deg,var(--primary) 0%,#4466cc 100%);color:var(--white);
+    padding:56px 64px;display:flex;flex-direction:column;gap:16px;
+  }
+  .hero-eyebrow{display:flex;align-items:center;gap:12px;}
+  .hero-eyebrow img{height:26px;filter:brightness(0) invert(1);}
+  .hero-eyebrow span{font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;opacity:.85;line-height:1;position:relative;top:4px;} /* top: fine-tuning to align with the logo baseline */
+  .hero h1{margin:0;font-size:36px;font-weight:700;max-width:720px;line-height:1.25;}
+  .hero p{margin:0;font-size:15px;font-weight:400;max-width:640px;line-height:1.6;opacity:.92;}
+  .hero-stats{display:flex;gap:32px;margin-top:8px;flex-wrap:wrap;}
+  .hero-stat b{display:block;font-size:22px;font-weight:700;}
+  .hero-stat span{font-size:12px;opacity:.85;}
+
+  .content{padding:8px 64px 96px;max-width:1180px;}
+
+  .section{padding-top:56px;scroll-margin-top:24px;}
+  .section-head{margin-bottom:24px;max-width:760px;}
+  .section-kicker{font-size:12px;font-weight:600;color:var(--primary);text-transform:uppercase;letter-spacing:.06em;margin:0 0 6px;}
+  .section-head h2{font-size:26px;font-weight:700;margin:0 0 10px;}
+  .section-head p{font-size:14.5px;color:var(--text);line-height:1.65;margin:0;}
+  .section + .section{border-top:1px solid var(--stroke);}
+
+  .note{
+    display:flex;gap:10px;background:var(--info-bg);border:1px solid var(--info-border);border-radius:var(--radius-md);
+    padding:12px 14px;font-size:13px;color:var(--info-text);line-height:1.55;margin:0 0 20px;max-width:760px;
+  }
+  .note b{font-weight:600;}
+
+  .subhead{font-size:15px;font-weight:600;color:var(--title);margin:32px 0 12px;}
+  .subhead:first-child{margin-top:0;}
+
+  /* ---------------- Demo blocks (preview + copyable code) ---------------- */
+  .demo{border:1px solid var(--stroke);border-radius:var(--radius-lg);overflow:hidden;margin-bottom:20px;background:var(--main-card);}
+  .demo-preview{
+    padding:32px;display:flex;flex-wrap:wrap;align-items:center;gap:16px;
+    background-image:radial-gradient(var(--stroke) 1px, transparent 1px);background-size:14px 14px;background-position:-6px -6px;
+    background-color:#fbfbfc;
+  }
+  .demo-preview.column{flex-direction:column;align-items:stretch;}
+  .demo-label{font-size:11px;font-weight:600;color:var(--placeholder);text-transform:uppercase;letter-spacing:.05em;width:100%;margin-bottom:-6px;}
+  .demo-code{position:relative;border-top:1px solid var(--stroke);}
+  .demo-code pre{margin:0;padding:16px 52px 16px 18px;font-size:12.5px;line-height:1.65;color:#e4e4e8;background:#22212b;overflow-x:auto;}
+  .copy-btn{
+    position:absolute;top:10px;right:10px;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.14);
+    color:#e4e4e8;font-size:11px;font-weight:600;padding:5px 10px;border-radius:var(--radius-sm);cursor:pointer;
+    display:flex;align-items:center;gap:5px;
+  }
+  .copy-btn:hover{background:rgba(255,255,255,0.16);}
+  .copy-btn.copied{background:var(--primary);border-color:var(--primary);color:var(--white);}
+
+  /* ---------------- Tokens: colors ---------------- */
+  .swatch-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:14px;}
+  .swatch{border:1px solid var(--stroke);border-radius:var(--radius-lg);overflow:hidden;cursor:pointer;background:var(--main-card);transition:box-shadow .15s;}
+  .swatch:hover{box-shadow:var(--shadow-sm);}
+  .swatch-color{height:72px;position:relative;}
+  .swatch-copied-tag{
+    position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,0.45);
+    color:#fff;font-size:12px;font-weight:600;opacity:0;transition:opacity .15s;
+  }
+  .swatch.copied .swatch-copied-tag{opacity:1;}
+  .swatch-meta{padding:10px 12px;}
+  .swatch-name{font-size:13px;font-weight:600;color:var(--title);}
+  .swatch-var{font-size:11.5px;color:var(--primary);font-family:monospace;margin-top:2px;}
+  .swatch-hex{font-size:11.5px;color:var(--text);margin-top:1px;font-family:monospace;}
+  .swatch-usage{font-size:11.5px;color:var(--placeholder);margin-top:6px;line-height:1.4;}
+
+  /* ---------------- Typography ---------------- */
+  .type-row{display:flex;align-items:baseline;gap:20px;padding:14px 0;border-bottom:1px solid var(--stroke);}
+  .type-row:last-child{border-bottom:none;}
+  .type-sample{flex:1;color:var(--title);}
+  .type-meta{font-size:12px;color:var(--text);font-family:monospace;white-space:nowrap;}
+
+  /* ---------------- Spacing / radius / shadow samples ---------------- */
+  .token-list{display:flex;flex-direction:column;gap:14px;}
+  .token-list-item{display:flex;align-items:center;gap:18px;}
+  .token-visual-bar{height:14px;background:var(--primary);border-radius:3px;}
+  .token-visual-box{width:64px;height:64px;background:var(--primary-soft);border:1.5px solid var(--primary);flex-shrink:0;}
+  .token-visual-shadow{width:120px;height:64px;background:var(--main-card);border-radius:var(--radius-md);flex-shrink:0;}
+  .token-label{width:180px;flex-shrink:0;font-size:13px;color:var(--title);}
+  .token-label b{display:block;font-family:monospace;font-size:12.5px;color:var(--primary);font-weight:600;}
+  .token-label span{color:var(--text);font-size:11.5px;}
+
+  /* ================= REAL APP COMPONENTS ================= */
+
+  /* Buttons */
+  .btn-primary{
+    background:var(--primary);border:none;box-shadow:var(--shadow-sm);border-radius:var(--radius-md);
+    height:40px;padding:0 24px;font-weight:600;font-size:14px;color:var(--white);cursor:pointer;
+    display:inline-flex;align-items:center;justify-content:center;
+  }
+  .btn-primary:hover{background:var(--primary-hover);}
+  .btn-primary:disabled{opacity:.4;cursor:not-allowed;}
+  .btn-outline{
+    background:var(--main-card);border:1px solid var(--primary);box-shadow:var(--shadow-sm);
+    border-radius:var(--radius-md);height:40px;padding:0 24px;display:inline-flex;align-items:center;justify-content:center;
+    color:var(--primary);font-weight:600;font-size:14px;cursor:pointer;
+  }
+  .btn-secondary{
+    background:var(--gray);border:none;box-shadow:var(--shadow-sm);border-radius:var(--radius-md);
+    height:40px;padding:0 24px;font-weight:600;font-size:14px;color:var(--title);cursor:pointer;
+    display:inline-flex;align-items:center;justify-content:center;
+  }
+  .btn-danger-outline{
+    background:var(--main-card);border:1px solid var(--red-danger);box-shadow:var(--shadow-sm);
+    border-radius:var(--radius-md);height:40px;padding:0 24px;font-weight:600;font-size:14px;color:var(--red-danger);cursor:pointer;
+    display:inline-flex;align-items:center;justify-content:center;
+  }
+  .btn-link{background:transparent;border:none;padding:0;font-weight:600;font-size:14px;color:var(--primary);text-decoration:underline;cursor:pointer;}
+  .icon-btn-square{
+    background:var(--main-card);border:1px solid var(--stroke);box-shadow:var(--shadow-sm);
+    border-radius:var(--radius-md);width:40px;height:40px;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;
+  }
+  .icon-btn-circle{width:32px;height:32px;border-radius:var(--radius-pill);border:1px solid var(--stroke);background:var(--main-card);display:inline-flex;align-items:center;justify-content:center;cursor:pointer;}
+  .icon-btn-circle:hover{background:var(--background);}
+  .btn-primary img,.btn-outline img{width:14px;filter:brightness(0) invert(1);}
+
+  /* Floating label input */
+  .field-group{width:260px;display:flex;flex-direction:column;gap:4px;}
+  .text-input{
+    width:100%;height:40px;background:var(--main-card);border:1px solid var(--stroke);border-radius:var(--radius-md);
+    box-shadow:var(--shadow-sm);padding:8px 16px;font-size:14px;color:var(--title);outline:none;
+  }
+  .text-input:focus,.text-input:not(:placeholder-shown):not(:disabled){border-color:var(--primary);}
+  .text-input.invalid{border-color:var(--red-danger);}
+  .text-input:disabled{background:var(--background);color:var(--text);cursor:not-allowed;}
+  .ffield{position:relative;width:100%;}
+  .ffield .text-input{width:100%;}
+  .ffield .text-input::placeholder{color:transparent;}
+  .ffield-label{
+    position:absolute;left:16px;top:50%;transform:translateY(-50%);font-size:14px;color:var(--placeholder);
+    pointer-events:none;background:transparent;transition:top .12s ease,left .12s ease,font-size .12s ease,color .12s ease,background-color .12s ease;
+  }
+  .ffield .text-input:focus ~ .ffield-label,.ffield .text-input:not(:placeholder-shown) ~ .ffield-label{
+    top:0;left:10px;font-size:10px;color:var(--text);background:var(--main-card);padding:0 4px;
+  }
+  .ffield .text-input:focus ~ .ffield-label{color:var(--primary);}
+  .ffield .text-input:disabled ~ .ffield-label{background:var(--background);}
+  .field-counter{align-self:flex-end;font-size:11px;color:var(--text);}
+  .field-error{font-size:12px;color:var(--red-danger);}
+
+  /* Custom select */
+  .csel{position:relative;width:220px;}
+  .csel-box{
+    width:100%;height:40px;background:var(--main-card);border:1px solid var(--stroke);border-radius:var(--radius-md);
+    box-shadow:var(--shadow-sm);padding:8px 16px;display:flex;align-items:center;justify-content:space-between;gap:8px;cursor:pointer;font-size:14px;color:var(--title);
+  }
+  .csel-box .placeholder{color:var(--placeholder);transition:opacity .12s ease;}
+  .csel.open .csel-box .placeholder{opacity:0;}
+  .csel.open .csel-box{border-color:var(--primary);}
+  .csel-box .chev{width:7px;flex-shrink:0;transform:rotate(90deg);transition:transform .15s;}
+  .csel.open .csel-box .chev{transform:rotate(-90deg);}
+  .tagbox .chev{width:7px;flex-shrink:0;transform:rotate(90deg);transition:transform .15s;}
+  .tagbox.open .chev{transform:rotate(-90deg);}
+  .csel-menu{display:none;position:absolute;top:calc(100% + 4px);left:0;right:0;background:var(--main-card);border:1px solid var(--stroke);border-radius:var(--radius-md);box-shadow:var(--shadow-md);z-index:30;max-height:180px;overflow-y:auto;padding:4px;}
+  .csel.open .csel-menu{display:block;}
+  .csel-option{padding:8px 12px;font-size:14px;border-radius:var(--radius-sm);cursor:pointer;color:var(--title);}
+  .csel-option:hover{background:var(--background);}
+  .csel-option.selected{color:var(--primary);font-weight:600;}
+  .csel-tiny-label{position:absolute;top:-6px;left:10px;background:var(--main-card);padding:0 4px;font-size:10px;color:var(--text);opacity:0;pointer-events:none;transition:opacity .12s ease,color .12s ease;}
+  .csel.open .csel-tiny-label,.csel.has-value .csel-tiny-label{opacity:1;}
+  .csel.open .csel-tiny-label{color:var(--primary);}
+
+  /* Tag multiselect */
+  .tagbox{background:var(--main-card);border:1px solid var(--stroke);border-radius:var(--radius-md);padding:8px;display:flex;flex-direction:column;gap:8px;position:relative;width:280px;transition:padding-top .12s ease,border-color .12s ease;}
+  .tagbox.open,.tagbox.has-value{padding-top:14px;}
+  .tagbox.open{border-color:var(--primary);}
+  .tag-list{display:flex;flex-wrap:wrap;gap:6px;}
+  .tag-chip{background:var(--gray);border-radius:var(--radius-sm);padding:4px 8px;font-size:13px;color:var(--title);display:flex;align-items:center;gap:6px;}
+  .tag-chip button{background:transparent;border:none;padding:0;cursor:pointer;color:var(--text);display:flex;}
+  .tag-input-row{display:flex;align-items:center;justify-content:space-between;gap:8px;cursor:text;}
+  .tag-input-row input{flex:1;border:none;outline:none;font-size:14px;font-family:inherit;min-width:60px;color:var(--title);}
+  .tag-input-row input::placeholder{color:var(--placeholder);}
+
+  /* Checkbox / toggle */
+  .checkbox{width:18px;height:18px;border-radius:2px;border:2px solid var(--text);cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+  .checkbox.checked{background:var(--primary);border-color:var(--primary);}
+  .checkbox.locked{border-color:var(--stroke);cursor:not-allowed;}
+  .toggle-switch{width:36px;height:20px;border-radius:20px;background:var(--stroke);position:relative;cursor:pointer;flex-shrink:0;transition:background .15s;}
+  .toggle-switch .thumb{position:absolute;top:2px;left:2px;width:16px;height:16px;border-radius:50%;background:var(--white);transition:left .15s;box-shadow:var(--shadow-xs);}
+  .toggle-switch.on{background:var(--primary);}
+  .toggle-switch.on .thumb{left:18px;}
+  .toggle-row{display:flex;align-items:center;gap:8px;}
+  .toggle-label{font-size:14px;color:var(--text);}
+
+  /* Status pill */
+  .status-pill{display:inline-flex;align-items:center;justify-content:center;padding:4px 14px;border-radius:var(--radius-pill);font-size:12px;font-weight:600;white-space:nowrap;}
+  .status-pill.ativo{background:var(--success-bg);color:var(--success-text);}
+  .status-pill.rascunho{background:var(--gray);color:var(--title);}
+
+  /* Banners */
+  .info-banner{display:flex;align-items:center;gap:8px;background:var(--info-bg);border:1px solid var(--info-border);border-radius:var(--radius-md);padding:12px 16px;font-size:14px;color:var(--info-text);width:100%;}
+  .danger-banner{display:flex;align-items:center;gap:8px;background:var(--danger-bg);border-radius:var(--radius-md);padding:12px 16px;font-size:14px;color:var(--danger-text);width:100%;}
+
+  /* Cards */
+  .main-card-demo{background:var(--main-card);border-radius:var(--radius-lg);box-shadow:var(--shadow-lg);padding:20px;width:100%;}
+  .footer-card-demo{background:var(--main-card);border-radius:var(--radius-lg);box-shadow:var(--shadow-lg);padding:16px;width:100%;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+
+  /* Table */
+  .table-demo{width:100%;background:var(--main-card);border:1px solid var(--stroke);border-radius:var(--radius-lg);overflow:hidden;}
+  .grid-cols-demo{display:grid;grid-template-columns:minmax(160px,2fr) minmax(120px,1fr) minmax(120px,1fr) 90px;column-gap:16px;align-items:center;padding:0 16px;}
+  .table-head-demo{background:var(--background);height:44px;border-bottom:1px solid var(--stroke);}
+  .th-demo{display:flex;align-items:center;gap:4px;font-size:14px;font-weight:600;color:var(--title);cursor:pointer;user-select:none;}
+  .th-demo .chev{width:7px;height:12px;opacity:.35;transform:rotate(-90deg);}
+  .row-demo{height:48px;border-bottom:1px solid var(--stroke);font-size:14px;color:var(--text);}
+  .row-demo:last-child{border-bottom:none;}
+  .cell-status{display:flex;}
+
+  /* Kebab / dropdown */
+  .kebab-btn{background:transparent;border:none;padding:8px;cursor:pointer;display:flex;align-items:center;justify-content:center;border-radius:var(--radius-pill);}
+  .kebab-btn:hover{background:var(--background);}
+  .kebab-wrap{position:relative;display:inline-block;}
+  .dropdown-menu-demo{position:absolute;top:calc(100% + 4px);right:0;min-width:200px;background:var(--main-card);border:1px solid var(--stroke);border-radius:var(--radius-md);box-shadow:var(--shadow-md);z-index:30;padding:4px;display:none;}
+  .dropdown-menu-demo.show{display:block;}
+  .dropdown-item-demo{padding:10px 12px;font-size:14px;border-radius:var(--radius-sm);cursor:pointer;color:var(--title);white-space:nowrap;}
+  .dropdown-item-demo:hover{background:var(--background);}
+  .dropdown-item-demo.danger{color:var(--red-danger);}
+
+  /* Modal */
+  .modal-stage{position:relative;height:340px;background:var(--backdrop);border-radius:var(--radius-lg);display:flex;align-items:center;justify-content:center;overflow:hidden;}
+  .modal-overlay-demo{position:absolute;inset:0;background:var(--overlay);display:flex;align-items:center;justify-content:center;}
+  .modal-card-demo{width:78%;max-width:420px;background:var(--main-card);border-radius:var(--radius-lg);box-shadow:var(--shadow-modal);padding:16px;display:flex;flex-direction:column;gap:16px;}
+  .modal-head-demo{display:flex;align-items:center;justify-content:space-between;}
+  .modal-title-demo{margin:0;font-size:14px;font-weight:500;color:var(--title);}
+  .modal-close-demo{background:transparent;border:none;padding:0;width:20px;height:20px;cursor:pointer;color:var(--text);font-size:16px;line-height:1;}
+  .modal-desc-demo{margin:0;font-size:13px;color:var(--text);}
+  .modal-hr-demo{border:none;border-top:1px solid var(--stroke);margin:0;}
+  .modal-footer-demo{display:flex;justify-content:flex-end;gap:12px;}
+
+  /* Tabs / breadcrumb */
+  .tabs-row{display:flex;align-items:center;gap:20px;border-bottom:1px solid var(--stroke);padding-bottom:12px;}
+  .tab-demo{font-size:14px;color:var(--text);cursor:pointer;padding-bottom:12px;margin-bottom:-13px;border-bottom:2px solid transparent;}
+  .tab-demo.active{color:var(--title);font-weight:600;border-color:var(--primary);}
+
+  /* Sidebar mini-demo */
+  .sidebar-stage{height:320px;background:var(--background);border-radius:var(--radius-lg);padding:16px;position:relative;overflow:hidden;}
+  .sidebar-demo{position:absolute;top:16px;left:16px;bottom:16px;width:56px;background:var(--main-card);box-shadow:var(--shadow-sm);border-radius:var(--radius-md);padding:12px 0;display:flex;flex-direction:column;gap:4px;transition:width .22s ease;overflow:hidden;z-index:2;}
+  .sidebar-demo.expanded{width:190px;box-shadow:4px 0px 16px 0px rgba(0,0,0,0.18);}
+  .sidebar-menu-item{width:40px;margin:0 8px;height:32px;border-radius:20px;display:flex;align-items:center;gap:10px;padding:0 10px;color:var(--text);white-space:nowrap;overflow:hidden;transition:width .22s ease;flex-shrink:0;cursor:pointer;}
+  .sidebar-demo.expanded .sidebar-menu-item{width:174px;}
+  .sidebar-menu-item.active{background:var(--primary);color:var(--white);}
+  .sidebar-menu-item .dot-ic{width:16px;height:16px;border-radius:4px;background:currentColor;opacity:.25;flex-shrink:0;}
+  .sidebar-menu-item.active .dot-ic{background:var(--white);opacity:.9;}
+  .sidebar-menu-item .label{font-size:13px;font-weight:500;opacity:0;transition:opacity .15s;}
+  .sidebar-demo.expanded .sidebar-menu-item .label{opacity:1;}
+  .sidebar-canvas-hint{position:absolute;left:88px;top:16px;right:16px;bottom:16px;border:1.5px dashed var(--stroke);border-radius:var(--radius-md);display:flex;align-items:center;justify-content:center;color:var(--placeholder);font-size:12px;transition:left .22s ease;}
+  .sidebar-stage:has(.sidebar-demo.expanded) .sidebar-canvas-hint{left:222px;}
+
+  /* Frame device convention */
+  .frame-sample-wrap{background:var(--backdrop);border-radius:var(--radius-lg);padding:40px;display:flex;align-items:center;justify-content:center;}
+  .frame-sample{width:280px;height:158px;background:var(--main-card);border-radius:4px;box-shadow:var(--shadow-xl);display:flex;flex-direction:column;}
+  .frame-sample-header{height:18px;background:var(--primary);flex-shrink:0;}
+  .frame-sample-body{flex:1;display:flex;}
+  .frame-sample-side{width:22px;background:var(--main-card);border-right:1px solid var(--stroke);}
+  .frame-sample-main{flex:1;padding:8px;}
+  .frame-sample-main .bar{height:6px;background:var(--stroke);border-radius:3px;margin-bottom:6px;}
+  .frame-sample-main .bar:nth-child(2){width:70%;}
+  .frame-sample-main .bar:nth-child(3){width:85%;}
+
+  .footer-cta{margin-top:64px;padding:40px;background:var(--primary-soft);border-radius:var(--radius-lg);display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;}
+  .footer-cta h3{margin:0 0 6px;font-size:18px;}
+  .footer-cta p{margin:0;font-size:13.5px;color:var(--text);max-width:520px;}
+
+  @media (max-width:900px){
+    .sidenav{display:none;}
+    .hero,.content{padding-left:24px;padding-right:24px;}
+  }
+</style>
+</head>
+<body>
+
+<div class="app">
+
+  <aside class="sidenav">
+    <div class="sidenav-brand">
+      <img src="assets/logo-dark.png" alt="FrontCore">
+    </div>
+    <div class="sidenav-search">
+      <input type="text" id="navSearch" placeholder="Search component...">
+    </div>
+    <nav class="sidenav-groups" id="navGroups">
+      <div class="nav-group">
+        <div class="nav-group-title">Home</div>
+        <a class="nav-link" data-target="overview"><span class="dot"></span>Overview</a>
+      </div>
+      <div class="nav-group">
+        <div class="nav-group-title">Foundations</div>
+        <a class="nav-link" data-target="cores"><span class="dot"></span>Colors</a>
+        <a class="nav-link" data-target="tipografia"><span class="dot"></span>Typography</a>
+        <a class="nav-link" data-target="logo"><span class="dot"></span>Logo &amp; icons</a>
+        <a class="nav-link" data-target="espacamento"><span class="dot"></span>Spacing</a>
+        <a class="nav-link" data-target="bordas"><span class="dot"></span>Borders &amp; radius</a>
+        <a class="nav-link" data-target="sombras"><span class="dot"></span>Shadows</a>
+      </div>
+      <div class="nav-group">
+        <div class="nav-group-title">Components</div>
+        <a class="nav-link" data-target="botoes"><span class="dot"></span>Buttons</a>
+        <a class="nav-link" data-target="campos"><span class="dot"></span>Text fields</a>
+        <a class="nav-link" data-target="selects"><span class="dot"></span>Selectors</a>
+        <a class="nav-link" data-target="controles"><span class="dot"></span>Checkbox &amp; toggle</a>
+        <a class="nav-link" data-target="badges"><span class="dot"></span>Badges &amp; status</a>
+        <a class="nav-link" data-target="alertas"><span class="dot"></span>Alerts &amp; banners</a>
+        <a class="nav-link" data-target="cards"><span class="dot"></span>Cards</a>
+        <a class="nav-link" data-target="tabelas"><span class="dot"></span>Tables</a>
+        <a class="nav-link" data-target="modais"><span class="dot"></span>Modals</a>
+      </div>
+      <div class="nav-group">
+        <div class="nav-group-title">Navigation &amp; layout</div>
+        <a class="nav-link" data-target="tabs"><span class="dot"></span>Tabs &amp; actions menu</a>
+        <a class="nav-link" data-target="sidebar"><span class="dot"></span>Side menu</a>
+        <a class="nav-link" data-target="frame"><span class="dot"></span>App frame</a>
+      </div>
+    </nav>
+  </aside>
+
+  <main class="main">
+
+    <header class="hero" id="overview">
+      <div class="hero-eyebrow">
+        <img src="assets/logo.png" alt="">
+        <span>FGP Company</span>
+      </div>
+      <h1>Design System</h1>
+      <p>Visual library extracted directly from the FrontCore prototype: colors, typography, spacing, shadows and all the UI components already built — ready to copy and reuse in other projects while keeping visual consistency.</p>
+      <div class="hero-stats">
+        <div class="hero-stat"><b>16</b><span>token colors</span></div>
+        <div class="hero-stat"><b>8</b><span>font sizes</span></div>
+        <div class="hero-stat"><b>20+</b><span>components</span></div>
+        <div class="hero-stat"><b>1</b><span>font: Poppins</span></div>
+      </div>
+    </header>
+
+    <div class="content">
+
+      <!-- ===================== COLORS ===================== -->
+      <section class="section" id="cores">
+        <div class="section-head">
+          <p class="section-kicker">Foundations</p>
+          <h2>Colors</h2>
+          <p>Palette used throughout the prototype. Click any swatch to copy its hex value.</p>
+        </div>
+
+        <div class="subhead">Brand &amp; action</div>
+        <div class="swatch-grid" id="swatchesBrand"></div>
+
+        <div class="subhead">Text &amp; surfaces</div>
+        <div class="swatch-grid" id="swatchesNeutral"></div>
+
+        <div class="subhead">Feedback &amp; state</div>
+        <div class="swatch-grid" id="swatchesFeedback"></div>
+
+        <div class="subhead">Tokens in JSON</div>
+        <p style="margin:0 0 12px;color:var(--text);font-size:14px;">All colors in a single object, ready for devs to copy.</p>
+        <div class="demo-code" style="position:relative;border-radius:var(--radius-lg);overflow:hidden;">
+          <button class="btn-primary" id="copyJsonBtn" style="position:absolute;top:10px;right:10px;padding:6px 12px;font-size:12px;z-index:1;">Copy JSON</button>
+          <pre id="colorsJson"></pre>
+        </div>
+      </section>
+
+      <!-- ===================== TYPOGRAPHY ===================== -->
+      <section class="section" id="tipografia">
+        <div class="section-head">
+          <p class="section-kicker">Foundations</p>
+          <h2>Typography</h2>
+          <p>Single font across the whole system: <b>Poppins</b>, loaded via Google Fonts in weights 400, 500, 600 and 700.</p>
+        </div>
+
+        <div class="note"><span>ℹ️</span><span><b>Import:</b> <code>@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;display=swap');</code> — or use the <code>&lt;link&gt;</code> tags in the snippet below.</span></div>
+
+        <div class="demo">
+          <div class="demo-preview column" id="typeScale"></div>
+          <div class="demo-code">
+            <button class="copy-btn" data-copy="fontlink">Copy</button>
+            <pre><code id="code-fontlink">&lt;link rel="preconnect" href="https://fonts.googleapis.com"&gt;
+&lt;link rel="preconnect" href="https://fonts.gstatic.com" crossorigin&gt;
+&lt;link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet"&gt;
+
+body{ font-family:'Poppins',sans-serif; }</code></pre>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== LOGO ===================== -->
+      <section class="section" id="logo">
+        <div class="section-head">
+          <p class="section-kicker">Foundations</p>
+          <h2>Logo &amp; icons</h2>
+          <p>The original file (<code>logo.png</code>) has its text fixed in white inside the PNG — it only works on a blue/dark background. For use on a light background, we generated the <code>logo-dark.png</code> variant (same icon, text in <code>--title</code>). Icons follow the convention of monochrome SVG <code>&lt;img&gt;</code> with a <code>filter</code> for inversion.</p>
+        </div>
+
+        <div class="demo">
+          <div class="demo-preview">
+            <div>
+              <div class="demo-label" style="margin-bottom:8px;">On dark/blue background — logo.png</div>
+              <div style="background:var(--primary);padding:20px 28px;border-radius:var(--radius-md);"><img src="assets/logo.png" alt="" style="height:26px;"></div>
+            </div>
+            <div>
+              <div class="demo-label" style="margin-bottom:8px;">On light background — logo-dark.png</div>
+              <div style="background:var(--main-card);border:1px solid var(--stroke);padding:20px 28px;border-radius:var(--radius-md);"><img src="assets/logo-dark.png" alt="" style="height:26px;"></div>
+            </div>
+          </div>
+          <div class="demo-code">
+            <button class="copy-btn" data-copy="logo">Copy</button>
+            <pre><code id="code-logo">&lt;!-- blue/dark background --&gt;
+&lt;div class="logo"&gt;&lt;img src="assets/logo.png" alt="FrontCore"&gt;&lt;/div&gt;
+
+&lt;!-- light/white background --&gt;
+&lt;div class="logo"&gt;&lt;img src="assets/logo-dark.png" alt="FrontCore"&gt;&lt;/div&gt;
+
+.logo img{ height:24px; width:auto; }</code></pre>
+          </div>
+        </div>
+
+        <div class="subhead">Icon buttons</div>
+        <div class="demo">
+          <div class="demo-preview">
+            <button class="icon-btn-square"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 4h12M6 4V2.5A.5.5 0 0 1 6.5 2h3a.5.5 0 0 1 .5.5V4m2 0-.6 9.4a1 1 0 0 1-1 .9H5.6a1 1 0 0 1-1-.9L4 4" stroke="var(--red-danger)" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+            <button class="icon-btn-circle"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 4h10M2 7h10M2 10h10" stroke="var(--text)" stroke-width="1.4" stroke-linecap="round"/></svg></button>
+            <button class="kebab-btn"><svg width="4" height="16" viewBox="0 0 4 16" fill="none"><circle cx="2" cy="2" r="2" fill="var(--text)"/><circle cx="2" cy="8" r="2" fill="var(--text)"/><circle cx="2" cy="14" r="2" fill="var(--text)"/></svg></button>
+          </div>
+          <div class="demo-code">
+            <button class="copy-btn" data-copy="iconbtn">Copy</button>
+            <pre><code id="code-iconbtn">&lt;button class="icon-btn-square"&gt;&lt;svg&gt;...&lt;/svg&gt;&lt;/button&gt;
+
+.icon-btn-square{
+  background:var(--main-card); border:1px solid var(--stroke);
+  box-shadow:var(--shadow-sm); border-radius:var(--radius-md);
+  width:40px; height:40px; display:inline-flex; align-items:center; justify-content:center;
+}</code></pre>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== SPACING ===================== -->
+      <section class="section" id="espacamento">
+        <div class="section-head">
+          <p class="section-kicker">Foundations</p>
+          <h2>Spacing</h2>
+          <p>Scale based on multiples of 4px. <code>--space-2</code> (8px) and <code>--space-4</code> (16px) are the most used throughout the app, for <code>gap</code> and <code>padding</code>.</p>
+        </div>
+        <div class="demo">
+          <div class="demo-preview column">
+            <div class="token-list" id="spacingList"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== BORDERS ===================== -->
+      <section class="section" id="bordas">
+        <div class="section-head">
+          <p class="section-kicker">Foundations</p>
+          <h2>Borders &amp; radius</h2>
+          <p>Default 1px border in the <code>--stroke</code> color. Six rounding levels cover everything from chips to entire cards.</p>
+        </div>
+        <div class="demo">
+          <div class="demo-preview column">
+            <div class="token-list" id="radiusList"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== SHADOWS ===================== -->
+      <section class="section" id="sombras">
+        <div class="section-head">
+          <p class="section-kicker">Foundations</p>
+          <h2>Shadows</h2>
+          <p>Soft, subtle shadows — the app never uses strong shadows, except on the device "frame" (the 1366×768 bezel wrapping each screen) and on modals.</p>
+        </div>
+        <div class="demo">
+          <div class="demo-preview">
+            <div class="token-list" id="shadowList" style="width:100%;"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== BUTTONS ===================== -->
+      <section class="section" id="botoes">
+        <div class="section-head">
+          <p class="section-kicker">Components</p>
+          <h2>Buttons</h2>
+          <p>Four variants cover every case: primary action, outlined secondary action, cancel/neutral, and destructive action.</p>
+        </div>
+
+        <div class="demo">
+          <div class="demo-preview">
+            <button class="btn-primary">Save</button>
+            <button class="btn-outline">View form</button>
+            <button class="btn-secondary">Cancel</button>
+            <button class="btn-danger-outline">Delete</button>
+            <button class="btn-link">Action link</button>
+            <button class="btn-primary" disabled>Disabled</button>
+          </div>
+          <div class="demo-code">
+            <button class="copy-btn" data-copy="btns">Copy</button>
+            <pre><code id="code-btns">&lt;button class="btn-primary"&gt;Save&lt;/button&gt;
+&lt;button class="btn-outline"&gt;View form&lt;/button&gt;
+&lt;button class="btn-secondary"&gt;Cancel&lt;/button&gt;
+&lt;button class="btn-danger-outline"&gt;Delete&lt;/button&gt;
+
+.btn-primary{
+  background:var(--primary); border:none; box-shadow:var(--shadow-sm);
+  border-radius:var(--radius-md); height:40px; padding:0 24px;
+  font-weight:600; font-size:14px; color:var(--white); cursor:pointer;
+}
+.btn-outline{ background:var(--main-card); border:1px solid var(--primary); color:var(--primary); /* + same base */ }
+.btn-secondary{ background:var(--gray); color:var(--title); /* + same base */ }
+.btn-danger-outline{ background:var(--main-card); border:1px solid var(--red-danger); color:var(--red-danger); /* + same base */ }</code></pre>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== TEXT FIELDS ===================== -->
+      <section class="section" id="campos">
+        <div class="section-head">
+          <p class="section-kicker">Components</p>
+          <h2>Text fields</h2>
+          <p>Floating label: centered like a placeholder when empty and unfocused; it moves up into a caption that "breaks" the top border when the field is focused or filled — the border also turns blue at that moment.</p>
+        </div>
+
+        <div class="demo">
+          <div class="demo-preview">
+            <div class="field-group">
+              <div class="ffield">
+                <input type="text" class="text-input" id="demoInput1" placeholder="Full name*" maxlength="60">
+                <label class="ffield-label" for="demoInput1">Full name*</label>
+              </div>
+            </div>
+            <div class="field-group">
+              <div class="ffield">
+                <input type="text" class="text-input" id="demoInput2" placeholder="Already filled" value="Felipe Parreiras">
+                <label class="ffield-label" for="demoInput2">Already filled</label>
+              </div>
+            </div>
+            <div class="field-group">
+              <div class="ffield">
+                <input type="text" class="text-input" placeholder="Disabled" value="Read-only" disabled>
+                <label class="ffield-label">Disabled</label>
+              </div>
+              <span class="field-counter">15/60</span>
+            </div>
+            <div class="field-group">
+              <div class="ffield">
+                <input type="text" class="text-input invalid" placeholder="Required field*">
+                <label class="ffield-label">Required field*</label>
+              </div>
+              <span class="field-error">This field is required.</span>
+            </div>
+          </div>
+          <div class="demo-code">
+            <button class="copy-btn" data-copy="input">Copy</button>
+            <pre><code id="code-input">&lt;div class="ffield"&gt;
+  &lt;input type="text" class="text-input" id="nome" placeholder="Full name*"&gt;
+  &lt;label class="ffield-label" for="nome"&gt;Full name*&lt;/label&gt;
+&lt;/div&gt;
+
+.ffield{ position:relative; width:100%; }
+.ffield .text-input::placeholder{ color:transparent; }
+.ffield-label{
+  position:absolute; left:16px; top:50%; transform:translateY(-50%);
+  font-size:14px; color:var(--placeholder); pointer-events:none;
+  transition:top .12s ease, left .12s ease, font-size .12s ease, color .12s ease;
+}
+.ffield .text-input:focus ~ .ffield-label,
+.ffield .text-input:not(:placeholder-shown) ~ .ffield-label{
+  top:0; left:10px; font-size:10px; color:var(--text);
+  background:var(--main-card); padding:0 4px;
+}
+.ffield .text-input:focus ~ .ffield-label{ color:var(--primary); }
+.ffield .text-input:focus,
+.ffield .text-input:not(:placeholder-shown):not(:disabled){ border-color:var(--primary); }</code></pre>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== SELECTS ===================== -->
+      <section class="section" id="selects">
+        <div class="section-head">
+          <p class="section-kicker">Components</p>
+          <h2>Selectors</h2>
+          <p>Two patterns: a <b>custom select</b> (single-option dropdown) and a <b>tag box</b> (multi-select with chips), both with the same floating label as the text fields.</p>
+        </div>
+
+        <div class="demo">
+          <div class="demo-preview">
+            <div>
+              <div class="csel" id="demoCsel">
+                <div class="csel-box"><span class="placeholder">Select the type</span><span><svg class="chev" width="7" height="12" viewBox="0 0 7 12" fill="none"><path d="M1 1l5 5-5 5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+                <span class="csel-tiny-label">Select the type</span>
+                <div class="csel-menu">
+                  <div class="csel-option">Text</div>
+                  <div class="csel-option">Date</div>
+                  <div class="csel-option">Upload</div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="tagbox" id="demoTagbox">
+                <span class="csel-tiny-label">Unit</span>
+                <div class="tag-list" id="demoTagList">
+                  <span class="tag-chip">São Paulo<button data-tag="São Paulo">&times;</button></span>
+                </div>
+                <div class="tag-input-row">
+                  <input type="text" placeholder="Type or select" readonly>
+                  <span><svg class="chev" width="7" height="12" viewBox="0 0 7 12" fill="none"><path d="M1 1l5 5-5 5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="demo-code">
+            <button class="copy-btn" data-copy="select">Copy</button>
+            <pre><code id="code-select">&lt;div class="csel"&gt;
+  &lt;div class="csel-box"&gt;&lt;span class="placeholder"&gt;Select the type&lt;/span&gt;&lt;span class="chev"&gt;▾&lt;/span&gt;&lt;/div&gt;
+  &lt;span class="csel-tiny-label"&gt;Select the type&lt;/span&gt;
+  &lt;div class="csel-menu"&gt;
+    &lt;div class="csel-option"&gt;Text&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+/* JS: toggle .open on .csel-box click; toggle .has-value + fill
+   the .placeholder text when choosing a .csel-option */</code></pre>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== CONTROLS ===================== -->
+      <section class="section" id="controles">
+        <div class="section-head">
+          <p class="section-kicker">Components</p>
+          <h2>Checkbox &amp; toggle</h2>
+          <p>18px square checkbox for selection in tables and forms. Toggle switch for binary states (active/inactive, visible/hidden).</p>
+        </div>
+        <div class="demo">
+          <div class="demo-preview">
+            <div class="checkbox" id="demoCheckbox1"></div>
+            <div class="checkbox checked" id="demoCheckbox2"><svg width="12" height="9" viewBox="0 0 12 9" fill="none"><path d="M1 4.5 4.5 8 11 1" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+            <div class="checkbox locked" title="Required system field"></div>
+            <div class="toggle-row">
+              <div class="toggle-switch on" id="demoToggle"><span class="thumb"></span></div>
+              <span class="toggle-label">Active</span>
+            </div>
+          </div>
+          <div class="demo-code">
+            <button class="copy-btn" data-copy="controls">Copy</button>
+            <pre><code id="code-controls">&lt;div class="checkbox checked"&gt;&lt;img src="check.svg"&gt;&lt;/div&gt;
+
+.checkbox{ width:18px; height:18px; border-radius:2px; border:2px solid var(--text); }
+.checkbox.checked{ background:var(--primary); border-color:var(--primary); }
+
+&lt;div class="toggle-switch on"&gt;&lt;span class="thumb"&gt;&lt;/span&gt;&lt;/div&gt;
+
+.toggle-switch{ width:36px; height:20px; border-radius:20px; background:var(--stroke); }
+.toggle-switch .thumb{ width:16px; height:16px; border-radius:50%; background:var(--white); left:2px; transition:left .15s; }
+.toggle-switch.on{ background:var(--primary); }
+.toggle-switch.on .thumb{ left:18px; }</code></pre>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== BADGES ===================== -->
+      <section class="section" id="badges">
+        <div class="section-head">
+          <p class="section-kicker">Components</p>
+          <h2>Badges &amp; status</h2>
+          <p>Fully rounded pill (100px radius) used to indicate record status, such as active forms.</p>
+        </div>
+        <div class="demo">
+          <div class="demo-preview">
+            <span class="status-pill ativo">Active</span>
+            <span class="status-pill rascunho">Draft</span>
+          </div>
+          <div class="demo-code">
+            <button class="copy-btn" data-copy="pill">Copy</button>
+            <pre><code id="code-pill">&lt;span class="status-pill ativo"&gt;Active&lt;/span&gt;
+
+.status-pill{
+  display:inline-flex; align-items:center; justify-content:center;
+  padding:4px 14px; border-radius:100px; font-size:12px; font-weight:600;
+}
+.status-pill.ativo{ background:var(--success-bg); color:var(--success-text); }</code></pre>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== ALERTS ===================== -->
+      <section class="section" id="alertas">
+        <div class="section-head">
+          <p class="section-kicker">Components</p>
+          <h2>Alerts &amp; banners</h2>
+          <p>Informational banner (blue) for neutral notices; alert banner (soft red) to block an action until the user fixes something.</p>
+        </div>
+        <div class="demo">
+          <div class="demo-preview column">
+            <div class="info-banner">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><circle cx="9" cy="9" r="8" stroke="currentColor" stroke-width="1.3"/><path d="M9 8v5M9 5.5v.01" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+              <span>You are editing the basic form provided by the system.</span>
+            </div>
+            <div class="danger-banner">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><circle cx="9" cy="9" r="8" stroke="currentColor" stroke-width="1.3"/><path d="M9 8v5M9 5.5v.01" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+              <span>One or more fields were not selected.</span>
+            </div>
+          </div>
+          <div class="demo-code">
+            <button class="copy-btn" data-copy="banner">Copy</button>
+            <pre><code id="code-banner">&lt;div class="info-banner"&gt;&lt;svg&gt;...&lt;/svg&gt;&lt;span&gt;Informational message.&lt;/span&gt;&lt;/div&gt;
+
+.info-banner{
+  display:flex; align-items:center; gap:8px;
+  background:var(--info-bg); border:1px solid var(--info-border);
+  border-radius:var(--radius-md); padding:12px 16px; font-size:14px; color:var(--info-text);
+}
+.danger-banner{ background:var(--danger-bg); color:var(--danger-text); /* no border */ }</code></pre>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== CARDS ===================== -->
+      <section class="section" id="cards">
+        <div class="section-head">
+          <p class="section-kicker">Components</p>
+          <h2>Cards</h2>
+          <p>The main card (<code>main-card</code>) wraps each screen's content; the footer card (<code>footer-card</code>) pins the save/cancel actions to the bottom.</p>
+        </div>
+        <div class="demo">
+          <div class="demo-preview column" style="background:var(--background);">
+            <div class="main-card-demo">
+              <p style="margin:0 0 4px;font-weight:600;font-size:14px;">Main card</p>
+              <p style="margin:0;font-size:13px;color:var(--text);">White background, large radius and soft shadow — the default container for any screen.</p>
+            </div>
+            <div class="footer-card-demo">
+              <button class="btn-secondary">Back</button>
+              <button class="btn-primary">Save</button>
+            </div>
+          </div>
+          <div class="demo-code">
+            <button class="copy-btn" data-copy="card">Copy</button>
+            <pre><code id="code-card">.main-card{
+  background:var(--main-card); border-radius:var(--radius-lg);
+  box-shadow:var(--shadow-lg); padding:16px;
+}
+.footer-card{ /* same base, padding:16px, flex with actions on the right */ }</code></pre>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== TABLES ===================== -->
+      <section class="section" id="tabelas">
+        <div class="section-head">
+          <p class="section-kicker">Components</p>
+          <h2>Tables</h2>
+          <p>Header and rows share the same <code>display:grid</code> with identical columns, ensuring perfect alignment. Sortable columns show an arrow that rotates according to direction.</p>
+        </div>
+        <div class="demo">
+          <div class="demo-preview">
+            <div class="table-demo">
+              <div class="grid-cols-demo table-head-demo">
+                <div class="th-demo">Name <svg class="chev" width="7" height="12" viewBox="0 0 7 12" fill="none"><path d="M1 1l5 5-5 5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+                <div class="th-demo">Type</div>
+                <div class="th-demo">Status</div>
+                <div class="th-demo">Actions</div>
+              </div>
+              <div class="grid-cols-demo row-demo"><div>CPF number</div><div>CPF</div><div class="cell-status"><span class="status-pill ativo">Active</span></div><div>⋮</div></div>
+              <div class="grid-cols-demo row-demo"><div>Admission date</div><div>Date</div><div class="cell-status"><span class="status-pill rascunho">Draft</span></div><div>⋮</div></div>
+            </div>
+          </div>
+          <div class="demo-code">
+            <button class="copy-btn" data-copy="table">Copy</button>
+            <pre><code id="code-table">.grid-cols{
+  display:grid;
+  grid-template-columns: 40px minmax(200px,2fr) minmax(100px,1fr) 40px;
+  column-gap:16px; align-items:center;
+}
+/* same .grid-cols class on the header and on each row */
+.th{ display:flex; align-items:center; gap:4px; cursor:pointer; }
+.th .chev{ opacity:.35; transform:rotate(-90deg); transition:transform .15s; }
+.th.sorted.desc .chev{ transform:rotate(90deg); }</code></pre>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== MODALS ===================== -->
+      <section class="section" id="modais">
+        <div class="section-head">
+          <p class="section-kicker">Components</p>
+          <h2>Modals</h2>
+          <p>Always positioned <code>absolute</code> inside the screen "frame" (not the entire viewport), with a translucent blue backdrop — never <code>position:fixed</code> on the window.</p>
+        </div>
+        <div class="demo">
+          <div class="demo-preview" style="padding:0;">
+            <div class="modal-stage" style="width:100%;">
+              <div class="modal-overlay-demo">
+                <div class="modal-card-demo">
+                  <div class="modal-head-demo">
+                    <p class="modal-title-demo">Do you want to delete this field?</p>
+                    <button class="modal-close-demo">&times;</button>
+                  </div>
+                  <p class="modal-desc-demo">Are you sure you want to delete this field? This action cannot be undone.</p>
+                  <hr class="modal-hr-demo">
+                  <div class="modal-footer-demo">
+                    <button class="btn-secondary">Back</button>
+                    <button class="btn-danger-outline">Delete</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="demo-code">
+            <button class="copy-btn" data-copy="modal">Copy</button>
+            <pre><code id="code-modal">&lt;div class="modal-overlay"&gt;
+  &lt;div class="modal-card"&gt;
+    &lt;div class="modal-head"&gt;
+      &lt;p class="modal-title"&gt;Do you want to delete this field?&lt;/p&gt;
+      &lt;button class="modal-close"&gt;&times;&lt;/button&gt;
+    &lt;/div&gt;
+    &lt;p class="modal-desc"&gt;Are you sure you want to delete this field?&lt;/p&gt;
+    &lt;hr class="modal-hr"&gt;
+    &lt;div class="modal-footer"&gt;
+      &lt;button class="btn-secondary"&gt;Back&lt;/button&gt;
+      &lt;button class="btn-danger-outline"&gt;Delete&lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+.modal-overlay{ position:absolute; inset:0; background:var(--overlay); display:flex; align-items:center; justify-content:center; }
+.modal-card{ width:630px; max-width:calc(100% - 32px); background:var(--main-card); border-radius:var(--radius-lg); box-shadow:var(--shadow-modal); padding:16px; }</code></pre>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== TABS / KEBAB ===================== -->
+      <section class="section" id="tabs">
+        <div class="section-head">
+          <p class="section-kicker">Navigation</p>
+          <h2>Tabs &amp; actions menu</h2>
+          <p>Page-level tabs (blue underline on the active item) and the context (kebab) menu used in table rows and headers.</p>
+        </div>
+        <div class="demo">
+          <div class="demo-preview column">
+            <div class="tabs-row">
+              <span class="tab-demo">Admissions</span>
+              <span class="tab-demo">Admission form</span>
+              <span class="tab-demo active">Onboarding form</span>
+              <span class="tab-demo">Available fields</span>
+            </div>
+            <div style="display:flex;justify-content:flex-end;">
+              <div class="kebab-wrap">
+                <button class="kebab-btn" id="demoKebabBtn"><svg width="4" height="16" viewBox="0 0 4 16" fill="none"><circle cx="2" cy="2" r="2" fill="var(--text)"/><circle cx="2" cy="8" r="2" fill="var(--text)"/><circle cx="2" cy="14" r="2" fill="var(--text)"/></svg></button>
+                <div class="dropdown-menu-demo" id="demoDropdown">
+                  <div class="dropdown-item-demo">View</div>
+                  <div class="dropdown-item-demo">Duplicate</div>
+                  <div class="dropdown-item-demo danger">Delete</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="demo-code">
+            <button class="copy-btn" data-copy="tabs">Copy</button>
+            <pre><code id="code-tabs">&lt;div class="tabs-row"&gt;
+  &lt;a class="tab"&gt;Admissions&lt;/a&gt;
+  &lt;a class="tab active"&gt;Onboarding form&lt;/a&gt;
+&lt;/div&gt;
+
+.tab{ font-size:14px; color:var(--text); padding-bottom:12px; border-bottom:2px solid transparent; }
+.tab.active{ color:var(--title); font-weight:600; border-color:var(--primary); }</code></pre>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== SIDEBAR ===================== -->
+      <section class="section" id="sidebar">
+        <div class="section-head">
+          <p class="section-kicker">Navigation</p>
+          <h2>Side menu</h2>
+          <p>Collapsed by default (56px, icons only), expands on hover (232px, with labels) and can be pinned with the pin. Hover over the bar below to see it.</p>
+        </div>
+        <div class="demo">
+          <div class="demo-preview" style="padding:0;">
+            <div class="sidebar-stage" style="width:100%;">
+              <div class="sidebar-demo" id="sidebarDemo">
+                <div class="sidebar-menu-item active"><span class="dot-ic"></span><span class="label">Home</span></div>
+                <div class="sidebar-menu-item"><span class="dot-ic"></span><span class="label">HR</span></div>
+                <div class="sidebar-menu-item"><span class="dot-ic"></span><span class="label">Support</span></div>
+                <div class="sidebar-menu-item"><span class="dot-ic"></span><span class="label">Contracts</span></div>
+              </div>
+              <div class="sidebar-canvas-hint">hover over the bar on the left →</div>
+            </div>
+          </div>
+          <div class="demo-code">
+            <button class="copy-btn" data-copy="sidebar">Copy</button>
+            <pre><code id="code-sidebar">.sidemenu{ width:56px; transition:width .22s ease; overflow:hidden; }
+.sidemenu.expanded{ width:232px; box-shadow:4px 0px 16px 0px rgba(0,0,0,0.18); }
+.sidemenu:hover{ /* JS adds .expanded on mouseenter, removes on mouseleave (if not pinned) */ }
+
+.menu-item{ width:40px; border-radius:20px; overflow:hidden; transition:width .22s ease; }
+.sidemenu.expanded .menu-item{ width:100%; }
+.menu-item.active{ background:var(--primary); color:var(--white); }
+.menu-item .menu-label{ opacity:0; transition:opacity .15s; }
+.sidemenu.expanded .menu-item .menu-label{ opacity:1; }</code></pre>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== FRAME ===================== -->
+      <section class="section" id="frame">
+        <div class="section-head">
+          <p class="section-kicker">Layout</p>
+          <h2>App frame (FrontCore-specific convention)</h2>
+          <p>Unlike the other tokens (reusable in any project), this is a convention of this prototype: every screen is rendered inside a fixed <b>1366×768px</b> frame, centered over a neutral gray background — simulating a "device" and avoiding any resizing with the browser window.</p>
+        </div>
+        <div class="note"><span>📌</span><span>Use this pattern only if the new project also needs fixed-size screens (e.g., prototype presentations). It is not recommended for real responsive products.</span></div>
+        <div class="demo">
+          <div class="demo-preview">
+            <div class="frame-sample-wrap" style="width:100%;">
+              <div class="frame-sample">
+                <div class="frame-sample-header"></div>
+                <div class="frame-sample-body">
+                  <div class="frame-sample-side"></div>
+                  <div class="frame-sample-main">
+                    <div class="bar"></div><div class="bar"></div><div class="bar"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="demo-code">
+            <button class="copy-btn" data-copy="frame">Copy</button>
+            <pre><code id="code-frame">body{
+  margin:0; display:flex; justify-content:center; align-items:flex-start;
+  background:var(--backdrop); /* #c8c8c8 */
+}
+.frame{
+  width:1366px; height:768px; flex-shrink:0;
+  background:var(--background); overflow:hidden;
+  display:flex; flex-direction:column;
+  box-shadow:var(--shadow-xl); /* 0 0 24px rgba(0,0,0,0.25) */
+}</code></pre>
+          </div>
+        </div>
+      </section>
+
+      <div class="footer-cta">
+        <div>
+          <h3>Ready to reuse</h3>
+          <p>All the code snippets above use only plain HTML + CSS (plus a little JS for the interactive components) — no external dependencies besides the Poppins font. Copy the <code>:root</code> token block at the top of this file into another project and the components work right away.</p>
+        </div>
+      </div>
+
+    </div>
+  </main>
+</div>
+
+<script>
+  /* ---------------- Token data ---------------- */
+  const BRAND_COLORS = [
+    { name:'Primary', v:'--primary', hex:'#2948AE', usage:'Primary actions, links, active menu state, field focus.' },
+    { name:'Primary Hover', v:'--primary-hover', hex:'#20398b', usage:'Hover for primary buttons and links (consolidated here).' },
+    { name:'Primary Soft', v:'--primary-soft', hex:'#ecf0fa', usage:'Soft highlight backgrounds (consolidated here).' },
+  ];
+  const NEUTRAL_COLORS = [
+    { name:'Title', v:'--title', hex:'#363636', usage:'Main text, headings.' },
+    { name:'Text', v:'--text', hex:'#707070', usage:'Secondary text, labels, captions.' },
+    { name:'Placeholder', v:'--placeholder', hex:'#959595', usage:'Centered field placeholder (consolidated here).' },
+    { name:'Stroke', v:'--stroke', hex:'#d8dadd', usage:'Default borders for inputs, cards and dividers.' },
+    { name:'Background', v:'--background', hex:'#f5f5f5', usage:'Page background inside the app.' },
+    { name:'Main Card / White', v:'--main-card / --white', hex:'#ffffff', usage:'Cards, inputs, modals, sidebar.' },
+    { name:'Gray', v:'--gray', hex:'#e0e0e0', usage:'Secondary button background, chips.' },
+    { name:'Backdrop', v:'--backdrop', hex:'#c8c8c8', usage:'Background outside the device "frame" (consolidated here).' },
+  ];
+  const FEEDBACK_COLORS = [
+    { name:'Danger', v:'--red-danger', hex:'#e0443f', usage:'Destructive actions, error borders.' },
+    { name:'Danger Bg', v:'--danger-bg', hex:'#f8d7da', usage:'Alert banner background (consolidated here).' },
+    { name:'Danger Text', v:'--danger-text', hex:'#7a1f1f', usage:'Alert banner text (consolidated here).' },
+    { name:'Success Bg', v:'--success-bg', hex:'#dff5e3', usage:'Background of the "Active" pill (consolidated here).' },
+    { name:'Success Text', v:'--success-text', hex:'#1f9d4a', usage:'Text of the "Active" pill (consolidated here).' },
+    { name:'Info Bg', v:'--info-bg', hex:'#eaf4fb', usage:'Informational banner background.' },
+    { name:'Info Border', v:'--info-border', hex:'#4a9fd8', usage:'Informational banner border.' },
+    { name:'Info Text', v:'--info-text', hex:'#1c5f8a', usage:'Informational banner text (consolidated here).' },
+  ];
+
+  function renderSwatches(containerId, list) {
+    const el = document.getElementById(containerId);
+    el.innerHTML = list.map((c) => `
+      <div class="swatch" data-hex="${c.hex}">
+        <div class="swatch-color" style="background:${c.hex.includes('/') ? c.hex.split('/')[0].trim() : c.hex};">
+          <div class="swatch-copied-tag">Copied!</div>
+        </div>
+        <div class="swatch-meta">
+          <div class="swatch-name">${c.name}</div>
+          <div class="swatch-var">${c.v}</div>
+          <div class="swatch-hex">${c.hex}</div>
+          <div class="swatch-usage">${c.usage}</div>
+        </div>
+      </div>
+    `).join('');
+  }
+  renderSwatches('swatchesBrand', BRAND_COLORS);
+  renderSwatches('swatchesNeutral', NEUTRAL_COLORS);
+  renderSwatches('swatchesFeedback', FEEDBACK_COLORS);
+
+  const colorsObj = {};
+  [['brand',BRAND_COLORS],['neutral',NEUTRAL_COLORS],['feedback',FEEDBACK_COLORS]].forEach(([group,list]) => {
+    colorsObj[group] = {};
+    list.forEach((c) => {
+      const key = c.v.split('/')[0].trim().replace(/^--/,'');
+      colorsObj[group][key] = c.hex;
+    });
+  });
+  const colorsJsonText = JSON.stringify({ colors: colorsObj }, null, 2);
+  document.getElementById('colorsJson').textContent = colorsJsonText;
+  const copyJsonBtn = document.getElementById('copyJsonBtn');
+  copyJsonBtn.addEventListener('click', () => {
+    navigator.clipboard.writeText(colorsJsonText).catch(() => {});
+    copyJsonBtn.textContent = 'Copied!';
+    setTimeout(() => { copyJsonBtn.textContent = 'Copy JSON'; }, 1200);
+  });
+
+  document.querySelectorAll('.swatch').forEach((sw) => {
+    sw.addEventListener('click', () => {
+      const hex = sw.dataset.hex.split('/')[0].trim();
+      navigator.clipboard.writeText(hex).catch(() => {});
+      sw.classList.add('copied');
+      setTimeout(() => sw.classList.remove('copied'), 900);
+    });
+  });
+
+  /* ---------------- Type scale ---------------- */
+  const TYPE_SCALE = [
+    { size:24, weight:600, label:'Highlight value (stat)' },
+    { size:20, weight:600, label:'Card/banner title' },
+    { size:16, weight:600, label:'Page title' },
+    { size:14, weight:600, label:'Buttons, modals, field values' },
+    { size:14, weight:500, label:'Body text emphasis, tabs' },
+    { size:14, weight:400, label:'Default body text' },
+    { size:13, weight:600, label:'Submenu/flyout items' },
+    { size:12, weight:600, label:'Small labels, status pill' },
+    { size:12, weight:400, label:'Secondary/meta text' },
+    { size:11, weight:500, label:'Minimum caption' },
+    { size:10, weight:500, label:'Character counter, badges' },
+  ];
+  document.getElementById('typeScale').innerHTML = TYPE_SCALE.map((t) => `
+    <div class="type-row">
+      <div class="type-sample" style="font-size:${t.size}px;font-weight:${t.weight};">${t.label}</div>
+      <div class="type-meta">${t.size}px / ${t.weight}</div>
+    </div>
+  `).join('');
+
+  /* ---------------- Spacing ---------------- */
+  const SPACING = [
+    { name:'--space-1', px:4, use:'minimum gaps, icons' },
+    { name:'--space-2', px:8, use:'default gap between elements' },
+    { name:'--space-3', px:12, use:'menu item padding' },
+    { name:'--space-4', px:16, use:'card padding, section gap — the most used' },
+    { name:'--space-5', px:24, use:'modal padding, breathing room between blocks' },
+    { name:'--space-6', px:40, use:'large spaces (empty state, overlays)' },
+  ];
+  document.getElementById('spacingList').innerHTML = SPACING.map((s) => `
+    <div class="token-list-item">
+      <div class="token-label"><b>${s.name}</b><span>${s.use}</span></div>
+      <div class="token-visual-bar" style="width:${s.px * 3}px;"></div>
+      <div class="token-meta" style="font-size:12px;color:var(--text);font-family:monospace;">${s.px}px</div>
+    </div>
+  `).join('');
+
+  /* ---------------- Radius ---------------- */
+  const RADII = [
+    { name:'--radius-sm', px:'6px', use:'dropdown options, chips' },
+    { name:'--radius-md', px:'8px', use:'inputs, buttons, square icons' },
+    { name:'--radius-lg', px:'12px', use:'cards, modals, floating panels' },
+    { name:'--radius-pill', px:'100px', use:'status pill, circular buttons' },
+    { name:'checkbox', px:'2px', use:'checkbox (specific case)' },
+    { name:'avatar', px:'50%', use:'avatar, toggle thumb' },
+  ];
+  document.getElementById('radiusList').innerHTML = RADII.map((r) => `
+    <div class="token-list-item">
+      <div class="token-label"><b>${r.name}</b><span>${r.use}</span></div>
+      <div class="token-visual-box" style="border-radius:${r.px === '50%' ? '50%' : r.px};"></div>
+      <div class="token-meta" style="font-size:12px;color:var(--text);font-family:monospace;">${r.px}</div>
+    </div>
+  `).join('');
+
+  /* ---------------- Shadows ---------------- */
+  const SHADOWS = [
+    { name:'--shadow-xs', val:'0px 1px 2px rgba(0,0,0,.2)', use:'toggle switch thumb' },
+    { name:'--shadow-sm', val:'0px 2px 4px rgba(0,0,0,.08)', use:'inputs and buttons (the most common)' },
+    { name:'--shadow-md', val:'0px 4px 16px rgba(0,0,0,.15)', use:'dropdowns, floating menus' },
+    { name:'--shadow-lg', val:'0px 3px 12px rgba(0,0,0,.25)', use:'main cards' },
+    { name:'--shadow-modal', val:'0px 3px 6px rgba(0,0,0,.25)', use:'modals' },
+    { name:'--shadow-xl', val:'0 0 24px rgba(0,0,0,.25)', use:'device frame' },
+  ];
+  document.getElementById('shadowList').innerHTML = SHADOWS.map((s) => `
+    <div class="token-list-item">
+      <div class="token-label"><b>${s.name}</b><span>${s.use}</span></div>
+      <div class="token-visual-shadow" style="box-shadow:${s.val};"></div>
+      <div class="token-meta" style="font-size:11px;color:var(--text);font-family:monospace;">${s.val}</div>
+    </div>
+  `).join('');
+
+  /* ---------------- Copy code snippets ---------------- */
+  document.querySelectorAll('.copy-btn').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const codeEl = document.getElementById('code-' + btn.dataset.copy);
+      if (!codeEl) return;
+      navigator.clipboard.writeText(codeEl.textContent).catch(() => {});
+      const original = btn.textContent;
+      btn.textContent = 'Copied!';
+      btn.classList.add('copied');
+      setTimeout(() => { btn.textContent = original; btn.classList.remove('copied'); }, 1200);
+    });
+  });
+
+  /* ---------------- Example interactive components ---------------- */
+  document.getElementById('demoCheckbox1').addEventListener('click', function () { this.classList.toggle('checked'); this.innerHTML = this.classList.contains('checked') ? '<svg width="12" height="9" viewBox="0 0 12 9" fill="none"><path d="M1 4.5 4.5 8 11 1" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>' : ''; });
+  document.getElementById('demoCheckbox2').addEventListener('click', function () { this.classList.toggle('checked'); this.innerHTML = this.classList.contains('checked') ? '<svg width="12" height="9" viewBox="0 0 12 9" fill="none"><path d="M1 4.5 4.5 8 11 1" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>' : ''; });
+  document.getElementById('demoToggle').addEventListener('click', function () { this.classList.toggle('on'); });
+
+  const demoCsel = document.getElementById('demoCsel');
+  demoCsel.querySelector('.csel-box').addEventListener('click', (e) => {
+    e.stopPropagation();
+    demoCsel.classList.toggle('open');
+  });
+  demoCsel.querySelectorAll('.csel-option').forEach((opt) => {
+    opt.addEventListener('click', () => {
+      const span = demoCsel.querySelector('.csel-box span');
+      span.textContent = opt.textContent;
+      span.classList.remove('placeholder');
+      demoCsel.classList.add('has-value');
+      demoCsel.querySelectorAll('.csel-option').forEach((o) => o.classList.remove('selected'));
+      opt.classList.add('selected');
+      demoCsel.classList.remove('open');
+    });
+  });
+
+  const demoTagbox = document.getElementById('demoTagbox');
+  const demoTagOptions = ['São Paulo', 'Rio de Janeiro', 'Salvador', 'Belo Horizonte'];
+  demoTagbox.classList.add('has-value');
+  demoTagbox.querySelector('.tag-input-row').addEventListener('click', (e) => {
+    e.stopPropagation();
+    demoTagbox.classList.toggle('open');
+  });
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('#demoCsel')) demoCsel.classList.remove('open');
+    if (!e.target.closest('#demoTagbox')) demoTagbox.classList.remove('open');
+    if (!e.target.closest('.kebab-wrap')) document.getElementById('demoDropdown').classList.remove('show');
+  });
+  document.getElementById('demoTagList').addEventListener('click', (e) => {
+    const btn = e.target.closest('button[data-tag]');
+    if (!btn) return;
+    btn.closest('.tag-chip').remove();
+  });
+
+  document.getElementById('demoKebabBtn').addEventListener('click', (e) => {
+    e.stopPropagation();
+    document.getElementById('demoDropdown').classList.toggle('show');
+  });
+
+  const sidebarStage = document.querySelector('.sidebar-stage');
+  const sidebarDemo = document.getElementById('sidebarDemo');
+  sidebarStage.addEventListener('mouseenter', () => sidebarDemo.classList.add('expanded'));
+  sidebarStage.addEventListener('mouseleave', () => sidebarDemo.classList.remove('expanded'));
+  sidebarDemo.querySelectorAll('.sidebar-menu-item').forEach((item) => {
+    item.addEventListener('click', () => {
+      sidebarDemo.querySelectorAll('.sidebar-menu-item').forEach((i) => i.classList.remove('active'));
+      item.classList.add('active');
+    });
+  });
+
+  /* ---------------- Side navigation: scroll-spy + search + smooth scroll ---------------- */
+  const navLinks = Array.from(document.querySelectorAll('.nav-link[data-target]'));
+  navLinks.forEach((link) => {
+    link.addEventListener('click', () => {
+      const target = document.getElementById(link.dataset.target);
+      if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  });
+
+  const sections = navLinks.map((l) => document.getElementById(l.dataset.target)).filter(Boolean);
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        const link = navLinks.find((l) => l.dataset.target === entry.target.id);
+        if (!link) return;
+        navLinks.forEach((l) => l.classList.remove('active'));
+        link.classList.add('active');
+      }
+    });
+  }, { rootMargin: '-15% 0px -70% 0px', threshold: 0 });
+  sections.forEach((s) => observer.observe(s));
+
+  document.getElementById('navSearch').addEventListener('input', (e) => {
+    const q = e.target.value.trim().toLowerCase();
+    navLinks.forEach((link) => {
+      const match = !q || link.textContent.toLowerCase().includes(q);
+      link.classList.toggle('hidden', !match);
+    });
+    document.querySelectorAll('.nav-group').forEach((group) => {
+      const anyVisible = Array.from(group.querySelectorAll('.nav-link')).some((l) => !l.classList.contains('hidden'));
+      group.style.display = anyVisible ? '' : 'none';
+    });
+  });
+</script>
+
+</body>
+</html>
